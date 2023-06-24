@@ -34,7 +34,7 @@
 		"hurryCostModifier": -50,
 		"upgradesTo": "Mechanized Worker",
 		"uniques": [
-			"Can build [Land] improvements on tiles",
+			"Can build [All] improvements on tiles",
 			"Automation is a primary action"
 		],
 		"cost": 50
@@ -48,7 +48,7 @@
 		"hurryCostModifier": -50,
 		"upgradesTo": "Mechanized Worker",
 		"uniques": [
-			"Can build [Land] improvements on tiles",
+			"Can build [All] improvements on tiles",
 			"[-25]% tile improvement construction time",
 			"Automation is a primary action"
 		],
@@ -76,7 +76,7 @@
 		"replaces": "Mounted Worker",
 		"uniqueTo": "Hexlock",
 		"requiredTech": "Writing",
-		"cost": 50,
+		"cost": 35,
 		"movement": 2,
 		"hurryCostModifier": 0,
 		"uniques": [
@@ -113,7 +113,7 @@
 			"Consumes [1] [Oil]",
 			"Only available <if [Factory] is constructed>",
 			"May withdraw before melee ([75]%)",
-			"Can build [Land] improvements on tiles",
+			"Can build [All] improvements on tiles",
 			"[-25]% tile improvement construction time",
 			"Automation is a primary action"
 		]
@@ -398,7 +398,7 @@
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 20,
-		"cost": 40,
+		"cost": 30,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
 		"uniques": [
@@ -2146,11 +2146,12 @@
 		"upgradesTo": "Helicopter",
 		"uniques": [
 			"[-25]% Strength <vs [Armor] units>",
-			"May withdraw before melee ([25]%)",
+			"May withdraw before melee ([50]%)",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"May withdraw before melee ([25]%)",
-			"Never appears as a Barbarian unit"
+			"May withdraw before melee ([50]%)",
+			"Never appears as a Barbarian unit",
+			"May travel on Water tiles without embarking"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -2173,8 +2174,9 @@
 			"[-25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"May withdraw before melee ([25]%)",
-			"[+25]% Strength <when defending>"
+			"May withdraw before melee ([5]0%)",
+			"[+25]% Strength <when defending>",
+			"May travel on Water tiles without embarking"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -2199,7 +2201,8 @@
 			"May withdraw before melee ([75]%)",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"May travel on Water tiles without embarking"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
@@ -2225,7 +2228,8 @@
 			"Only available <in cities with a [Aerospace Facility]>",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Consumes [1] [Oil]",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"May travel on Water tiles without embarking"
 		],
 		"promotions": ["Advanced Weapons", "Antitank Missile","Artillery"],
 		"hurryCostModifier": 20,
@@ -2252,7 +2256,8 @@
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Aluminum]",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"May travel on Water tiles without embarking"
 		],
 		"promotions": ["Advanced Weapons", "Antitank Missile","Artillery"],
 		"hurryCostModifier": 20,
@@ -2277,7 +2282,8 @@
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Aluminum]",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"May travel on Water tiles without embarking"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun",

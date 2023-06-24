@@ -1173,7 +1173,7 @@
 	{
 		"name": "[Surveyor] ability",
 		"uniques": [
-			"Can build [Land] improvements on tiles"
+			"Can build [All] improvements on tiles"
 		],
 		"column": 6,
 		"row": 11

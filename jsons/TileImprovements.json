@@ -831,7 +831,7 @@
 			"Unpillagable",
 			"Irremovable",
 			"Unbuildable",
-			"Ensures a minimum tile yield of [+2 Food, +1 Production]"
+			"Ensures a minimum tile yield of [+3 Food, +2 Production, +1 Culture, +1 Faith]"
 		],
 		"civilopediaText": [
 			{

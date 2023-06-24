@@ -5,7 +5,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Badlands", "Swamp", "Desert"],
 		"food": 1,
-		"improvedBy": ["Farm", "Grassland"],
+		"improvedBy": ["City center","Farm", "Grassland"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated on every [22] tiles <in [Badlands] tiles>",
@@ -32,7 +32,7 @@
 		"terrainsCanBeFoundOn": ["Toxic Waste", "Badlands", "Tundra", "Wasteland"],
 		"food": 0,
 		"revealedBy": "Botany",
-		"improvedBy": ["Farm", "Grassland","Nature preserve"],
+		"improvedBy": ["City center","Farm", "Grassland","Nature preserve"],
 		"improvementStats": { "food": 2 },
 		"uniques": [
 			"Generated on every [9] tiles <in [Featureless] [Tundra] tiles>",
@@ -57,7 +57,7 @@
 			"Swamp"
 		],
 		"production": 1,
-		"improvedBy": ["Salvage site", "Borough"],
+		"improvedBy": ["City center","Salvage site", "Borough"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
@@ -80,7 +80,7 @@
 			"Swamp"
 		],
 		"production": 0,
-		"improvedBy": ["Mine", "Borehole"],
+		"improvedBy": ["City center","Mine", "Borehole"],
 		"improvementStats": { "production": 2 },
 		"uniques": [
 			"Generated on every [20] tiles <in [Featureless] [Wasteland] tiles>",
@@ -103,7 +103,7 @@
 			"Swamp"
 		],
 		"food": 1,
-		"improvedBy": ["Camp", "Bioculture", "Borough", "Farm", "Grassland","Nature preserve"],
+		"improvedBy": ["City center","Camp", "Bioculture", "Borough", "Farm", "Grassland","Nature preserve"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated on every [20] tiles <in [Jungle] tiles>",
@@ -132,7 +132,7 @@
 			"Swamp"
 		],
 		"production": 1,
-		"improvedBy": ["Salvage site", "Borough", "Modular island"],
+		"improvedBy": ["City center","Salvage site", "Borough", "Modular island"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Generated on every [15] tiles <in [Featureless] [Coast] tiles>",
@@ -149,7 +149,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Badlands"],
 		"food": 1,
-		"improvedBy": ["Pasture", "Bioculture","Nature preserve"],
+		"improvedBy": ["City center","Pasture", "Bioculture","Nature preserve"],
 		"improvementStats": { "production": 2 },
 		"uniques": [
 			"Generated on every [18] tiles <in [Featureless] [Badlands] tiles>",
@@ -258,7 +258,7 @@
 			"Fissure"
 		],
 		"production": 1,
-		"improvedBy": ["Mine", "Borehole"],
+		"improvedBy": ["City center","Mine", "Borehole"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
@@ -285,7 +285,7 @@
 			"Fissure"
 		],
 		"production": 1,
-		"improvedBy": ["Mine", "Borehole"],
+		"improvedBy": ["City center","Mine", "Borehole"],
 		"improvementStats": { "production": 2 },
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
@@ -315,7 +315,7 @@
 			"Fissure"
 		],
 		"production": 1,
-		"improvedBy": ["Mine", "Borehole"],
+		"improvedBy": ["City center","Mine", "Borehole"],
 		"improvementStats": { "food": -1, "production": 3 },
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
@@ -344,7 +344,7 @@
 			"Forest",
 			"Wasteland"
 		],
-		"improvedBy": ["Salvage site", "Borough"],
+		"improvedBy": ["City center","Salvage site", "Borough"],
 		"improvementStats": { "culture": 1 },
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
@@ -368,7 +368,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"science": 1,
-		"improvedBy": ["Research site", "Borough"],
+		"improvedBy": ["City center","Research site", "Borough"],
 		"improvementStats": { "science": 1 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
@@ -380,7 +380,7 @@
 		"resourceType": "Luxury",
 		"revealedBy": "Electronics",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
-		"improvedBy": ["Research site", "Borough"],
+		"improvedBy": ["City center","Research site", "Borough"],
 		"improvementStats": { "science": 2 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
@@ -393,7 +393,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Electronics",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
-		"improvedBy": ["Borough"],
+		"improvedBy": ["City center","Borough"],
 		"improvementStats": { "science": 2 },
 		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
@@ -413,7 +413,7 @@
 		"name": "Machine Parts",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
-		"improvedBy": ["Salvage site", "Borough"],
+		"improvedBy": ["City center","Salvage site", "Borough"],
 		"improvementStats": { "production": 2 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
@@ -425,7 +425,7 @@
 		"name": "Electronics",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
-		"improvedBy": ["Salvage site", "Borough"],
+		"improvedBy": ["City center","Salvage site", "Borough"],
 		"improvementStats": { "science": 2 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
@@ -490,7 +490,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Wasteland"],
 		"food": 0,
-		"improvedBy": ["Pasture", "Bioculture","Nature preserve"],
+		"improvedBy": ["City center","Pasture", "Bioculture","Nature preserve"],
 		"improvementStats": { "food": 4 },
 		"uniques": [
 			"Generated with weight [20] <in [Wasteland] Regions>",
@@ -503,7 +503,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Badlands", "Hill"],
 		"food": 1,
-		"improvedBy": ["Pasture", "Bioculture","Nature preserve"],
+		"improvedBy": ["City center","Pasture", "Bioculture","Nature preserve"],
 		"improvementStats": { "food": 2 },
 		"uniques": [
 			"Generated with weight [5] <in [Badlands] Regions>",
@@ -517,7 +517,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Tundra"],
 		"food": 1,
-		"improvedBy": ["Camp", "Bioculture","Nature preserve"],
+		"improvedBy": ["City center","Camp", "Bioculture","Nature preserve"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated with weight [40] <in [Tundra] Regions>",
@@ -529,7 +529,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Tundra", "Wasteland", "Jungle", "Forest"],
 		"food": 1,
-		"improvedBy": ["Camp", "Bioculture","Nature preserve"],
+		"improvedBy": ["City center","Camp", "Bioculture","Nature preserve"],
 		"improvementStats": { "production": 1,"food":1,"culture":1 },
 		"uniques": [
 			"Generated with weight [40] <in [Tundra] Regions>",
@@ -544,7 +544,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill", "Toxic Waste", "Jungle"],
 		"food": 1,
-		"improvedBy": ["Camp", "Bioculture","Nature preserve"],
+		"improvedBy": ["City center","Camp", "Bioculture","Nature preserve"],
 		"improvementStats": { "food": 1,"culture": 1 },
 		"uniques": [
 			"Generated with weight [5] <in [Jungle] Regions>",
@@ -558,7 +558,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Toxic Waste", "Fallout"],
 		"food": 1,
-		"improvedBy": ["Camp", "Bioculture","Nature preserve"],
+		"improvedBy": ["City center","Camp", "Bioculture","Nature preserve"],
 		"improvementStats": { "food": 2, "culture": 1, "science": 3 },
 		"uniques": [
 			"Generated with weight [25] <in [Tundra] Regions>",
@@ -575,7 +575,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Badlands", "Hill", "Wasteland"],
 		"food": 2,
-		"improvedBy": ["Camp", "Bioculture","Nature preserve"],
+		"improvedBy": ["City center","Camp", "Bioculture","Nature preserve"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated with weight [5] <in [Badlands] Regions>",
@@ -589,7 +589,7 @@
 		"name": "Salt",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill", "Badlands", "Desert", "Tundra"],
-		"improvedBy": ["Mine", "Borehole","Borough"],
+		"improvedBy": ["City center","Mine", "Borehole","Borough"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated with weight [35] <in [Hill] Regions>",
@@ -605,7 +605,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Sunken Ruins"],
 		"culture": 1,
-		"improvedBy": ["Research site", "Borough", "Modular island"],
+		"improvedBy": ["City center","Research site", "Borough", "Modular island"],
 		"improvementStats": { "culture": 1 },
 		"uniques": [
 			"Generated on every [15] tiles <in [Coast] tiles>",
@@ -636,7 +636,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 0,
-		"improvedBy": ["Fishing Boats", "Bioculture"],
+		"improvedBy": ["City center","Fishing Boats", "Bioculture"],
 		"improvementStats": { "food": 3 },
 		"uniques": [
 			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
@@ -648,7 +648,7 @@
 		"name": "Gems",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill"],
-		"improvedBy": ["Mine", "Borehole", "Borough"],
+		"improvedBy": ["City center","Mine", "Borehole", "Borough"],
 		"improvementStats": { "culture": 4 },
 		"uniques": [
 			"Generated with weight [15] <in [Hill] Regions>",
@@ -660,7 +660,7 @@
 		"name": "Silver",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill"],
-		"improvedBy": ["Mine", "Borehole", "Borough"],
+		"improvedBy": ["City center","Mine", "Borehole", "Borough"],
 		"improvementStats": { "culture": 2 },
 		"uniques": [
 			"Generated with weight [30] <in [Hill] Regions>",
