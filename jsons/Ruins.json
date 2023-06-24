@@ -32,7 +32,7 @@
 	{
 		"name": "your exploring unit receives training",
 		"notification": "The survivors trained us in their ways of combat!",
-		"uniques": ["This Unit gains [10] XP"]
+		"uniques": ["This Unit gains [25] XP"]
 	},
 	{
 		"name": "survivors (adds population to a city)",
@@ -60,14 +60,14 @@
 		"name": "reveal nearby Barbarian camps",
 		"notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
 		"uniques": [
-			"Reveal up to [All] [Barbarian encampment] within a [10] tile radius"
+			"Reveal up to [All] [Barbarian encampment] within a [20] tile radius"
 		]
 	},
 	{
 		"name": "find a crudely-drawn map",
 		"notification": "The camp contains maps of the nearby area!",
 		"uniques": [
-			"From a randomly chosen tile [4] tiles away, reveal tiles up to [4] tiles away with [80]% chance"
+			"From a randomly chosen tile [5] tiles away, reveal tiles up to [10] tiles away with [80]% chance"
 		]
 	},
 	{
@@ -86,7 +86,6 @@
 			"Hidden when religion is disabled",
 			"Only available <after founding a Pantheon>",
 			"Gain enough Faith for [33]% of a Great Prophet",
-			"Hidden after generating a Great Prophet"
 		]
 	}
 ]

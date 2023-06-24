@@ -21,7 +21,7 @@
 		"food": 2,
 		"production": 4,
 		"cityStrength": 5,
-		"cityHealth": 50,
+		"cityHealth": 45,
 		"science": 3,
 		"gold": 1,
 		"culture": 1,
@@ -178,10 +178,10 @@
 		]
 	},
 	{
-		"name": "Temple",
+		"name": "Temple of Ignis",
 		"isWonder": true,
 		"uniqueTo": "Cult of Ignis",
-		"specialistSlots": { "Administrator": 1 },
+		"specialistSlots": { "Priest": 1 },
 		"happiness": 1,
 		"faith": 1,
 		"cost": 1,
@@ -249,7 +249,7 @@
 		"cost": 1,
 		"uniques": [
 			"Can only be built [in capital]",
-			"[+1 Faith] [in this city] <with [1] to [6] neighboring [Coast] tiles>",
+			"[+2 Faith] [in this city] <with [1] to [6] neighboring [Coast] tiles>",
 			"[2] free [Sharkman] units appear",
 			"Gain a free [Lighthouse] [in this city]"
 		],
@@ -329,7 +329,7 @@
 	// Cultural victory
 	{
 		"name": "Utopia Project",
-		"cost": 1500,
+		"cost": 5000,
 		"isNationalWonder": true,
 		"uniques": [
 			"Hidden until [6] social policy branches have been completed",
@@ -458,7 +458,7 @@
 		"isWonder": true,
 		"science": 1,
 		"culture": 1,
-		"cost": 6000,
+		"cost": 15000,
 		"requiredTech": "Globalization",
 		"uniques": [
 			"Only available <if [Transmissions Center] is constructed>",
@@ -546,7 +546,7 @@
 		"uniques": [
 		    "[Land] units gain the [Stormfront] promotion",
 			"[+100]% City Strength from defensive buildings",
-			"[+1 Culture] per [4] population [in all cities]",
+			"[+1 Culture] per [5] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -943,8 +943,8 @@
 		"cost": 30,
 		"isNationalWonder": true,
 		"uniques": [
-			"[+1] population [in all cities]",
-			"Free [Great Scientist] appears"
+			"Free [Great Scientist] appears",
+			"Free [Civilian Convoy] appears"
 		]
 	},
 	{
@@ -953,7 +953,7 @@
 		"isNationalWonder": true,
 		"replaces": "Search for Survivors",
 		"uniqueTo": "Deadrock Clan",
-		"uniques": ["Provides [2] [Slaves]"]
+		"uniques": ["Provides [5] [Slaves]"]
 	},
 	{
 		"name": "Slaver Guild",
@@ -975,7 +975,7 @@
 		"replaces": "Search for Survivors",
 		"uniqueTo": "Cult of Ignis",
 		"isNationalWonder": true,
-		"uniques": ["Provides [3] [Slaves]", "Free [Warrior] appears"]
+		"uniques": ["Provides [5] [Slaves]", "Free [Warrior] appears"]
 	},
 	{
 		"name": "Heavy Equipment",
@@ -1096,31 +1096,31 @@
 	},
 	{
 		"name": "Supercollider",
-		"science": 5,
+		"science": 10,
 		"culture": 1,
-		"greatPersonPoints": { "Great Scientist": 2 },
+		"greatPersonPoints": { "Great Scientist": 5 },
 		"isWonder": true,
 		"uniques": [
 			"[2] free [Great Scientist] units appear",
-			"Consumes [1] [Power]"
+			"Consumes [3] [Power]"
 		],
 		"percentStatBonus": { "science": 50 },
 		"requiredTech": "Particle Physics",
-		"quote": "God does not play dice.",
-		"civilopediaText": [{ "text": "God does not play dice." }]
+		"quote": "God does not play dice with the universe. Tetris, maybe, but not dice.",
+		"civilopediaText": [{ "text": "God does not play dice with the universe. Tetris, maybe, but not dice." }]
 	},
 	{
 		"name": "AI Project",
-		"cost": 2000,
-		"science": 5,
+		"cost": 5000,
+		"science": 25,
 		"isWonder": true,
 		"uniques": [
-			"[+15]% Strength <for [Automated] units>",
+			"[+50]% Strength <for [Automated] units>",
 			"Free [Great Scientist] appears",
 			"Empire enters golden age",
 			"[+15]% Production when constructing [Terraformer Part] units [in this city]",
-			"Consumes [2] [Power]",
-			"Provides [2] [Encrypted Data]",
+			"Consumes [5] [Power]",
+			"Provides [5] [Encrypted Data]",
 			"Triggers a global alert upon completion"
 		],
 		"percentStatBonus": { "science": 50 },
@@ -1136,7 +1136,7 @@
 		"isWonder": true,
 		"cost": 75,
 		"science": 1,
-		"production": -3,
+		"production": -1,
 		"uniques": [
 			"Free [Modern Armor] appears",
 			"Only available <in cities with a [Alma Tank Depot]>"
@@ -1152,7 +1152,7 @@
 		"isWonder": true,
 		"cost": 60,
 		"science": 1,
-		"production": -3,
+		"production": -1,
 		"uniques": [
 			"Free [Bomber] appears",
 			"Only available <in cities with a [Alma Air Base]>",
@@ -1171,7 +1171,7 @@
 		"isWonder": true,
 		"cost": 75,
 		"science": 1,
-		"production": -3,
+		"production": -1,
 		"uniques": [
 			"Free [Helicopter] appears",
 			"Only available <in cities with a [Alma Air Base]>",
@@ -1190,7 +1190,6 @@
 		"name": "Ally with Isolationists",
 		"cost": 5,
 		"uniques": [
-			"Limited to [1] per Civilization",
 			"Must have an owned [Isolated Island] within [3] tiles",
 			"[+2 Science, +2 Gold] from [Isolated Island] tiles [in this city]",
 			"Only available <in cities without a [Annex Isolationists]>"
@@ -1269,7 +1268,6 @@
 		"name": "Excavate Nuclear Waste",
 		"isWonder": true,
 		"happiness": -1,
-		"percentStatBonus": { "food": -20 },
 		"requiredTech": "Mining",
 		"uniques": [
 			"Must have an owned [Nuclear Waste Storage] within [3] tiles",
@@ -1325,7 +1323,7 @@
 			"Must have an owned [Soft Drinks Factory] within [3] tiles",
 			"Provides [3] [Soft Drinks]",
 			"Empire enters golden age",
-			"[+1 Culture, +1 Happiness, +1 Gold] from [Soft Drinks Factory] tiles [in all cities]",
+			"[+2 Culture, +1 Happiness, +3 Gold] from [Soft Drinks Factory] tiles [in all cities]",
 			"Consumes [1] [Power]",
 			"Unbuildable <if [Distribute Soft Drinks] is constructed>"
 		]
@@ -1357,7 +1355,7 @@
 		"uniques": [
 			"Must have an owned [Ship Graveyard] within [3] tiles",
 			"[+1 Science, +1 Production] from [Ship Graveyard] tiles [in all cities]",
-			"Provides [1] [Oil]",
+			"Provides [2] [Oil]",
 			"Free [Patrol Boat] appears"
 		],
 		"quote": "He who commands the sea has command of everything.",
@@ -1431,6 +1429,7 @@
 		"name": "Mining Operation",
 		"isWonder": true,
 		"requiredTech": "Mining",
+		"specialistSlots": { "Engineer": 1 },
 		"uniques": [
 			"[+1 Science, +4 Production] from [Mining Pit] tiles [in all cities]",
 			"Must have an owned [Mining Pit] within [3] tiles",
@@ -1447,9 +1446,10 @@
 		"name": "Pit of Sacrifice",
 		"isWonder": true,
 		"requiredTech": "Secrets of the Past",
+		"specialistSlots": { "Preist": 1 },
 		"uniques": [
 			"Gain a free [Pantheon] belief",
-			"[+1 Food, +3 Faith] from [Mining Pit] tiles [in all cities]",
+			"[+1 Food, +5 Faith] from [Mining Pit] tiles [in all cities]",
 			"Must have an owned [Mining Pit] within [3] tiles",
 			"Unbuildable <if [Mining Operation] is constructed>"
 		],
@@ -1558,9 +1558,9 @@
 		"greatPersonPoints": { "Great Administrator": 2 },
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Requires a [Town Hall] in all cities",
+			"Requires a [Town Hall] in at least [5] cities",
 			"Only available <after adopting [Constitution]>",
-			"[+1 Production] [in all cities connected to capital]",
+			"[+5]% [Production] [in all cities connected to capital]",
 			"[+50]% Golden Age length",
 			"Empire enters golden age <upon declaring friendship>"
 		]
@@ -1585,7 +1585,6 @@
 
 	{
 		"name": "Content Farm",
-		"percentStatBonus": { "production": -5 },
 		"production": -1,
 		"culture": 1,
 		"uniques": [
@@ -1600,7 +1599,6 @@
 		"name": "Software Lab",
 		"uniqueTo": "Hexlock",
 		"replaces": "Content Farm",
-		"percentStatBonus": { "production": -5 },
 		"production": -1,
 		"culture": 1,
 		"uniques": [
@@ -1616,7 +1614,6 @@
 		"name": "Resource Management Server",
 		"uniqueTo": "Blackwarden",
 		"replaces": "Content Farm",
-		"percentStatBonus": { "production": -5 },
 		"production": -1,
 		"culture": 1,
 		"uniques": [
@@ -1632,8 +1629,6 @@
 	},
 	{
 		"name": "Electronics Production Line",
-		"percentStatBonus": { "production": -5 },
-		"production": -1,
 		"uniques": [
 			"Provides [1] [Electronics]",
 			"Consumes [1] [Power]",
@@ -1644,8 +1639,6 @@
 	},
 	{
 		"name": "Machinery Production Line",
-		"percentStatBonus": { "production": -5 },
-		"production": -1,
 		"uniques": [
 			"Provides [1] [Machine Parts]",
 			"Consumes [1] [Power]",
@@ -1656,8 +1649,6 @@
 	},
 	{
 		"name": "Publishing House",
-		"percentStatBonus": { "production": -5 },
-		"production": -1,
 		"uniques": [
 			"Provides [1] [Books]",
 			"Consumes [1] [Power]",
@@ -1672,9 +1663,10 @@
 		"isNationalWonder": true,
 		"culture": 1,
 		"faith": 8,
+		"specialistSlots": { "Preist": 3 },
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Requires a [Monastery] in all cities",
+			"Requires a [Monastery] in at least [5] cities",
 			"Cost increases by [30] per owned city",
 			"Can only be built [in holy cities]",
 			"Only available <after adopting [Theocracy]>",
@@ -1692,8 +1684,9 @@
 		"requiredTech": "Civil Service",
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Grand Monastery",
+		"specialistSlots": { "Preist": 1 },
 		"uniques": [
-			"Requires a [Altar of Ignis] in all cities",
+			"Requires a [Altar of Ignis] in at least [5] cities",
 			"Cost increases by [30] per owned city",
 			"Can only be built [in holy cities]",
 			"Only available <after adopting [Theocracy]>",
@@ -1713,10 +1706,10 @@
 		"uniques": [
 			"Requires a [Hospital] in at least [4] cities",
 			"Only available <after adopting [Rationalism]>",
-			"[5]% Food is carried over after population increases [in all cities]",
+			"[10]% Food is carried over after population increases [in all cities]",
 			"[+5]% growth [in all cities] <after adopting [Rationalism Complete]>",
 			"[All] Units adjacent to this city heal [30] HP per turn when healing",
-			"This affect applies to all cities"
+			"This effect applies to all cities"
 		]
 	},
 
@@ -1744,7 +1737,7 @@
 		"cost": 10,
 		"hurryCostModifier": -25,
 		"uniques": [
-			"[20]% Food is carried over after population increases [in this city]",
+			"[30]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
@@ -1758,7 +1751,7 @@
 		"cost": 10,
 		"hurryCostModifier": -25,
 		"uniques": [
-			"[30]% Food is carried over after population increases [in this city]",
+			"[50]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
@@ -1767,7 +1760,7 @@
 	},
 	{
 		"name": "Cold Store",
-		"percentStatBonus": { "food": 10 },
+		"percentStatBonus": { "food": 20 },
 		"maintenance": 1,
 		"uniques": [
 			"[+1 Food] from [Goats] tiles [in this city]",
@@ -1798,7 +1791,7 @@
 	},
 	{
 		"name": "Greenhouse",
-		"food": 2,
+		"food": 3,
 		"specialistSlots": { "Farmer": 1 },
 		"uniques": [
 			"[+1 Food] from [Tubers] tiles [in this city]",
@@ -1810,13 +1803,13 @@
 	},
 	{
 		"name": "Hydroponic Farming",
-		"food": 2,
+		"food": 5,
 		"specialistSlots": { "Farmer": 3 },
-		"maintenance": 1,
+		"maintenance": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Consumes [1] [Power]",
-			"[+1 Food] from [Lakes] tiles [in this city]"
+			"[+1 Food] from all tiles [in this city]"
 		],
 		"requiredTech": "Hydroponics"
 	},
@@ -1835,7 +1828,7 @@
 	{
 		"name": "Reclamation Vats",
 		"percentStatBonus": { "food": 25 },
-		"maintenance": 4,
+		"maintenance": 3,
 		"hurryCostModifier": 25,
 		"requiredTech": "Human Genome"
 	},
@@ -1917,11 +1910,11 @@
 	{
 		"name": "Medical Lab",
 		"science": -1,
-		"food": 2,
+		"food": 4,
 		"maintenance": 2,
 		"requiredTech": "Pharmaceuticals",
 		"uniques": [
-			"[20]% Food is carried over after population increases [in this city]",
+			"[30]% Food is carried over after population increases [in this city]",
 			"Only available <in cities with a [Hospital]>"
 		]
 	},
@@ -1944,7 +1937,7 @@
 		"name": "Monument",
 		"culture": 2,
 		"cost": 40,
-		"hurryCostModifier": 40
+		"hurryCostModifier": 20
 	},
 	{
 		"name": "Lighthouse",
@@ -1966,6 +1959,7 @@
 		"culture": 2,
 		"faith": 2,
 		"cost": 40,
+		"specialistSlots": { "Preist": 1 },
 		"hurryCostModifier": 40
 	},
 	{
@@ -2131,7 +2125,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+1 Culture, +1 Food, -1 Gold] from [Tree plantation] tiles [in this city]",
+			"[+1 Culture, +1 Food] from [Tree plantation] tiles [in this city]",
 			"[+1 Food, +1 Culture] [in this city] <with [Exotic Seeds]>"
 		],
 		"requiredTech": "Hydroponics"
@@ -2161,21 +2155,21 @@
 	},
 	{
 		"name": "Distillery",
-		"happiness": 2,
+		"happiness": 3,
 		"maintenance": 1,
 		"uniques": ["Provides [1] [Alcohol]"],
 		"requiredNearbyImprovedResources": ["Grain", "Tubers"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 15,
 		"requiredTech": "Chemistry"
 	},
 	{
 		"name": "Moonshinery",
 		"uniqueTo": "Enclavers",
 		"replaces": "Distillery",
-		"culture": 1,
-		"happiness": 2,
+		"culture": 2,
+		"happiness": 3,
 		"maintenance": 1,
-		"uniques": ["Provides [1] [Alcohol]"],
+		"uniques": ["Provides [2] [Alcohol]"],
 		"requiredNearbyImprovedResources": ["Grain", "Tubers"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Chemistry"
@@ -2198,7 +2192,7 @@
 	{
 		"name": "Market",
 		"specialistSlots": { "Merchant": 2 },
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 15,
 		"requiredTech": "Trade",
 		"uniques": [
 			"[+1 Gold] from [Luxury resource] tiles [in this city]"
@@ -2209,7 +2203,7 @@
 		"replaces": "Market",
 		"uniqueTo": "Hexlock",
 		"specialistSlots": { "Merchant": 2 },
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 15,
 		"requiredTech": "Trade",
 		"uniques": [
 			"[+1 Gold, +1 Science] from [Refinery] tiles [in this city]"
@@ -2221,7 +2215,7 @@
 		"uniqueTo": "Commonwealth",
 		"gold": 2,
 		"specialistSlots": { "Merchant": 2 },
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 15,
 		"greatPersonPoints": { "Great Merchant": 1 },
 		"uniques": [
 			"[+1 Gold] from [Luxury resource] tiles [in this city]",
@@ -2251,7 +2245,7 @@
 		"gold": 3,
 		"food": 1,
 		"production": -2,
-		"percentStatBonus": { "production": -5, "gold": 10 },
+		"percentStatBonus": { "gold": 10 },
 		"specialistSlots": { "Merchant": 1 },
 		"uniques": [
 			"[+1 Gold] [in this city] <with [Power]>",
@@ -2265,14 +2259,14 @@
 		"name": "Rainwater Purifier",
 		"gold": 2,
 		"specialistSlots": { "Merchant": 1 },
-		"requiredTech": "Atmosphere Remediation",
+		"requiredTech": "Chemistry",
 		"uniques": ["[+1 Gold] from [Moisture trap] tiles [in this city]"]
 	},
 
 	// Science buildings
 	{
 		"name": "Library",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 15,
 		"uniques": [
 			"[+1 Science] [in this city] <with [Power]>",
 			"[+1 Science] per [2] population [in this city]",
@@ -2285,11 +2279,11 @@
 		"name": "Record Grid",
 		"replaces": "Library",
 		"uniqueTo": "Hexlock",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 15,
 		"cost": 110,
 		"uniques": [
 			"[+1 Science] [in this city] <with [Power]>",
-			"[+1 Science] per [3] population [in this city]",
+			"[+1 Science] per [2] population [in this city]",
 			"Free [Field Scientist] appears",
 			"Enables construction of [Power] buildings"
 		],
@@ -2304,7 +2298,7 @@
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"uniques": [
 			"[+1 Science] [in this city] <with [Power]>",
-			"[+1 Science] per [4] population [in this city]",
+			"[+1 Science] per [3] population [in this city]",
 			"Enables construction of [Power] buildings"
 		],
 		"requiredTech": "Writing"
@@ -2317,7 +2311,7 @@
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"uniques": [
 			"[+1 Science] [in this city] <with [Power]>",
-			"[+1 Science] per [4] population [in this city]",
+			"[+1 Science] per [3] population [in this city]",
 			"Enables construction of [Power] buildings"
 		],
 		"hurryCostModifier": 25,
@@ -2332,7 +2326,7 @@
 		"uniques": [
 			"[+1 Science] [in this city] <with [Power]>",
 			"[+1 Science, +1 Culture] from [Books] tiles [in this city]",
-			"[+1 Science] per [4] population [in this city]",
+			"[+1 Science] per [3] population [in this city]",
 			"Enables construction of [Power] buildings"
 		],
 		"hurryCostModifier": 25,
@@ -2345,7 +2339,7 @@
 		"isNationalWonder": true,
 		"percentStatBonus": { "science": 33 },
 		"uniques": [
-			"Requires a [Library] in all cities",
+			"Requires a [Library] in at least [5] cities",
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Education"
@@ -2371,10 +2365,10 @@
 		"uniqueTo": "Deadrock Clan",
 		"culture": 1,
 		"maintenance": 1,
-		"hurryCostModifier": 33,
+		"hurryCostModifier": 15,
 		"percentStatBonus": { "science": 10 },
 		"greatPersonPoints": {
-			"Great Administrator": 1 /*, "Great General": 1*/
+			"Great Administrator": 2 /*, "Great General": 1*/
 		},
 		"specialistSlots": { "Scientist": 1, "Merchant": 1 },
 		"uniques": [
@@ -2393,7 +2387,7 @@
 		"culture": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 10 },
+		"percentStatBonus": { "science": 20 },
 		"greatPersonPoints": { "Great Scientist": 1, "Great Administrator": 1 },
 		"specialistSlots": { "Administrator": 1 },
 		"uniques": [
@@ -2412,9 +2406,9 @@
 		"culture": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 10 },
+		"percentStatBonus": { "science": 15, "faith": 15 },
 		"greatPersonPoints": { "Great Scientist": 1 },
-		"specialistSlots": { "Scientist": 1 },
+		"specialistSlots": { "Scientist": 1, "Priest": 1 },
 		"uniques": [
 			"[+1 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Forest] tiles [in this city]",
@@ -2439,13 +2433,12 @@
 		"name": "Clubhouse",
 		"replaces": "Public School",
 		"uniqueTo": "Deadrock Clan",
-		"food": -1,
 		"science": 1,
 		// "greatPersonPoints": { "Great General": 1 },
 		"uniques": [
 			"Enables construction of [Clansman] units",
 			"[+1 Culture] per [3] population [in this city]",
-			"[+1 Gold] [in this city] <with [Slaves]>",
+			"[+1 Gold] per [5] population [in this city] <with [Slaves]>",
 			"[+20]% Production when constructing [Military] units [in this city]"
 		],
 		"maintenance": 1,
@@ -2456,7 +2449,6 @@
 		"name": "Military School",
 		"replaces": "Public School",
 		"uniqueTo": "Crimson Legion",
-		"food": -1,
 		"science": 1,
 		"uniques": [
 			"[+15]% Production when constructing [Military] units [in this city]",
@@ -2472,7 +2464,6 @@
 		"name": "Initiate School",
 		"replaces": "Public School",
 		"uniqueTo": "Cult of Ignis",
-		"food": -1,
 		"culture": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
@@ -2515,7 +2506,7 @@
 		"name": "Cooling Station",
 		"maintenance": 1,
 		"uniques": [
-			"[+4 Science, +1 Production] from [Fissure] tiles [in this city]",
+			"[+3 Science, +3 Production] from [Fissure] tiles [in this city]",
 			"Must have an owned [Fissure] within [3] tiles",
 			"Consumes [1] [Power]"
 		],
@@ -2579,7 +2570,7 @@
 		"happiness": 2,
 		"science": 2,
 		"culture": 5,
-		"greatPersonPoints": { "Great Engineer": 1 },
+		"greatPersonPoints": { "Great Engineer": 2 },
 		"isNationalWonder": true,
 		"uniques": [
 			"Science gained from research agreements [+50]%",
@@ -2606,7 +2597,7 @@
 		"name": "Walls",
 		"cityStrength": 1,
 		"cityHealth": 80,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 15,
 		"requiredTech": "Construction",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -2645,7 +2636,7 @@
 	},
 	{
 		"name": "Battery",
-		"cityStrength": 10,
+		"cityStrength": 20,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
@@ -2888,7 +2879,7 @@
 	},
 	{
 		"name": "Forge",
-		"production": 1,
+		"production": 2,
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Scrap", "Metal"],
 		"requiredTech": "Iron Working",
@@ -2988,7 +2979,7 @@
 		"requiredNearbyImprovedResources": ["Oil"],
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Provides [1] [Oil]",
+			"Provides [2] [Oil]",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[-1 Food, +3 Production, -1 Gold] from [Oil] tiles [in this city]",
 			"Consumes [1] [Power]",
@@ -3005,7 +2996,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Production, +2 Culture, -1 Gold] from [Oil] tiles [in this city]",
-			"Provides [1] [Oil]",
+			"Provides [2] [Oil]",
 			"[+2 Production, -1 Food] [in this city] <with [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"Only available <in cities without a [Oil Plant]>"
@@ -3018,7 +3009,7 @@
 		"food": -1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Provides [1] [Power]",
+			"Provides [3] [Power]",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[-1 Food, +3 Production, -1 Gold] from [Oil] tiles [in this city]",
 			"Consumes [1] [Oil]",
@@ -3031,10 +3022,10 @@
 		"name": "Biofuel Refinery",
 		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Horses"],
 		"maintenance": 2,
-		"food": -1,
+		"food": -3,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Provides [1] [Oil]",
+			"Provides [3] [Oil]",
 			"Consumes [1] [Power]"
 		],
 		"requiredTech": "Biology"
@@ -3042,10 +3033,10 @@
 	{
 		"name": "Syngas Plant",
 		"maintenance": 2,
-		"food": -1,
+		"food": -3,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Provides [1] [Oil]",
+			"Provides [3] [Oil]",
 			"Consumes [1] [Coal]"
 		],
 		"requiredTech": "Steam Power"
@@ -3055,7 +3046,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be on [River]",
-			"Provides [2] [Power]",
+			"Provides [5] [Power]",
 			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Steam Power"
@@ -3067,8 +3058,8 @@
 		"cost": 160,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Must have an owned [Fissure] within [2] tiles",
-			"Provides [2] [Power]",
+			"Must have an owned [Fissure] within [5] tiles",
+			"Provides [3] [Power]",
 			"[+2 Production] from [Fissure] tiles [in this city]",
 			"Only available <in cities with a [Record Grid]>"
 		],
@@ -3078,8 +3069,8 @@
 		"name": "Tidal Plant",
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Must be next to [Coast]",
-			"Provides [2] [Power]",
+			"Must have an owned [Coast] within [3] tiles",
+			"Provides [3] [Power]",
 			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Steam Power"
@@ -3089,11 +3080,10 @@
 		"maintenance": 4,
 		"cost": 250,
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "food": -20 },
+		"percentStatBonus": { "food": -5 },
 		"uniques": [
 			"Provides [8] [Power]",
 			"Consumes [1] [Coal]",
-			"Only available <in cities without a [Nuclear Plant]>","Only available <in cities without a [Recycling Plant]>",
 			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Steam Power"
@@ -3108,7 +3098,6 @@
 			"Provides [8] [Power]",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
-			"Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Recycling Plant]>",
 			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Nuclear Fission"
@@ -3130,7 +3119,6 @@
 			"[-10]% [Food] [in this city] <before discovering [Nuclear Fission]>",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
-			"Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Recycling Plant]>",
 			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Steam Power"
@@ -3143,7 +3131,6 @@
 		"percentStatBonus": { "production": -15 },
 		"uniques": [
 			"Provides [6] [Power]",
-			"Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Nuclear Plant]>",
 			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Plastics Recycling"
@@ -3178,7 +3165,7 @@
 		"gold": 5,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Must be next to [Coast]",
+			"Must have an owned [Coast] within [3] tiles",
 			"[+1 Gold] from [Coast] tiles [in this city]",
 			"[+1 Gold] [in this city] <with [Power]>",
 			"Provides [1] [Salt]",
@@ -3240,9 +3227,8 @@
 	},
 	{
 		"name": "Armaments Production Line",
-		"percentStatBonus": { "production": -10 },
 		"cityStrength": 5,
-		"production": -3,
+		"production": -5,
 		"uniques": [
 			"Provides [2] [Weapons]",
 			"[+1] Unit Supply",
@@ -3256,8 +3242,7 @@
 	},
 	{
 		"name": "Armor Production Line",
-		"percentStatBonus": { "production": -10 },
-		"production": -3,
+		"production": -5,
 		"uniques": [
 			"Free [Tank] appears",
 			"[+66]% Production when constructing [Armor] units [in this city]",
@@ -3382,10 +3367,9 @@
 	},
 	{
 		"name": "Plastics Factory",
-		"food": -1,
-		"production": 2,
+		"production": 3,
 		"specialistSlots": { "Engineer": 1 },
-		"maintenance": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredNearbyImprovedResources": ["Oil"],
 		"uniques": ["Consumes [1] [Power]"],
@@ -3407,12 +3391,11 @@
 	},
 	{
 		"name": "Metal Reprocessor",
-		"maintenance": 3,
+		"maintenance": 1,
 		"requiredTech": "Advanced Materials",
 		"uniques": [
-			"Provides [1] [Aluminum]",
-			"Consumes [1] [Power]",
-			"Limited to [5] per Civilization"
+			"Provides [2] [Aluminum]",
+			"Consumes [1] [Power]"
 		]
 	},
 	{
@@ -3422,11 +3405,10 @@
 		"maintenance": 3,
 		"requiredTech": "Advanced Materials",
 		"uniques": [
-			"Provides [1] [Aluminum]",
+			"Provides [2] [Aluminum]",
 			"[+25]% Production when constructing [Promotion Nullifier] units [in this city]",
 			"All newly-trained [Promotion Nullifier] units [in all cities] receive the [Thermoptic Camouflage] promotion",
-			"Consumes [1] [Power]",
-			"Limited to [5] per Civilization"
+			"Consumes [1] [Power]"
 		]
 	},
 	{
@@ -3434,9 +3416,8 @@
 		"maintenance": 3,
 		"requiredTech": "Particle Physics",
 		"uniques": [
-			"Provides [1] [Uranium]",
-			"Consumes [1] [Power]",
-			"Limited to [5] per Civilization"
+			"Provides [2] [Uranium]",
+			"Consumes [1] [Power]"
 		]
 	},
 	{
@@ -3444,7 +3425,7 @@
 		"food": 2,
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Food, +1 Happiness] from [Grassland] tiles [in this city]"],
+		"uniques": ["[+2 Food, +2 Happiness] from [Grassland] tiles [in this city]"],
 		"requiredTech": "Atmosphere Remediation"
 	},
 	{
@@ -3456,8 +3437,7 @@
 		    "Provides [1] [Oil]",
 			"Provides [1] [Aluminum]",
 			"Provides [1] [Uranium]",
-			"Consumes [1] [Power]",
-			"Limited to [3] per Civilization"
+			"Consumes [1] [Power]"
 		]
 	},
 	{
@@ -3541,7 +3521,6 @@
 		// "requiredNearbyImprovedResources": ["Fish"],
 		"requiredTech": "Ecology",
 		"uniques": [
-			"Must be next to [Coast]",
 			"[+1 Food] from [Coast] tiles [in this city]"
 		]
 	},
@@ -3552,7 +3531,7 @@
 		"uniques": [
 			"[+10]% Production when constructing [Water] units [in this city]",
 			"Connects trade routes over water",
-			"Must be next to [Coast]"
+			"Must have an owned [Coast] within [3] tiles"
 		],
 		"requiredTech": "Navigation"
 	},
@@ -3565,7 +3544,7 @@
 			"[+10]% Production when constructing [Water] units [in this city]",
 			"New [Water] units start with [15] Experience [in this city]",
 			"Connects trade routes over water",
-			"Must be next to [Coast]"
+			"Must have an owned [Coast] within [3] tiles"
 		],
 		"requiredTech": "Navigation"
 	},
@@ -3574,9 +3553,9 @@
 		"hurryCostModifier": 25,
 		// "maintenance": 2,
 		"uniques": [
-			// "[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
-			"[+1 Production] from [Water resource] tiles [in this city]",
-			"Must be next to [Coast]",
+			"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			//"[+1 Production] from [Water resource] tiles [in this city]",
+			"Must have an owned [Coast] within [3] tiles",
 			"[+15]% Production when constructing [Water] units [in this city]",
 			"Only available <in cities with a [Harbor]>"
 		],
@@ -3587,7 +3566,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
-			"Must be next to [Coast]",
+			"Must have an owned [Coast] within [3] tiles",
 			"[+1 Food] from [Coast] tiles [in this city]",
 			"[+1 Food] from [Ocean] tiles [in this city]",
 			"Consumes [1] [Power]"
@@ -3599,7 +3578,8 @@
 	{
 		"name": "Shrine",
 		"faith": 1,
-		"cost": 40,
+		"cost": 30,
+		"specialistSlots": { "Preist": 1 },
 		"requiredTech": "Secrets of the Past",
 		"uniques": ["Hidden when religion is disabled"]
 	},
@@ -3607,8 +3587,9 @@
 		"name": "Altar of Ignis",
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Shrine",
-		"faith": 1,
-		"cost": 40,
+		"faith": 2,
+		"cost": 30,
+		"specialistSlots": { "Preist": 2 },
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
 			"Hidden when religion is disabled",
@@ -3621,6 +3602,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Education",
+		"specialistSlots": { "Preist": 1 },
 		"uniques": [
 			"Only available <in cities with a [Shrine]>",
 			"Hidden when religion is disabled"
@@ -3633,6 +3615,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Social Engineering",
+		"specialistSlots": { "Preist": 3 },
 		"uniques": [
 			"Only available <in cities with a [Monastery]>",
 			"Hidden when religion is disabled",
@@ -3646,6 +3629,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
+		"specialistSlots": { "Preist": 1 },
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -3655,7 +3639,7 @@
 		"faith": 1,
 		"happiness": 1,
 		"food": 3,
-		"specialistSlots": { "Farmer": 1 },
+		"specialistSlots": { "Preist": 1, "Farmer":1 },
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -3666,6 +3650,7 @@
 		"happiness": 1,
 		"cityStrength": 6,
 		"cityHealth": 25,
+		"specialistSlots": { "Preist": 1 },
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -3674,6 +3659,7 @@
 		"culture": 1,
 		"faith": 1,
 		"happiness": 1,
+		"specialistSlots": { "Preist": 1 },
 		"uniques": [
 			"Unbuildable",
 			"Hidden when religion is disabled",
@@ -3688,7 +3674,7 @@
 		"happiness": 1,
 		"science": 3,
 		"percentStatBonus": {"science": 10},
-		"specialistSlots": { "Scientist": 1 },
+		"specialistSlots": { "Scientist": 1, "Preist": 1 },
 		"uniques": [
 			"Unbuildable",
 			"Hidden when religion is disabled"

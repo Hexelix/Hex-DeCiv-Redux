@@ -3,8 +3,8 @@
 		"columnNumber": 0,
 		"era": "Decivilized era",
 		"techCost": 20,
-		"buildingCost": 40,
-		"wonderCost": 100,
+		"buildingCost": 30,
+		"wonderCost": 95,
 		"techs": [
 			{
 				"name": "The Wheel",
@@ -17,9 +17,9 @@
 	{
 		"columnNumber": 1,
 		"era": "Decivilized era",
-		"techCost": 60,
-		"buildingCost": 60,
-		"wonderCost": 125,
+		"techCost": 30,
+		"buildingCost": 40,
+		"wonderCost": 160,
 		"techs": [
 			{
 				"name": "Sailing",
@@ -39,6 +39,7 @@
 				"name": "Secrets of the Past",
 				"row": 5,
 				"prerequisites": ["The Wheel"],
+				"uniques": ["[+10]% [Faith] [in all cities]"],
 				"quote": "'And the apostates cried, abandon your works, lest all the world be swallowed by the deluge. And many indeed came to follow them. Fools they were to defy the Spark! For did He not promise to never again drown the land? And, in punishment for their hubris, He sent the great flood of fire; and the unbelievers were turned to dust.' - Nathaneal Getty, priest of Ignis"
 			},
 			{
@@ -58,14 +59,15 @@
 	{
 		"columnNumber": 2,
 		"era": "Decivilized era",
-		"techCost": 120,
-		"buildingCost": 75,
-		"wonderCost": 185,
+		"techCost": 80,
+		"buildingCost": 60,
+		"wonderCost": 200,
 		"techs": [
 			{
 				"name": "Writing",
 				"row": 5,
 				"prerequisites": ["Secrets of the Past"],
+				"uniques": ["[+10]% [Science] [in all cities]"],
 				"quote": "'And the things which shall be written out of the book shall be of great worth unto the children of men...' - Deseret Nation manuscript, undated"
 			},
 			{
@@ -85,17 +87,17 @@
 				"name": "Trade",
 				"row": 10,
 				"prerequisites": ["Construction"],
-				"uniques": ["Enables Open Borders agreements"],
-				"quote": "'I know that all of us here have earned our places beyond doubt. But we are not safe, even here, and we cannot afford to stand still. I need your support today. I was appointed to this position not to sit behind a desk, but to fix problems, and that is what I intend to do...' - John Kruger"
+				"uniques": ["Enables Open Borders agreements", "[+10]% [Culture] [in all cities]"],
+				"quote": "'I know that all of us here have earned our places beyond doubt. But we are not safe, even here, and we cannot afford to stand still. I need your support today. I was appointed to this position not to sit behind a desk, but to fix problems, and that is what I intend to do...' - John Galt"
 			}
 		]
 	},
 	{
 		"columnNumber": 3,
 		"era": "Rediscovering era",
-		"techCost": 250,
-		"buildingCost": 100,
-		"wonderCost": 250,
+		"techCost": 150,
+		"buildingCost": 90,
+		"wonderCost": 280,
 		"techs": [
 			{
 				"name": "Navigation",
@@ -111,6 +113,7 @@
 				"name": "Botany",
 				"row": 3,
 				"prerequisites": ["Redomestication", "Writing"],
+				"uniques": ["[+10]% [Food] [in all cities]"],
 				"quote": "'Be at peace in the knowledge that all the neoliberals will die with the biosphere.' - Eric Price"
 			},
 
@@ -119,14 +122,14 @@
 				"row": 6,
 				"prerequisites": ["Writing"],
 				"quote": "For the days of my life have vanished like smoke, and my bones are grown dry like fuel for the fire.",
-				"uniques": ["Enables conversion of city production to [Gold]"]
+				"uniques": ["Enables conversion of city production to [Gold]" , "[+10]% [Gold] [in all cities]"]
 			},
 
 			{
 				"name": "Engineering",
 				"row": 8,
 				"prerequisites": ["Mining", "Machinery"],
-				"uniques": ["Roads connect tiles across rivers"],
+				"uniques": ["Roads connect tiles across rivers", "[+10]% [Production] [in all cities]"],
 				"quote": "History doesn't repeat itself but it often rhymes."
 			}
 		]
@@ -134,9 +137,9 @@
 	{
 		"columnNumber": 4,
 		"era": "Rediscovering era",
-		"techCost": 425,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"techCost": 300,
+		"buildingCost": 130,
+		"wonderCost": 400,
 		"techs": [
 			{
 				"name": "Education",
@@ -155,7 +158,7 @@
 			{
 				"name": "Currency",
 				"row": 10,
-				"prerequisites": ["Chemistry", "Trade", "Engineering"],
+				"prerequisites": ["Chemistry", "Trade"],
 				"quote": "The ancient emporer Covfefe had such a fortune of pure water, he would wash his toilet with it."
 			}
 		]
@@ -163,9 +166,9 @@
 	{
 		"columnNumber": 5,
 		"era": "Neofeudal era",
-		"techCost": 650,
-		"buildingCost": 160,
-		"wonderCost": 400,
+		"techCost": 500,
+		"buildingCost": 180,
+		"wonderCost": 560,
 		"techs": [
 			{
 				"name": "Oceanography",
@@ -178,8 +181,8 @@
 				"row": 3,
 				"prerequisites": ["Education", "Botany"],
 				"uniques": [
-					"[+1 Food] from every [Wasteland] <with [1] to [6] neighboring [Lakes] tiles>",
-					"[+1 Food] from every [Badlands] <with [1] to [6] neighboring [Lakes] tiles>"
+					"[+1 Food] from every [Wasteland]",
+					"[+1 Food] from every [Badlands]"
 				],
 				"quote": "Modern industrial farming is largely a strategy for turning fossil fuels into food."
 			},
@@ -208,9 +211,9 @@
 	{
 		"columnNumber": 6,
 		"era": "Neofeudal era",
-		"techCost": 1000,
-		"buildingCost": 200,
-		"wonderCost": 500,
+		"techCost": 800,
+		"buildingCost": 2400,
+		"wonderCost": 760,
 		"techs": [
 			{
 				"name": "Decontamination",
@@ -248,9 +251,9 @@
 	{
 		"columnNumber": 7,
 		"era": "Rebuilding era",
-		"techCost": 1300,
-		"buildingCost": 250,
-		"wonderCost": 625,
+		"techCost": 1200,
+		"buildingCost": 310,
+		"wonderCost": 1000,
 		"techs": [
 			{
 				"name": "Desalination",
@@ -265,7 +268,6 @@
 				"prerequisites": ["Decontamination", "Refrigeration"],
 				"quote": "There is a plague on Man: his opinion that he knows something."
 			},
-
 			{
 				"name": "Electronics",
 				"row": 6,
@@ -295,9 +297,9 @@
 	{
 		"columnNumber": 8,
 		"era": "Rebuilding era",
-		"techCost": 2000,
-		"buildingCost": 300,
-		"wonderCost": 750,
+		"techCost": 1750,
+		"buildingCost": 390,
+		"wonderCost": 1280,
 		"techs": [
 			{
 				"name": "Hydroponics",
@@ -305,6 +307,7 @@
 				"prerequisites": ["Laboratory"],
 				"quote": "Thank you. I assure you, I am well aware of the contents of the latest report.\n\nWhat choice is it you think we have? The time for caution is long past. We can only work with the greatest urgency in the hope that we may realize a technological solution. Anything less can lead only to failure, my friends."
 			},
+			
 			{
 				"name": "Plastics",
 				"row": 5,
@@ -328,16 +331,30 @@
 	{
 		"columnNumber": 9,
 		"era": "Industrial era",
-		"techCost": 2750,
-		"buildingCost": 360,
-		"wonderCost": 920,
+		"techCost": 2500,
+		"buildingCost": 480,
+		"wonderCost": 1600,
 		"techs": [
+			{
+				"name": "Ocean Remediation",
+				"row": 1,
+				"prerequisites": ["Plastics", "Desalination"],
+				"quote": "Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world."
+			},
 			{
 				"name": "Land Remediation",
 				"row": 2,
 				"prerequisites": ["Hydroponics"],
 				"quote": "The nation that destroys its soil destroys itself."
 			},
+			
+			{
+				"name": "Plastics Recycling",
+				"row": 3,
+				"prerequisites": ["Plastics"],
+				"quote": "... Could be the only reason the earth allowed us to be spawned from it in the first place. It wanted plastic for itself. Didn't know how to make it. Needed us."
+			},
+
 			{
 				"name": "Computers",
 				"row": 4,
@@ -362,6 +379,7 @@
 				"prerequisites": ["Ballistics", "Railroads"],
 				"quote": "The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest."
 			},
+
 			{
 				"name": "Radar",
 				"row": 10,
@@ -374,8 +392,8 @@
 		"columnNumber": 10,
 		"era": "Industrial era",
 		"techCost": 3500,
-		"buildingCost": 500,
-		"wonderCost": 1060,
+		"buildingCost": 580,
+		"wonderCost": 1960,
 		"techs": [
 			{
 				"name": "Networking",
@@ -394,16 +412,17 @@
 	{
 		"columnNumber": 11,
 		"era": "Postmodern era",
-		"techCost": 4750,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"techCost": 5000,
+		"buildingCost": 690,
+		"wonderCost": 2360,
 		"techs": [
 			{
-				"name": "Ocean Remediation",
+				"name": "Atmosphere Remediation",
 				"row": 1,
-				"prerequisites": ["Desalination", "Land Remediation"],
-				"quote": "Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world."
+				"prerequisites": ["Plastics Recycling", "Ocean Remediation"],
+				"quote": "All analysed pathways limiting warming to 1.5°C with no or limited overshoot use CO2 removal to some extent to neutralize emissions."
 			},
+
 			{
 				"name": "Decryption",
 				"row": 4,
@@ -427,9 +446,9 @@
 	{
 		"columnNumber": 12,
 		"era": "Postmodern era",
-		"techCost": 5750,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"techCost": 6500,
+		"buildingCost": 940,
+		"wonderCost": 2800,
 		"techs": [
 			{
 				"name": "Genetics",
@@ -468,22 +487,17 @@
 	{
 		"columnNumber": 13,
 		"era": "Information era",
-		"techCost": 7250,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"techCost": 8500,
+		"buildingCost": 940,
+		"wonderCost": 3800,
 		"techs": [
 			{
 				"name": "Human Genome",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Genetics", "Pharmaceuticals"],
 				"quote": "Humanity should study the foundations of heredity. But this will be possible only when science is liberated from superstition and limitation."
 			},
-			{
-				"name": "Plastics Recycling",
-				"row": 3,
-				"prerequisites": ["Lasers"],
-				"quote": "... Could be the only reason the earth allowed us to be spawned from it in the first place. It wanted plastic for itself. Didn't know how to make it. Needed us."
-			},
+			
 			{
 				"name": "Advanced Materials",
 				"row": 8,
@@ -501,10 +515,16 @@
 	{
 		"columnNumber": 14,
 		"era": "Information era",
-		"techCost": 10000,
-		"buildingCost": 750,
-		"wonderCost": 2000,
+		"techCost": 12500,
+		"buildingCost": 1080,
+		"wonderCost": 3800,
 		"techs": [
+			{
+				"name": "Geo Engineering",
+				"row": 2,
+				"prerequisites": ["Atmosphere Remediation"],
+				"quote": "It always seems impossible until it's done."
+			},
 			{
 				"name": "Particle Physics",
 				"row": 4,
@@ -528,16 +548,11 @@
 	{
 		"columnNumber": 15,
 		"era": "New Future era",
-		"techCost": 17500,
-		"buildingCost": 750,
-		"wonderCost": 2000,
+		"techCost": 20000,
+		"buildingCost": 1200,
+		"wonderCost": 4400,
 		"techs": [
-			{
-				"name": "Atmosphere Remediation",
-				"row": 1,
-				"prerequisites": ["Plastics Recycling", "Ocean Remediation"],
-				"quote": "All analysed pathways limiting warming to 1.5°C with no or limited overshoot use CO2 removal to some extent to neutralize emissions."
-			},
+			
 			{
 				"name": "Artificial Intelligence",
 				"row": 6,
@@ -557,16 +572,10 @@
 	{
 		"columnNumber": 16,
 		"era": "New Future era",
-		"techCost": 25000,
-		"buildingCost": 750,
-		"wonderCost": 2000,
+		"techCost": 35000,
+		"buildingCost": 1350,
+		"wonderCost": 5000,
 		"techs": [
-			{
-				"name": "Geo Engineering",
-				"row": 2,
-				"prerequisites": ["Atmosphere Remediation"],
-				"quote": "It always seems impossible until it's done."
-			},
 			{
 				"name": "Future Power",
 				"row": 4,
@@ -584,9 +593,9 @@
 	{
 		"columnNumber": 17,
 		"era": "Singularity era",
-		"techCost": 35000,
-		"buildingCost": 750,
-		"wonderCost": 2000,
+		"techCost": 50000,
+		"buildingCost": 1500,
+		"wonderCost": 6000,
 		"techs": [
 			{
 				"name": "Future Tech",
