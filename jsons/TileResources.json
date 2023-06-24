@@ -8,37 +8,37 @@
 		"improvedBy": ["Farm", "Grassland"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
-			"Generated on every [27] tiles <in [Badlands] tiles>",
-			"Generated on every [10] tiles <in [Desert] tiles> <in tiles without [Hill]>",
-			"Generated on every [20] tiles <in [Badlands] tiles> <in [Hill] Regions>",
-			"Generated on every [20] tiles <in [Desert] tiles> <in tiles without [Hill]> <in [Hill] Regions>"
+			"Generated on every [22] tiles <in [Badlands] tiles>",
+			"Generated on every [8] tiles <in [Desert] tiles> <in tiles without [Hill]>",
+			"Generated on every [16] tiles <in [Badlands] tiles> <in [Hill] Regions>",
+			"Generated on every [16] tiles <in [Desert] tiles> <in tiles without [Hill]> <in [Hill] Regions>"
 		]
 	},
 	{
 		"name": "Algae",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
-		"food": 1,
+		"food": 0,
 		"improvedBy": ["Fishing Boats", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 2 },
 		"uniques": [
-			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>",
-			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>"
+			"Generated on every [8] tiles <in [Featureless] [Coast] tiles>",
+			"Generated on every [20] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>"
 		]
 	},
 	{
 		"name": "Tubers",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Toxic Waste", "Badlands", "Tundra", "Wasteland"],
-		"food": 1,
+		"food": 0,
 		"revealedBy": "Botany",
-		"improvedBy": ["Farm", "Grassland"],
-		"improvementStats": { "food": 1 },
+		"improvedBy": ["Farm", "Grassland","Nature preserve"],
+		"improvementStats": { "food": 2 },
 		"uniques": [
-			"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
-			"Generated on every [25] tiles <in [Featureless] [Badlands] tiles> <in tiles without [Hill]>",
-			"Generated on every [25] tiles <in [Featureless] [Wasteland] tiles> <in tiles without [Hill]>",
-			"Generated on every [16] tiles <in [Featureless] [Tundra] tiles> <in [Hill] Regions>"
+			"Generated on every [9] tiles <in [Featureless] [Tundra] tiles>",
+			"Generated on every [15] tiles <in [Featureless] [Badlands] tiles> <in tiles without [Hill]>",
+			"Generated on every [15] tiles <in [Featureless] [Wasteland] tiles> <in tiles without [Hill]>",
+			"Generated on every [12] tiles <in [Featureless] [Tundra] tiles> <in [Hill] Regions>"
 		]
 	},
 
@@ -61,10 +61,10 @@
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
-			"Generated on every [25] tiles <in [Badlands] tiles> <in tiles without [Hill]>",
-			"Generated on every [25] tiles <in [Wasteland] tiles> <in tiles without [Hill]>",
-			"Generated on every [16] tiles <in [Tundra] tiles> <in tiles without [Hill]>",
-			"Generated on every [16] tiles <in [Permafrost] tiles> <in tiles without [Hill]>"
+			"Generated on every [18] tiles <in [Badlands] tiles> <in tiles without [Hill]>",
+			"Generated on every [18] tiles <in [Wasteland] tiles> <in tiles without [Hill]>",
+			"Generated on every [12] tiles <in [Tundra] tiles> <in tiles without [Hill]>",
+			"Generated on every [12] tiles <in [Permafrost] tiles> <in tiles without [Hill]>"
 		]
 	},
 	{
@@ -79,17 +79,17 @@
 			"Hill",
 			"Swamp"
 		],
-		"production": 1,
+		"production": 0,
 		"improvedBy": ["Mine", "Borehole"],
-		"improvementStats": { "production": 1 },
+		"improvementStats": { "production": 2 },
 		"uniques": [
 			"Generated on every [20] tiles <in [Featureless] [Wasteland] tiles>",
 			"Generated on every [20] tiles <in [Featureless] [Badlands] tiles>",
 			"Generated on every [20] tiles <in [Featureless] [Tundra] tiles>",
 			"Generated on every [20] tiles <in [Featureless] [Desert] tiles>",
 			"Generated on every [20] tiles <in [Featureless] [Permafrost] tiles>",
-			"Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-			"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"
+			"Generated on every [9] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+			"Generated on every [8] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"
 		]
 	},
 	{
@@ -103,15 +103,15 @@
 			"Swamp"
 		],
 		"food": 1,
-		"improvedBy": ["Camp", "Bioculture"],
+		"improvedBy": ["Camp", "Bioculture", "Borough", "Farm", "Grassland","Nature preserve"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
-			"Generated on every [14] tiles <in [Jungle] tiles>",
-			"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>",
-			"Generated on every [14] tiles <in [Forest] tiles>",
-			"Generated on every [16] tiles <in [Forest] tiles> <in [Hill] Regions>",
-			"Generated on every [9] tiles <in [Toxic Waste] tiles>",
-			"Generated on every [14] tiles <in [Fallout] tiles>"
+			"Generated on every [20] tiles <in [Jungle] tiles>",
+			"Generated on every [20] tiles <in [Jungle] tiles> <in [Hill] Regions>",
+			"Generated on every [20] tiles <in [Forest] tiles>",
+			"Generated on every [20] tiles <in [Forest] tiles> <in [Hill] Regions>",
+			"Generated on every [15] tiles <in [Toxic Waste] tiles>",
+			"Generated on every [15] tiles <in [Fallout] tiles>"
 		]
 	},
 	{
@@ -135,13 +135,13 @@
 		"improvedBy": ["Salvage site", "Borough", "Modular island"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
-			"Generated on every [20] tiles <in [Featureless] [Coast] tiles>",
-			"Generated on every [23] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
-			"Generated on every [20] tiles <in [Wasteland] tiles>",
-			"Generated on every [20] tiles <in [Badlands] tiles>",
-			"Generated on every [20] tiles <in [Tundra] tiles>",
-			"Generated on every [20] tiles <in [Desert] tiles>",
-			"Generated on every [20] tiles <in [Permafrost] tiles>"
+			"Generated on every [15] tiles <in [Featureless] [Coast] tiles>",
+			"Generated on every [20] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+			"Generated on every [15] tiles <in [Wasteland] tiles>",
+			"Generated on every [15] tiles <in [Badlands] tiles>",
+			"Generated on every [15] tiles <in [Tundra] tiles>",
+			"Generated on every [15] tiles <in [Desert] tiles>",
+			"Generated on every [15] tiles <in [Permafrost] tiles>"
 		]
 	},
 	{
@@ -149,7 +149,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Badlands"],
 		"food": 1,
-		"improvedBy": ["Pasture", "Bioculture"],
+		"improvedBy": ["Pasture", "Bioculture","Nature preserve"],
 		"improvementStats": { "production": 2 },
 		"uniques": [
 			"Generated on every [18] tiles <in [Featureless] [Badlands] tiles>",
@@ -159,7 +159,7 @@
 	{
 		"name": "Groundwater",
 		"resourceType": "Bonus",
-		"revealedBy": "Radar",
+		"revealedBy": "Ecology",
 		"terrainsCanBeFoundOn": [
 			"Desert",
 			"Badlands",
@@ -170,13 +170,13 @@
 			"Swamp"
 		],
 		"improvement": "Water pump",
-		"improvementStats": { "gold": 3 },
+		"improvementStats": { "gold": 5 },
 		"uniques": [
-			"Generated on every [40] tiles <in [Wasteland] tiles>",
-			"Generated on every [40] tiles <in [Badlands] tiles>",
-			"Generated on every [40] tiles <in [Tundra] tiles>",
-			"Generated on every [40] tiles <in [Desert] tiles>",
-			"Generated on every [40] tiles <in [Permafrost] tiles>"
+			"Generated on every [20] tiles <in [Wasteland] tiles>",
+			"Generated on every [20] tiles <in [Badlands] tiles>",
+			"Generated on every [20] tiles <in [Tundra] tiles>",
+			"Generated on every [20] tiles <in [Desert] tiles>",
+			"Generated on every [20] tiles <in [Permafrost] tiles>"
 		]
 	},
 
@@ -191,19 +191,21 @@
 		"terrainsCanBeFoundOn": [
 			"Hill",
 			"Badlands",
+			"Desert",
 			"Coast",
+			"Wasteland",
 			"Ocean"
 		],
-		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
+		"majorDepositAmount": { "sparse": 3, "default": 4, "abundant": 5 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
 		"uniques": [
-			"Deposits in [Coast] tiles always provide [2] resources",
-			"Deposits in [Ocean] tiles always provide [2] resources",
 			"Guaranteed with Strategic Balance resource option",
-			"Generated with weight [40] <in [Featureless] [Badlands] tiles>",
+			"Generated with weight [50] <in [Featureless] [Badlands] tiles>",
+			"Generated with weight [70] <in [Featureless] [Desert] tiles>",
+			"Generated with weight [30] <in [Featureless] [Wasteland] tiles>",
 			"Generated with weight [39] <in [Hill] tiles>",
-			"Generated with weight [40] <in [Featureless] [Coast] tiles>",
-			"Generated with weight [10] <in [Featureless] [Ocean] tiles>"
+			"Generated with weight [80] <in [Featureless] [Coast] tiles>",
+			"Generated with weight [30] <in [Featureless] [Ocean] tiles>"
 		]
 	},
 
@@ -221,16 +223,16 @@
 		"production": 1,
 		"improvement": "Oil well",
 		"improvementStats": { "production": 1 },
-		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
+		"majorDepositAmount": { "sparse": 3, "default": 4, "abundant": 5 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
 		"uniques": [
 			"Deposits in [Coast] tiles always provide [2] resources",
 			"Deposits in [Ocean] tiles always provide [2] resources",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [65] <in [Toxic Waste] tiles> <in tiles without [Hill]>",
-			"Generated with weight [40] <in [Featureless] [Tundra] tiles>",
-			"Generated with weight [60] <in [Featureless] [Permafrost] tiles>",
-			"Generated with weight [65] <in [Featureless] [Desert] tiles>",
+			"Generated with weight [50] <in [Featureless] [Tundra] tiles>",
+			"Generated with weight [70] <in [Featureless] [Permafrost] tiles>",
+			"Generated with weight [85] <in [Featureless] [Desert] tiles>",
 			"Generated with weight [100] <in [Featureless] [Coast] tiles>",
 			"Generated with weight [10] <in [Featureless] [Ocean] tiles>",
 			"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
@@ -269,7 +271,7 @@
 			"Minor deposits generated with weight [20] <in [Wasteland] [Hill] tiles>",
 			"Minor deposits generated with weight [20] <in [Badlands] [Hill] tiles>"
 		],
-		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
+		"majorDepositAmount": { "sparse": 3, "default": 4, "abundant": 5 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 }
 	},
 	{
@@ -284,7 +286,7 @@
 		],
 		"production": 1,
 		"improvedBy": ["Mine", "Borehole"],
-		"improvementStats": { "production": 1 },
+		"improvementStats": { "production": 2 },
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [15] <in [Featureless] [Badlands] tiles>",
@@ -294,7 +296,7 @@
 			"Minor deposits generated with weight [20] <in [Badlands] tiles>",
 			"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"
 		],
-		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
+		"majorDepositAmount": { "sparse": 3, "default": 4, "abundant": 5 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 }
 	},
 	{
@@ -314,7 +316,7 @@
 		],
 		"production": 1,
 		"improvedBy": ["Mine", "Borehole"],
-		"improvementStats": { "food": -1, "production": 2 },
+		"improvementStats": { "food": -1, "production": 3 },
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [35] <in [Toxic Waste] tiles> <in tiles without [Hill]>",
@@ -329,8 +331,8 @@
 			"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
 			"Minor deposits generated with weight [20] <in [Featureless] [Permafrost] tiles>"
 		],
-		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
-		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 }
+		"majorDepositAmount": { "sparse": 2, "default": 2, "abundant": 3 },
+		"minorDepositAmount": { "sparse": 1, "default": 1, "abundant": 2 }
 	},
 	{
 		"name": "Weapons",
@@ -412,7 +414,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
 		"improvedBy": ["Salvage site", "Borough"],
-		"improvementStats": { "production": 1 },
+		"improvementStats": { "production": 2 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Forest] Regions>",
@@ -424,7 +426,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
 		"improvedBy": ["Salvage site", "Borough"],
-		"improvementStats": { "science": 1 },
+		"improvementStats": { "science": 2 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Forest] Regions>",
@@ -468,28 +470,28 @@
 	{
 		"name": "Fabrics",
 		"resourceType": "Luxury",
-		"production": 1,
+		"production": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
 	{
 		"name": "Honey",
 		"resourceType": "Luxury",
-		"gold": 1,
+		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
 	{
 		"name": "Stimulants",
 		"resourceType": "Luxury",
-		"production": 1,
+		"production": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
 	{
 		"name": "Cattle",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Wasteland"],
-		"food": 1,
-		"improvedBy": ["Pasture", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"food": 0,
+		"improvedBy": ["Pasture", "Bioculture","Nature preserve"],
+		"improvementStats": { "food": 4 },
 		"uniques": [
 			"Generated with weight [20] <in [Wasteland] Regions>",
 			"Generated with weight [20] <in [Hybrid] Regions>",
@@ -501,8 +503,8 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Badlands", "Hill"],
 		"food": 1,
-		"improvedBy": ["Pasture", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"improvedBy": ["Pasture", "Bioculture","Nature preserve"],
+		"improvementStats": { "food": 2 },
 		"uniques": [
 			"Generated with weight [5] <in [Badlands] Regions>",
 			"Generated with weight [5] <in [Hill] Regions>",
@@ -515,7 +517,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Tundra"],
 		"food": 1,
-		"improvedBy": ["Camp", "Bioculture"],
+		"improvedBy": ["Camp", "Bioculture","Nature preserve"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated with weight [40] <in [Tundra] Regions>",
@@ -527,8 +529,8 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Tundra", "Wasteland", "Jungle", "Forest"],
 		"food": 1,
-		"improvedBy": ["Camp", "Bioculture"],
-		"improvementStats": { "production": 1 },
+		"improvedBy": ["Camp", "Bioculture","Nature preserve"],
+		"improvementStats": { "production": 1,"food":1,"culture":1 },
 		"uniques": [
 			"Generated with weight [40] <in [Tundra] Regions>",
 			"Generated with weight [10] <in [Wasteland] Regions>",
@@ -542,8 +544,8 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill", "Toxic Waste", "Jungle"],
 		"food": 1,
-		"improvedBy": ["Camp", "Bioculture"],
-		"improvementStats": { "culture": 1 },
+		"improvedBy": ["Camp", "Bioculture","Nature preserve"],
+		"improvementStats": { "food": 1,"culture": 1 },
 		"uniques": [
 			"Generated with weight [5] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
@@ -556,8 +558,8 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Toxic Waste", "Fallout"],
 		"food": 1,
-		"improvedBy": ["Camp", "Bioculture"],
-		"improvementStats": { "food": 2, "culture": 1, "science": 1 },
+		"improvedBy": ["Camp", "Bioculture","Nature preserve"],
+		"improvementStats": { "food": 2, "culture": 1, "science": 3 },
 		"uniques": [
 			"Generated with weight [25] <in [Tundra] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
@@ -572,8 +574,8 @@
 		"name": "Hogs",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Badlands", "Hill", "Wasteland"],
-		"food": 1,
-		"improvedBy": ["Camp", "Bioculture"],
+		"food": 2,
+		"improvedBy": ["Camp", "Bioculture","Nature preserve"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated with weight [5] <in [Badlands] Regions>",
@@ -587,7 +589,7 @@
 		"name": "Salt",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill", "Badlands", "Desert", "Tundra"],
-		"improvedBy": ["Mine", "Borehole"],
+		"improvedBy": ["Mine", "Borehole","Borough"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated with weight [35] <in [Hill] Regions>",
@@ -620,7 +622,7 @@
 		"name": "Jellyfish",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
-		"food": 1,
+		"food": 2,
 		"improvedBy": ["Fishing Boats", "Bioculture"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
@@ -633,9 +635,9 @@
 		"name": "Plankton",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
-		"food": 1,
+		"food": 0,
 		"improvedBy": ["Fishing Boats", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 3 },
 		"uniques": [
 			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
 			"Generated on every [33] tiles <in [Featureless] [Coast] tiles>",
@@ -646,8 +648,8 @@
 		"name": "Gems",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill"],
-		"improvedBy": ["Mine", "Borehole"],
-		"improvementStats": { "culture": 1 },
+		"improvedBy": ["Mine", "Borehole", "Borough"],
+		"improvementStats": { "culture": 4 },
 		"uniques": [
 			"Generated with weight [15] <in [Hill] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
@@ -658,8 +660,8 @@
 		"name": "Silver",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill"],
-		"improvedBy": ["Mine", "Borehole"],
-		"improvementStats": { "culture": 1 },
+		"improvedBy": ["Mine", "Borehole", "Borough"],
+		"improvementStats": { "culture": 2 },
 		"uniques": [
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [10] <in [Hybrid] Regions>",
