@@ -1446,7 +1446,7 @@
 		"name": "Pit of Sacrifice",
 		"isWonder": true,
 		"requiredTech": "Secrets of the Past",
-		"specialistSlots": { "Preist": 1 },
+		"specialistSlots": { "Priest": 1 },
 		"uniques": [
 			"Gain a free [Pantheon] belief",
 			"[+1 Food, +5 Faith] from [Mining Pit] tiles [in all cities]",
@@ -1663,7 +1663,7 @@
 		"isNationalWonder": true,
 		"culture": 1,
 		"faith": 8,
-		"specialistSlots": { "Preist": 3 },
+		"specialistSlots": { "Priest": 3 },
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"Requires a [Monastery] in at least [5] cities",
@@ -1684,7 +1684,7 @@
 		"requiredTech": "Civil Service",
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Grand Monastery",
-		"specialistSlots": { "Preist": 1 },
+		"specialistSlots": { "Priest": 1 },
 		"uniques": [
 			"Requires a [Altar of Ignis] in at least [5] cities",
 			"Cost increases by [30] per owned city",
@@ -1959,7 +1959,7 @@
 		"culture": 2,
 		"faith": 2,
 		"cost": 40,
-		"specialistSlots": { "Preist": 1 },
+		"specialistSlots": { "Priest": 1 },
 		"hurryCostModifier": 40
 	},
 	{
@@ -3579,7 +3579,7 @@
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 30,
-		"specialistSlots": { "Preist": 1 },
+		"specialistSlots": { "Priest": 1 },
 		"requiredTech": "Secrets of the Past",
 		"uniques": ["Hidden when religion is disabled"]
 	},
@@ -3589,7 +3589,7 @@
 		"replaces": "Shrine",
 		"faith": 2,
 		"cost": 30,
-		"specialistSlots": { "Preist": 2 },
+		"specialistSlots": { "Priest": 2 },
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
 			"Hidden when religion is disabled",
@@ -3602,7 +3602,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Education",
-		"specialistSlots": { "Preist": 1 },
+		"specialistSlots": { "Priest": 1 },
 		"uniques": [
 			"Only available <in cities with a [Shrine]>",
 			"Hidden when religion is disabled"
@@ -3615,7 +3615,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Social Engineering",
-		"specialistSlots": { "Preist": 3 },
+		"specialistSlots": { "Priest": 3 },
 		"uniques": [
 			"Only available <in cities with a [Monastery]>",
 			"Hidden when religion is disabled",
@@ -3629,7 +3629,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"specialistSlots": { "Preist": 1 },
+		"specialistSlots": { "Priest": 1 },
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -3639,7 +3639,7 @@
 		"faith": 1,
 		"happiness": 1,
 		"food": 3,
-		"specialistSlots": { "Preist": 1, "Farmer":1 },
+		"specialistSlots": { "Priest": 1, "Farmer":1 },
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -3650,7 +3650,7 @@
 		"happiness": 1,
 		"cityStrength": 6,
 		"cityHealth": 25,
-		"specialistSlots": { "Preist": 1 },
+		"specialistSlots": { "Priest": 1 },
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
@@ -3659,7 +3659,7 @@
 		"culture": 1,
 		"faith": 1,
 		"happiness": 1,
-		"specialistSlots": { "Preist": 1 },
+		"specialistSlots": { "Priest": 1 },
 		"uniques": [
 			"Unbuildable",
 			"Hidden when religion is disabled",
@@ -3674,7 +3674,7 @@
 		"happiness": 1,
 		"science": 3,
 		"percentStatBonus": {"science": 10},
-		"specialistSlots": { "Scientist": 1, "Preist": 1 },
+		"specialistSlots": { "Scientist": 1, "Priest": 1 },
 		"uniques": [
 			"Unbuildable",
 			"Hidden when religion is disabled"
