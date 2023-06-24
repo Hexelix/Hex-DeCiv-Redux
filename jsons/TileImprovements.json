@@ -339,6 +339,35 @@
 		"shortcutKey": "S"
 	},
 	{
+		"name": "Underwater Salvage",
+		"turnsToBuild": 8,
+		"terrainsCanBeBuiltOn": ["Sunken Ruins"],
+		"production": 1,
+		"uniques": [
+			"Obsolete with [Computers]",
+			"[+1 Production] <after discovering [Navigation]>",
+			"[+1 Production] <after discovering [Oceanography]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "S"
+	},
+	{
+		"name": "Artificial atoll",
+		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"turnsToBuild": 20,
+		"techRequired": "Advanced Materials",
+		"production": 3,
+		"culture": 1,
+		"food": 3,
+		"science": 3,
+		"uniques": [
+			"Food source",
+			"[+1 Science] <after discovering [Artificial Intelligence]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "H"
+	},
+	{
 		"name": "Water pump",
 		"terrainsCanBeBuiltOn": ["Spring", "Lakes"],
 		"gold": 2,
