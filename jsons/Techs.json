@@ -2,7 +2,7 @@
 	{
 		"columnNumber": 0,
 		"era": "Decivilized era",
-		"techCost": 20,
+		"techCost": 1,
 		"buildingCost": 30,
 		"wonderCost": 95,
 		"techs": [
@@ -95,7 +95,7 @@
 	{
 		"columnNumber": 3,
 		"era": "Rediscovering era",
-		"techCost": 150,
+		"techCost": 200,
 		"buildingCost": 90,
 		"wonderCost": 280,
 		"techs": [
@@ -137,7 +137,7 @@
 	{
 		"columnNumber": 4,
 		"era": "Rediscovering era",
-		"techCost": 300,
+		"techCost": 500,
 		"buildingCost": 130,
 		"wonderCost": 400,
 		"techs": [
@@ -166,7 +166,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Neofeudal era",
-		"techCost": 500,
+		"techCost": 1000,
 		"buildingCost": 180,
 		"wonderCost": 560,
 		"techs": [
@@ -211,7 +211,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Neofeudal era",
-		"techCost": 800,
+		"techCost": 2000,
 		"buildingCost": 240,
 		"wonderCost": 760,
 		"techs": [
@@ -251,7 +251,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Rebuilding era",
-		"techCost": 1200,
+		"techCost": 3500,
 		"buildingCost": 310,
 		"wonderCost": 1000,
 		"techs": [
@@ -297,7 +297,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Rebuilding era",
-		"techCost": 1750,
+		"techCost": 5700,
 		"buildingCost": 390,
 		"wonderCost": 1280,
 		"techs": [
@@ -331,7 +331,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Industrial era",
-		"techCost": 2500,
+		"techCost": 8500,
 		"buildingCost": 480,
 		"wonderCost": 1600,
 		"techs": [
@@ -391,7 +391,7 @@
 	{
 		"columnNumber": 10,
 		"era": "Industrial era",
-		"techCost": 3500,
+		"techCost": 12500,
 		"buildingCost": 580,
 		"wonderCost": 1960,
 		"techs": [
@@ -412,7 +412,7 @@
 	{
 		"columnNumber": 11,
 		"era": "Postmodern era",
-		"techCost": 5000,
+		"techCost": 17000,
 		"buildingCost": 690,
 		"wonderCost": 2360,
 		"techs": [
@@ -446,7 +446,7 @@
 	{
 		"columnNumber": 12,
 		"era": "Postmodern era",
-		"techCost": 6500,
+		"techCost": 23000,
 		"buildingCost": 940,
 		"wonderCost": 2800,
 		"techs": [
@@ -487,10 +487,16 @@
 	{
 		"columnNumber": 13,
 		"era": "Information era",
-		"techCost": 8500,
+		"techCost": 29000,
 		"buildingCost": 940,
 		"wonderCost": 3800,
 		"techs": [
+			{
+				"name": "Geo Engineering",
+				"row": 2,
+				"prerequisites": ["Atmosphere Remediation"],
+				"quote": "It always seems impossible until it's done."
+			},
 			{
 				"name": "Human Genome",
 				"row": 3,
@@ -515,16 +521,11 @@
 	{
 		"columnNumber": 14,
 		"era": "Information era",
-		"techCost": 12500,
+		"techCost": 38000,
 		"buildingCost": 1080,
 		"wonderCost": 3800,
 		"techs": [
-			{
-				"name": "Geo Engineering",
-				"row": 2,
-				"prerequisites": ["Atmosphere Remediation"],
-				"quote": "It always seems impossible until it's done."
-			},
+			
 			{
 				"name": "Particle Physics",
 				"row": 4,
@@ -548,7 +549,7 @@
 	{
 		"columnNumber": 15,
 		"era": "New Future era",
-		"techCost": 20000,
+		"techCost": 47000,
 		"buildingCost": 1200,
 		"wonderCost": 4400,
 		"techs": [
@@ -572,7 +573,7 @@
 	{
 		"columnNumber": 16,
 		"era": "New Future era",
-		"techCost": 35000,
+		"techCost": 58000,
 		"buildingCost": 1350,
 		"wonderCost": 5000,
 		"techs": [
@@ -593,7 +594,7 @@
 	{
 		"columnNumber": 17,
 		"era": "Singularity era",
-		"techCost": 50000,
+		"techCost": 75000,
 		"buildingCost": 1500,
 		"wonderCost": 6000,
 		"techs": [

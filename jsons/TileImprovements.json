@@ -347,6 +347,7 @@
 		"uniques": [
 			"Obsolete with [Advanced Materials]",
 			"[+1 Production] <after discovering [Navigation]>",
+			"Cannot be built on [Land] tiles",
 			"[+1 Production] <after discovering [Oceanography]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -363,6 +364,7 @@
 		"science": 3,
 		"uniques": [
 			"Food source",
+			"Cannot be built on [Land] tiles",
 			"[+1 Science] <after discovering [Artificial Intelligence]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -778,7 +780,7 @@
 	// Refineries
 	{
 		"name": "C1F3 Refinery",
-		"production": 3,
+		"production": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
@@ -790,7 +792,7 @@
     },
 	{
 		"name": "C2N14 Refinery",
-		"gold": 3,
+		"gold": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
@@ -814,7 +816,7 @@
     },
 	{
 		"name": "SbF5 Refinery",
-		"science": 3,
+		"science": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
