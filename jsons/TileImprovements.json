@@ -370,11 +370,11 @@
 	{
 		"name": "Water pump",
 		"terrainsCanBeBuiltOn": ["Spring", "Lakes"],
-		"gold": 2,
+		"gold": 5,
 		"turnsToBuild": 5,
 		"techRequired": "Iron Working",
 		"uniques": [
-			"[+1 Gold] <after discovering [Decontamination]>",
+			"[+3 Gold] <after discovering [Decontamination]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "W"

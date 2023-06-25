@@ -45,7 +45,8 @@
 				"name": "Planned Economy",
 				"uniques": [
 					"[+25]% growth [in all cities]",
-					"[+33]% [Production] from every [Council]"
+					"[+33]% [Production] from every [Council]",
+					"[+33]% [Production] from every [Congress]"
 				],
 				"requires": ["Castle Doctrine", "Centralization"],
 				"row": 2,
@@ -54,7 +55,8 @@
 			{
 				"name": "Parallel Markets",
 				"uniques": [
-					"[+1 Gold, +1 Happiness] per [1] population [in capital]"
+					"[+1 Gold] per [1] population [in capital]",
+					"[+1 Happiness] per [5] population [in capital]"
 				],
 				"requires": ["Centralization", "Differential Rationing"],
 				"row": 2,
@@ -66,8 +68,8 @@
 				"uniques": [
 					"[+10]% growth [in all cities]",
 					"[+1 Food] per [2] population [in all cities]",
-					"Provides a [Walls] [in all cities] for free",
-					"Provides a [Defensive Emplacements] in [in all cities] for free"
+					"Provides a [Walls] in your first [10] cities for free",
+					"Provides a [Defensive Emplacements] in your first [10] cities for free"
 				]
 			}
 		]
@@ -82,7 +84,7 @@
 			"Domination": 30,
 			"Scientific": 0
 		},
-		"uniques": ["[+1 Culture] per [3] population [in all cities]"],
+		"uniques": ["[+1 Culture] per [3] population [in all cities]", "[+1 Happiness] [in all cities]"],
 		"policies": [
 			{
 				"name": "Restorers",
@@ -129,8 +131,8 @@
 				"name": "Citizen Militia",
 				"uniques": [
 					"Units in cities cost no Maintenance",
-					"[+2 Production] [in all cities with a garrison]",
-					"[-50]% maintenance costs <for [Civilian] units>"
+					"[+5 Production] [in all cities with a garrison]",
+					"[-100]% maintenance costs <for [Civilian] units>"
 				],
 				"requires": ["Representation", "Courier Service"],
 				"row": 2,
@@ -140,6 +142,8 @@
 				"name": "Expansionism Complete",
 				"uniques": [
 					"Free Great Person",
+					"[+1 Happiness] [in all cities]",
+					"[+1 Happiness] per [5] population [in all cities connected to capital]",
 					"Allied City-States will occasionally gift Great People"
 				]
 			}
@@ -165,6 +169,7 @@
 				"name": "Discipline",
 				"uniques": [
 					"[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
+					"[+15]% Strength <for [Ranged] units> <when adjacent to a [Melee] unit>",
 					"Free [Great General] appears"
 				],
 				"row": 1,
@@ -180,7 +185,7 @@
 				"column": 3
 			},
 			{
-				"name": "Autocracy",
+				"name": "Martial Law",
 				"uniques": [
 					"[+2 Happiness, +1 Culture] [in all cities with a garrison]",
 					"Double quantity of [Slaves] produced"
@@ -201,8 +206,8 @@
 			{
 				"name": "Triumph",
 				"uniques": [
-					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-					"When defeating a [Military] unit, earn [25] Gold and recruit it <with [25]% chance>"
+					"Earn [20]% of killed [Military] unit's [Cost] as [Gold]",
+					"When defeating a [Military] unit, earn [25] Gold and recruit it <with [50]% chance>"
 				],
 				"requires": ["Doctrine"],
 				"row": 2,
@@ -219,7 +224,7 @@
 		]
 	},
 	{
-		"name": "Theocracy",
+		"name": "Religiousity",
 		"era": "Neofeudal era",
 		"priorities": {
 			"Neutral": 20,
@@ -229,7 +234,8 @@
 			"Scientific": 0
 		},
 		"uniques": [
-			"[+100]% Production when constructing [Faith] buildings [in all cities]"
+			"[+100]% Production when constructing [Faith] buildings [in all cities]",
+			"May buy [Great Sage] units for [250] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100]) <starting from the [Industrial era]>"
 		],
 		"policies": [
 			{
@@ -243,23 +249,23 @@
 				"column": 2
 			},
 			{
-				"name": "Mandate Of Heaven",
+				"name": "Strength of Belief",
 				"uniques": [
-					"[+33]% Strength <for [Wounded] units>",
-					"[+15]% Strength <for [All] units> <during a Golden Age>"
+					"[+25]% Strength <for [Wounded] units>",
+					"[+10]% Strength <for [All] units>"
 				],
 				"row": 1,
 				"column": 5
 			},
 			{
-				"name": "Indulgences",
+				"name": "Tithes",
 				"uniques": ["[+15]% [Gold] from every [Monastery]"],
 				"requires": ["Organized Religion"],
 				"row": 2,
 				"column": 1
 			},
 			{
-				"name": "God Emperor",
+				"name": "Religious Heritage",
 				"uniques": [
 					"[+1 Happiness, +2 Culture] from every [Monument]",
 					"Empire enters golden age"
@@ -271,8 +277,9 @@
 			{
 				"name": "Holy Scriptures",
 				"uniques": [
-					"[-20]% Culture cost of adopting new Policies",
-					"[+10]% [Faith] from every [University]"
+					"[-25]% Culture cost of adopting new Policies",
+					"[+10]% [Faith] from every [University]",
+					"[+5]% [Faith] from every [Public School]"
 				],
 				"requires": ["Mandate Of Heaven", "God Emperor"],
 				"row": 3,
@@ -284,7 +291,7 @@
 					"[Faith] cost of purchasing items in cities [-20]%",
 					"[+2 Gold, +2 Culture, +1 Faith] from every [Seminary]",
 					"[+2 Gold, +2 Culture, +1 Faith] from every [Oracle]",
-					"Gain a free [Enhancer] belief"
+					"Gain a free [Enhancer] belief"	
 				]
 			}
 		]
@@ -320,9 +327,9 @@
 			{
 				"name": "Skepticism",
 				"uniques": [
-					"[+1 Happiness, +1 Culture, -1 Faith] from every [University]",
-					"[+1 Happiness, +1 Culture, -1 Faith] from every [Data Center]",
-					"[+1 Happiness, +1 Culture, -1 Faith] from every [Public School]"
+					"[+1 Happiness, +1 Culture] from every [University]",
+					"[+1 Happiness, +1 Culture] from every [Data Center]",
+					"[+1 Happiness, +1 Culture] from every [Public School]"
 				],
 				"row": 1,
 				"column": 3
@@ -340,8 +347,8 @@
 			{
 				"name": "Sample Analysis",
 				"uniques": [
-					"[+2 Science] from every [Moisture trap]",
-					"[+20]% [Science] from every [University]"
+					"[+2 Science, +1 Gold] from every [Moisture trap]",
+					"[+5]% [Science] from every [Science] building"
 				],
 				"requires": ["Educated Elite"],
 				"row": 2,
@@ -351,6 +358,7 @@
 				"name": "Technocracy",
 				"uniques": [
 					"[+25]% [Science] from every [Council]",
+					"[+25]% [Science] from every [Congress]",
 					"[+1 Gold] from all [Science] buildings"
 				],
 				"requires": ["Skepticism"],
@@ -360,7 +368,7 @@
 			{
 				"name": "Rationalism Complete",
 				"uniques": [
-					"[+15]% [Science] <while the empire is happy>",
+					"[+10]% [Science]",
 					"[2] Free Technologies",
 					"May buy [Great Scientist] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Industrial era]>"
 				]
@@ -386,7 +394,7 @@
 				"name": "Civil Society",
 				"uniques": [
 					"[-50]% Unhappiness from [Specialists] [in all cities]",
-					"[+1 Happiness] from every [Town Hall]",
+					"[+2 Happiness] from every [Town Hall]",
 					"[+10]% growth [in all cities]"
 				],
 				"row": 1,
@@ -395,7 +403,7 @@
 			{
 				"name": "Protected Speech",
 				"uniques": [
-					"[+1 Culture] per population [in all cities]",
+					"[+1 Culture] per [3] population [in all cities]",
 					"[+3 Culture] from every [Town Hall]",
 					"[+10]% growth [in all cities]"
 				],
@@ -405,7 +413,7 @@
 			{
 				"name": "Public Good",
 				"uniques": [
-					"[+2 Gold] from every [Hospital]",
+					"[+3 Gold] from every [Hospital]",
 					"[-50]% maintenance on road & railroads",
 					"[+20]% growth [in all cities]"
 				],
@@ -417,6 +425,7 @@
 				"name": "Legislative Process",
 				"uniques": [
 					"[+25]% [Culture] from every [Congress]",
+					"[+25]% [Culture] from every [Council]",
 					"[+1 Happiness] per [5] population [in all cities]",
 					"[Great Administrator] is earned [25]% faster"
 				],
@@ -508,7 +517,7 @@
 				"name": "Spoils of War",
 				"uniques": [
 					"Double quantity of [Weapons] produced",
-					"Earn [50]% of the damage done to [City] units as [Gold]",
+					"Earn [100]% of the damage done to [City] units as [Gold]",
 					"Earn [20]% of killed [Military] unit's [Cost] as [Gold]"
 				],
 				"requires": ["Police State"],
@@ -565,7 +574,7 @@
 				"uniques": [
 					"[-50]% maintenance on road & railroads",
 					"[Personnel] units gain the [Hazard Pay] promotion",
-					"[+2 Gold] from every [Hospital]",
+					"[+3 Gold] from every [Hospital]",
 					"[+1 Gold, +1 Production] from every [Factory]",
 					"[+1 Gold, +1 Science] from every [Public School]"
 				],
@@ -600,8 +609,7 @@
 				"name": "Monopoly Complete",
 				"uniques": [
 					"[-50]% Gold cost of acquiring tiles [in all cities]",
-					"[-15]% maintenance cost for buildings [in all cities]",
-					"[+2 Gold, +1 Production] from every [Work Camp]",
+					"[-25]% maintenance cost for buildings [in all cities]",
 					"May buy [Great Merchant] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Industrial era]>"
 				]
 			}

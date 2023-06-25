@@ -170,7 +170,7 @@
 			"Swamp"
 		],
 		"improvement": "Water pump",
-		"improvementStats": { "gold": 5 },
+		"improvementStats": { "gold": 2 },
 		"uniques": [
 			"Generated on every [20] tiles <in [Wasteland] tiles>",
 			"Generated on every [20] tiles <in [Badlands] tiles>",
