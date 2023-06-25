@@ -445,6 +445,7 @@
 	},
 	{
 		"name": "Fishery",
+		"turnsToBuild": 4,
 		"techRequired": "Sailing",
 		"terrainsCanBeBuiltOn": ["Coast", "Ocean","Lakes"],
 		"food": 2,
