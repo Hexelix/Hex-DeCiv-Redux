@@ -80,7 +80,7 @@
 			"Provides [1] [Power]",
 			"Provides [2] [Encrypted Data]",
 			"Free [Worker] appears",
-			"[2] free [Purge Robot Proto] units appear",
+			"[1] free [Purge Robot Proto] units appear",
 			"Can only be built [in capital]",
 			"Gain a free [Compound Mixer] [in this city]"
 		],
@@ -3718,7 +3718,22 @@
 			"Consumes [1] [SbF5]",
 			"Unsellable",
 			"Never destroyed when the city is captured",
-			"Limited to [3] per Civilization"
+			"Limited to [5] per Civilization"
+		]
+	},
+	{
+		"name": "Compound Mix GF",
+		"uniqueTo": "Hexlock",
+		"cost": 70,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Free [Great Farmer] appears",
+			"Only available <in cities with a [Compound Mixer]>",
+			"Consumes [1] [C2N14]",
+			"Consumes [1] [SbF5]",
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Limited to [5] per Civilization"
 		]
 	},
 	{
@@ -3734,7 +3749,7 @@
 			"Unsellable",
 			"Never destroyed when the city is captured",
 			"Hidden when religion is disabled",
-			"Limited to [3] per Civilization"
+			"Limited to [5] per Civilization"
 		]
 	},
 	{
@@ -3749,7 +3764,7 @@
 			"Consumes [1] [C1F3]",
 			"Unsellable",
 			"Never destroyed when the city is captured",
-			"Limited to [3] per Civilization"
+			"Limited to [5] per Civilization"
 		]
 	},
 	{
@@ -3764,7 +3779,7 @@
 			"Consumes [1] [C8H17]",
 			"Unsellable",
 			"Never destroyed when the city is captured",
-			"Limited to [3] per Civilization"
+			"Limited to [5] per Civilization"
 		]
 	},
 	{
@@ -3779,7 +3794,7 @@
 			"Consumes [1] [C2N14]",
 			"Unsellable",
 			"Never destroyed when the city is captured",
-			"Limited to [3] per Civilization"
+			"Limited to [5] per Civilization"
 		]
 	},
 	{
@@ -3793,7 +3808,7 @@
 			"Unsellable",
 			"Never destroyed when the city is captured",
 			"Only available <in cities with a [Compound Mixer]>",
-			"Limited to [2] per Civilization"
+			"Limited to [3] per Civilization"
 		]
 	},
 	
