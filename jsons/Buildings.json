@@ -2273,7 +2273,7 @@
 		"requiredTech": "Chemistry",
 		"uniques": [
 			"[+1 Gold] from [Moisture trap] tiles [in this city]",
-			"[+2 Gold] from [Water Pump] tiles [in this city]"
+			"[+2 Gold] from [Water pump] tiles [in this city]"
 		]
 	},
 
