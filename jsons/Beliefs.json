@@ -207,7 +207,7 @@
 		"name": "Obey the Elders",
 		"type": "Follower",
 		"uniques": [
-			"[+2]% [Production] from every [Specialist]"
+			"[+5]% [Production] from every [Faith] building"
 		]
 	},
 	{
