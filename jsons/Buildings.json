@@ -9,7 +9,7 @@
 		"cityHealth": 50,
 		"science": 3,
 		"gold": 1,
-		"culture": 1,
+		"culture": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
 	},
@@ -19,12 +19,12 @@
 		"uniqueTo": "New Star",
 		"replaces": "Bomb Shelter",
 		"food": 2,
-		"production": 4,
+		"production": 3,
 		"cityStrength": 5,
-		"cityHealth": 45,
+		"cityHealth": 35,
 		"science": 3,
 		"gold": 1,
-		"culture": 1,
+		"culture": 2,
 		"specialistSlots": { "Administrator": 1 },
 		"cost": 1,
 		"uniques": [
@@ -41,6 +41,7 @@
 		"uniques": [
 			"[10]% Food is carried over after population increases [in this city]",
 			"Provides [2] [Weapons]",
+			"Free [Worker] appears",
 			"Free [Guerilla] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Deep Larder] [in this city]"
@@ -56,6 +57,7 @@
 		"cost": 1,
 		"uniques": [
 			"Free [Militia] appears",
+			"Free [Worker] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -77,6 +79,7 @@
 		"uniques": [
 			"Provides [1] [Power]",
 			"Provides [2] [Encrypted Data]",
+			"Free [Worker] appears",
 			"[2] free [Purge Robot Proto] units appear",
 			"Can only be built [in capital]",
 			"Gain a free [Compound Mixer] [in this city]"
@@ -101,6 +104,7 @@
 		"uniques": [
 			"Provides [1] [Power]",
 			"Provides [1] [Weapons]",
+			"Free [Worker] appears",
 			"Free [Security] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
@@ -146,6 +150,7 @@
 			"[10]% Food is carried over after population increases [in this city]",
 			"Provides [1] [Power]",
 			"Provides [2] [Weapons]",
+			"Free [Worker] appears",
 			"Free [Spec Ops] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
@@ -167,6 +172,7 @@
 		"uniques": [
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Free [Swordsman] appears",
+			"Free [Worker] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
@@ -188,6 +194,7 @@
 		"uniques": [
 			"[+2 Culture] [in this city] <after discovering [Iron Working]>",
 			"Provides [2] [Oil]",
+			"Free [Worker] appears",
 			"Free [Great Prophet] appears",
 			"Free [War Buggy] appears",
 			"Can only be built [in capital]",
@@ -210,6 +217,7 @@
 			"[25]% Great Person generation [in this city]",
 			"[+1 Faith, +1 Happiness] [in this city] <when not at war>",
 			"Free [Ranger] appears",
+			"Free [Worker] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Monument] [in this city]"
 		],
@@ -232,6 +240,7 @@
 		"uniques": [
 			"[2] free [Scavenger] units appear",
 			"Can only be built [in capital]",
+			"Free [Worker] appears",
 			"Gain a free [Salvage Yard] [in this city]"
 		],
 		"quote": "Now there are no doors left in the houses for they have all been kicked off. So, also, there are no fires in the village and have not been for many days. Now the men full of strong drink have trodden in the fireplaces. They alone track there and there are no fires and their footprints are in all the fireplaces.",
@@ -251,6 +260,7 @@
 			"Can only be built [in capital]",
 			"[+2 Faith] [in this city] <with [1] to [6] neighboring [Coast] tiles>",
 			"[2] free [Sharkman] units appear",
+			"Free [Worker] appears",
 			"Gain a free [Lighthouse] [in this city]"
 		],
 		"quote": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore.",
@@ -273,6 +283,7 @@
 			"Can only be built [in capital]",
 			"Provides [1] [Weapons]",
 			"Free [Panther] appears",
+			"Free [Worker] appears",
 			"Gain a free [Mosque] [in this city]",
 			"May choose [1] additional belief(s) of any type when [enhancing] a religion"
 		],
@@ -294,6 +305,7 @@
 			"Can only be built [in capital]",
 			"Provides [1] [Weapons]",
 			"[2] free [Clansman] units appear",
+			"Free [Worker] appears",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "If you would keep your secret from an enemy, tell it not to a friend.",
@@ -315,6 +327,7 @@
 			"Provides [1] [Power]",
 			"[+2 Culture, +1 Happiness] [in this city] <after discovering [Decontamination]>",
 			"Free [Mutant] appears",
+			"Free [Worker] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
