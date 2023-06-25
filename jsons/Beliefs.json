@@ -207,7 +207,7 @@
 		"name": "Obey the Elders",
 		"type": "Follower",
 		"uniques": [
-			"[+5]% [Production] from every [Faith] building"
+			"[+5]% [Production] from every [Faith] building [in cities following this religion]"
 		]
 	},
 	{
@@ -265,7 +265,7 @@
 		{
 		"name": "Labor of Love",
 		"type": "Follower",
-		"uniques": ["[+1]% [Production] from every follower, up to [15]%"]
+		"uniques": ["[+1]% [Production] from every follower, up to [20]%"]
 	},
     {
         "name": "Public Prayer",
@@ -278,40 +278,40 @@
 		"name": "Ceremonial Burial",
 		"type": "Founder",
 		"uniques": [
-			"[+1 Happiness] for each global city following this religion"
+			"[+2 Happiness] for each global city following this religion"
 		]
 	},
 	{
 		"name": "Church Property",
 		"type": "Founder",
-		"uniques": ["[+2 Gold] for each global city following this religion"]
+		"uniques": ["[+3 Gold] for each global city following this religion"]
 	},
 	{
 		"name": "Great Awakening",
 		"type": "Founder",
 		"uniques": [
-			"[+2 Science, +1 Culture] for each global city following this religion"
+			"[+3 Science, +2 Culture] for each global city following this religion"
 		]
 	},
 	{
 		"name": "Initiation Rites",
 		"type": "Founder",
 		"uniques": [
-			"[+100 Gold] when a city adopts this religion for the first time (modified by game speed)"
+			"[+200 Gold] when a city adopts this religion for the first time (modified by game speed)"
 		]
 	},
 	{
 		"name": "Interfaith Dialogue",
 		"type": "Founder",
 		"uniques": [
-			"When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"
+			"When spreading religion to a city, gain [25] times the amount of followers of other religions as [Science]"
 		]
 	},
 	{
 		"name": "Primacy",
 		"type": "Founder",
 		"uniques": [
-			"Resting point for Influence with City-States following this religion [+15]"
+			"Resting point for Influence with City-States following this religion [+30]"
 		]
 	},
 	{
@@ -335,7 +335,7 @@
 		"name": "World Church",
 		"type": "Founder",
 		"uniques": [
-			"[+1 Culture] from every [5] global followers [in all cities]"
+			"[+1 Culture] from every [4] global followers [in all cities]"
 		]
 	},
 
@@ -359,7 +359,7 @@
 	{
 		"name": "Itinerant Preachers",
 		"type": "Enhancer",
-		"uniques": ["Religion naturally spreads to cities [+10] tiles away"]
+		"uniques": ["Religion naturally spreads to cities [+20] tiles away"]
 	},
 	{
 		"name": "Just War",
@@ -381,14 +381,14 @@
 	{
 		"name": "Missionary Zeal",
 		"type": "Enhancer",
-		"uniques": ["[+50]% Spread Religion Strength"]
+		"uniques": ["[+100]% Spread Religion Strength"]
 	},
 	{
 		"name": "Religious Texts",
 		"type": "Enhancer",
 		"uniques": [
-			"[+34]% Natural religion spread [in all cities]",
-			"[+34]% Natural religion spread [in all cities] <after discovering [Education]>"
+			"[+50]% Natural religion spread [in all cities]",
+			"[+50]% Natural religion spread [in all cities] <after discovering [Education]>"
 		]
 	},
 	{
@@ -399,7 +399,7 @@
 	{
 		"name": "Funeral Rites",
 		"type": "Enhancer",
-		"uniques": ["[+100 Faith, +20 Culture] whenever a Great Person is expended"]
+		"uniques": ["[+100 Faith, +50 Culture] whenever a Great Person is expended"]
 	},
 	{
 		"name": "Thought Control",

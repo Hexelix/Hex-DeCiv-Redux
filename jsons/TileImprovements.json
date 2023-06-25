@@ -345,7 +345,7 @@
 		"terrainsCanBeBuiltOn": ["Sunken Ruins"],
 		"production": 1,
 		"uniques": [
-			"Obsolete with [Computers]",
+			"Obsolete with [Advanced Materials]",
 			"[+1 Production] <after discovering [Navigation]>",
 			"[+1 Production] <after discovering [Oceanography]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"

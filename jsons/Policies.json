@@ -100,7 +100,8 @@
 				"name": "Representation",
 				"uniques": [
 					"Each city founded increases culture cost of policies [50]% less than normal",
-					"[+5 Happiness] from every [Congress]"
+					"[+5 Happiness] from every [Congress]",
+					"[+5 Happiness] from every [Council]"
 				],
 				"row": 1,
 				"column": 3
@@ -108,8 +109,7 @@
 			{
 				"name": "Courier Service",
 				"uniques": [
-					"[+1 Happiness] [in all cities connected to capital]",
-					"[-10]% Unhappiness from [Population] [in all cities]",
+					"[-20]% Unhappiness from [Population] [in all cities]",
 					"[-50]% City-State Influence degradation"
 				],
 				"row": 1,
@@ -118,9 +118,13 @@
 			{
 				"name": "Reclaimers",
 				"uniques": [
-					"Double quantity of [Coal] produced",
-					"Double quantity of [Oil] produced",
-					"Double quantity of [Aluminum] produced",
+					"Double quantity of [Weapons] produced",
+					"Double quantity of [Books] produced",
+					"Double quantity of [Encrypted Data] produced",
+					"Double quantity of [Data] produced",
+					"Double quantity of [Machine Parts] produced",
+					"Double quantity of [Electronics] produced",
+					"Double quantity of [Artifacts] produced",
 					"Retain [50]% of the happiness from a luxury after the last copy has been traded away"
 				],
 				"requires": ["Restorers"],
@@ -131,7 +135,7 @@
 				"name": "Citizen Militia",
 				"uniques": [
 					"Units in cities cost no Maintenance",
-					"[+5 Production] [in all cities with a garrison]",
+					"[+3 Production] [in all cities with a garrison]",
 					"[-100]% maintenance costs <for [Civilian] units>"
 				],
 				"requires": ["Representation", "Courier Service"],
@@ -142,7 +146,6 @@
 				"name": "Expansionism Complete",
 				"uniques": [
 					"Free Great Person",
-					"[+1 Happiness] [in all cities]",
 					"[+1 Happiness] per [5] population [in all cities connected to capital]",
 					"Allied City-States will occasionally gift Great People"
 				]

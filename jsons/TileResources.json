@@ -19,7 +19,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 0,
-		"improvedBy": ["Fishing Boats", "Fishery", "Bioculture"],
+		"improvedBy": ["Fishing Boats", "Fishery", "Artificial atoll", "Bioculture"],
 		"improvementStats": { "food": 2 },
 		"uniques": [
 			"Generated on every [8] tiles <in [Featureless] [Coast] tiles>",
@@ -132,7 +132,7 @@
 			"Swamp"
 		],
 		"production": 1,
-		"improvedBy": ["City center","Salvage site", "Borough", "Modular island"],
+		"improvedBy": ["City center","Salvage site", "Borough", "Artificial atoll", "Underwater Salvage", "Modular island"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Generated on every [15] tiles <in [Featureless] [Coast] tiles>",
@@ -391,7 +391,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Electronics",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
-		"improvedBy": ["City center","Borough"],
+		"improvedBy": ["City center","Research site","Borough"],
 		"improvementStats": { "science": 2 },
 		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
@@ -504,9 +504,9 @@
 		"improvedBy": ["City center","Pasture", "Bioculture","Nature preserve"],
 		"improvementStats": { "food": 2 },
 		"uniques": [
-			"Generated with weight [5] <in [Badlands] Regions>",
-			"Generated with weight [5] <in [Hill] Regions>",
-			"Generated with weight [10] <in [Hybrid] Regions>",
+			"Generated with weight [15] <in [Badlands] Regions>",
+			"Generated with weight [15] <in [Hill] Regions>",
+			"Generated with weight [20] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]"
 		]
 	},
@@ -545,9 +545,9 @@
 		"improvedBy": ["City center","Camp", "Bioculture","Nature preserve"],
 		"improvementStats": { "food": 1,"culture": 1 },
 		"uniques": [
-			"Generated with weight [5] <in [Jungle] Regions>",
+			"Generated with weight [15] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
-			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated with weight [15] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]"
 		]
 	},
@@ -576,10 +576,10 @@
 		"improvedBy": ["City center","Camp", "Bioculture","Nature preserve"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
-			"Generated with weight [5] <in [Badlands] Regions>",
-			"Generated with weight [5] <in [Wasteland] Regions>",
-			"Generated with weight [5] <in [Hill] Regions>",
-			"Generated with weight [10] <in [Hybrid] Regions>",
+			"Generated with weight [15] <in [Badlands] Regions>",
+			"Generated with weight [15] <in [Wasteland] Regions>",
+			"Generated with weight [15] <in [Hill] Regions>",
+			"Generated with weight [20] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]"
 		]
 	},
@@ -603,7 +603,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Sunken Ruins"],
 		"culture": 1,
-		"improvedBy": ["City center","Research site", "Borough", "Modular island"],
+		"improvedBy": ["City center","Research site", "Borough", "Modular island","Artificial atoll"],
 		"improvementStats": { "culture": 1 },
 		"uniques": [
 			"Generated on every [15] tiles <in [Coast] tiles>",
@@ -621,11 +621,11 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 2,
-		"improvedBy": ["Fishing Boats","Fishery", "Bioculture"],
+		"improvedBy": ["Fishing Boats","Fishery", "Artificial atoll","Bioculture"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
-			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
-			"Generated on every [33] tiles <in [Featureless] [Coast] tiles>",
+			"Generated on every [20] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+			"Generated on every [20] tiles <in [Featureless] [Coast] tiles>",
 			"Generated near City States with weight [10]"
 		]
 	},
@@ -634,11 +634,11 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 0,
-		"improvedBy": ["Fishing Boats", "Fishery", "Bioculture"],
+		"improvedBy": ["Fishing Boats", "Fishery", "Artificial atoll","Bioculture"],
 		"improvementStats": { "food": 3 },
 		"uniques": [
-			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
-			"Generated on every [33] tiles <in [Featureless] [Coast] tiles>",
+			"Generated on every [20] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
+			"Generated on every [20] tiles <in [Featureless] [Coast] tiles>",
 			"Generated near City States with weight [15]"
 		]
 	},
