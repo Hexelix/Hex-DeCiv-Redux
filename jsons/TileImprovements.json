@@ -778,7 +778,7 @@
 	// Refineries
 	{
 		"name": "C1F3 Refinery",
-		"production": 1,
+		"production": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
@@ -790,7 +790,7 @@
     },
 	{
 		"name": "C2N14 Refinery",
-		"gold": 2,
+		"gold": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
@@ -802,7 +802,7 @@
     },
 	{
 		"name": "C8H17 Refinery",
-		"culture": 1,
+		"culture": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
@@ -814,7 +814,7 @@
     },
 	{
 		"name": "SbF5 Refinery",
-		"science": 1,
+		"science": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Hexlock",
 		"uniques": [
@@ -841,11 +841,16 @@
 	{
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"production": 1,
+		"gold": 1,
+		"culture": 1,
+		"faith": 1,
 		"uniques": [
 			"Unpillagable",
 			"Irremovable",
 			"Unbuildable",
-			"Ensures a minimum tile yield of [+3 Food, +2 Production, +1 Culture, +1 Faith]"
+			"Ensures a minimum tile yield of [+3 Food]"
 		],
 		"civilopediaText": [
 			{
