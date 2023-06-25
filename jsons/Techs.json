@@ -212,7 +212,7 @@
 		"columnNumber": 6,
 		"era": "Neofeudal era",
 		"techCost": 800,
-		"buildingCost": 2400,
+		"buildingCost": 240,
 		"wonderCost": 760,
 		"techs": [
 			{
