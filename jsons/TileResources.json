@@ -19,7 +19,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 0,
-		"improvedBy": ["Fishing Boats", "Bioculture"],
+		"improvedBy": ["Fishing Boats", "Fishery", "Bioculture"],
 		"improvementStats": { "food": 2 },
 		"uniques": [
 			"Generated on every [8] tiles <in [Featureless] [Coast] tiles>",
@@ -170,7 +170,7 @@
 			"Swamp"
 		],
 		"improvement": "Water pump",
-		"improvementStats": { "gold": 2 },
+		"improvementStats": { "gold": 5 },
 		"uniques": [
 			"Generated on every [20] tiles <in [Wasteland] tiles>",
 			"Generated on every [20] tiles <in [Badlands] tiles>",
@@ -226,8 +226,6 @@
 		"majorDepositAmount": { "sparse": 3, "default": 4, "abundant": 5 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
 		"uniques": [
-			"Deposits in [Coast] tiles always provide [2] resources",
-			"Deposits in [Ocean] tiles always provide [2] resources",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [65] <in [Toxic Waste] tiles> <in tiles without [Hill]>",
 			"Generated with weight [50] <in [Featureless] [Tundra] tiles>",
@@ -623,7 +621,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 2,
-		"improvedBy": ["Fishing Boats", "Bioculture"],
+		"improvedBy": ["Fishing Boats","Fishery", "Bioculture"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
@@ -636,7 +634,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 0,
-		"improvedBy": ["City center","Fishing Boats", "Bioculture"],
+		"improvedBy": ["Fishing Boats", "Fishery", "Bioculture"],
 		"improvementStats": { "food": 3 },
 		"uniques": [
 			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
