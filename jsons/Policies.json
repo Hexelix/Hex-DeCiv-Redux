@@ -224,7 +224,7 @@
 		]
 	},
 	{
-		"name": "Religiousity",
+		"name": "Religiosity",
 		"era": "Neofeudal era",
 		"priorities": {
 			"Neutral": 20,
@@ -281,12 +281,12 @@
 					"[+10]% [Faith] from every [University]",
 					"[+5]% [Faith] from every [Public School]"
 				],
-				"requires": ["Mandate Of Heaven", "God Emperor"],
+				"requires": ["Strength of Belief", "Religious Heritage"],
 				"row": 3,
 				"column": 4
 			},
 			{
-				"name": "Theocracy Complete",
+				"name": "Religiosity Complete",
 				"uniques": [
 					"[Faith] cost of purchasing items in cities [-20]%",
 					"[+2 Gold, +2 Culture, +1 Faith] from every [Seminary]",
@@ -686,7 +686,7 @@
 			{
 				"name": "Collectivism Complete",
 				"uniques": [
-					"[+1 Food, +1 Production, +1 Gold] per population [in all cities]",
+					"[+1 Food, +1 Production, +1 Gold] per [1] population [in all cities]",
 					"May buy [Great Engineer] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Industrial era]>"
 				]
 			}

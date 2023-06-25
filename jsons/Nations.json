@@ -632,10 +632,10 @@
 		"uniques": [
 			"[-33]% maintenance costs <for [Armor] units>",
 			"Starts with [Machinery]",
-			"Starts with [Theocracy] adopted",
+			"Starts with [Religiosity] adopted",
 			"[+1 Culture, +1 Faith] from every [Strategic resource]",
 			"[+10]% [Culture] from every [Coal Plant]",
-			"Gain a free [Founder] belief <upon adopting [Theocracy Complete]>"
+			"Gain a free [Founder] belief <upon adopting [Religiosity Complete]>"
 		],
 		"cities": [
 			"Gastown",

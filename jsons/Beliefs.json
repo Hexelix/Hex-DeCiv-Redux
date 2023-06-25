@@ -49,7 +49,7 @@
 		"name": "God of Labor",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Production] per [3] population",
+			"[+1 Production] per [3] population [in all cities] ",
 			"[+1 Faith, +1 Production] from every [Factory]"
 		]
 	},
