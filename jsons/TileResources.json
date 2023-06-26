@@ -132,7 +132,7 @@
 			"Swamp"
 		],
 		"production": 1,
-		"improvedBy": ["City center","Salvage site", "Borough", "Artificial atoll", "Underwater Salvage", "Modular island"],
+		"improvedBy": ["City center","Salvage site", "Borough", "Artificial atoll", "Underwater salvage", "Modular island"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Generated on every [15] tiles <in [Featureless] [Coast] tiles>",

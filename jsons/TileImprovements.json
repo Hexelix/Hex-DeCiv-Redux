@@ -110,10 +110,10 @@
 			"Ocean",
 			"Coast"
 		],
-		"turnsToBuild": 6,
+		"turnsToBuild": 8,
 		"techRequired": "Steel",
 		"uniques": [
-			"Provides [1] [Power]",
+			"Provides [2] [Power]",
 			"Cannot be built on [Water] tiles <before discovering [Oceanography]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -327,7 +327,7 @@
 	},
 	{
 		"name": "Salvage site",
-		"turnsToBuild": 3,
+		"turnsToBuild": 5,
 		"production": 1,
 		"uniques": [
 			"Does not need removal of [Forest]",
@@ -340,8 +340,8 @@
 		"shortcutKey": "S"
 	},
 	{
-		"name": "Underwater Salvage",
-		"turnsToBuild": 8,
+		"name": "Underwater salvage",
+		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Sunken Ruins"],
 		"production": 1,
 		"uniques": [
@@ -384,7 +384,7 @@
 	},
 	{
 		"name": "Camp",
-		"turnsToBuild": 2,
+		"turnsToBuild": 3,
 		"uniques": [
 			"Food source",
 			"Does not need removal of [Forest]",
@@ -414,7 +414,7 @@
 		"turnsToBuild": 25,
 		"techRequired": "Oceanography",
 		"uniques": [
-			"Provides [5] [Oil]",
+			"Provides [3] [Oil]",
 			"Pillaging this improvement yields approximately [+30 Gold]"
 		],
 		"shortcutKey": "W"
@@ -427,7 +427,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Biology",
 		"uniques": [
-			"Provides [3] [Oil]",
+			"Provides [2] [Oil]",
 			"Pillaging this improvement yields approximately [+25 Gold]"
 		],
 		"shortcutKey": "Y"

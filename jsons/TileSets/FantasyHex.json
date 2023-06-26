@@ -532,7 +532,6 @@
 		"Badlands+Jungle+Fungus+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Fungus+Borough": ["Badlands", "Hill", "Borough+Jungle"],
 		//Hex Addition
-		"Fishery": ["Fishing boats"],
 		"Underwater salvage":["Offshore platform"],
 		"Coast+Plastics+Underwater salvage": ["Coast", "Marine Plastics", "Offshore platform"],
 		"Ocean+Plastics+Underwater salvage": ["Coast", "Marine Plastics", "Offshore platform"],
@@ -542,15 +541,13 @@
 		"Ocean+Deep Oil well": ["Ocean","Offshore Platform"],
 		"Ocean+Modular island": ["Ocean", "Modular island"],
 		"Coast+Modular island": ["Coast", "Modular island"],
-		"Coast+Fishery": ["Coast", "Fishing boats"],
-		"Ocean+Fishery": ["Coast", "Fishing boats"],
 		"Coast+Artifical atoll": ["Coast", "Isolated island"],
 		"Ocean+Artifical atoll": ["Ocean", "Isolated island"],
 		"Coast+Desalinization pump": ["Coast", "Water pump"],
 		"Desalinization pump": ["Water pump"],
 		"Lake+Water pump": ["Lake", "Water pump"],
-		"Lake+Modular island": ["Lake", "Modular island"],
-		"Lake+Fishery": ["Lake", "Fishing boats"]
+		"Lake+Modular island": ["Lake", "Modular island"]
+
 		
 	}
 }
