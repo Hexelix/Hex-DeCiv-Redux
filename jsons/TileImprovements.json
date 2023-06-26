@@ -139,7 +139,7 @@
 			"[+1 Happiness] for each adjacent [Borough]",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
-		"terrainsCanBeBuiltOn": ["Badlands"],
+		"terrainsCanBeBuiltOn": ["Badlands","Wasteland"],
 		"shortcutKey": "N"
 	},
 	{

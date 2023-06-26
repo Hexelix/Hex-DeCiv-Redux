@@ -264,7 +264,6 @@
 		"Ocean+Plastics": ["Ocean", "Marine Plastics"],
 		"Ocean+Plastics+Salvage site": ["Ocean", "Marine Plastics", "Salvage site"],
 		"Ocean+Plastics+Modular island": ["Ocean", "Marine Plastics", "Modular island"],
-		"Coast+Sunken Ruins+Research site+Artifacts": ["Coast+Sunken Ruins", "Research site+Artifacts"],
 		//Research site
 		"Wasteland+Jungle+Research site+Artifacts": ["Wasteland", "Jungle", "Research site+Artifacts"],
 		"Wasteland+Jungle+Research site+Books": ["Wasteland", "Jungle", "Research site+Books"],
@@ -531,6 +530,22 @@
 		"Badlands+Forest+Fungus+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Fungus+Borough": ["Badlands", "Hill", "Borough"],
 		"Badlands+Jungle+Fungus+Borough": ["Badlands", "Borough+Jungle"],
-		"Badlands+Hill+Jungle+Fungus+Borough": ["Badlands", "Hill", "Borough+Jungle"]
+		"Badlands+Hill+Jungle+Fungus+Borough": ["Badlands", "Hill", "Borough+Jungle"],
+		//Hex Addition
+		"Coast+Plastics+Underwater salvage": ["Coast", "Marine Plastics", "Salvage site"],
+		"Ocean+Plastics+Underwater salvage": ["Coast", "Marine Plastics", "Salvage site"],
+		"Coast+Sunken Ruins+Research site+Artifacts": ["Coast+Sunken Ruins", "Research site+Artifacts"],
+		"Coast+Sunken Ruins+Underwater salvage": ["Coast+Sunken Ruins", "Research site+Artifacts"],
+		"Ocean+Oil+Deep Oil well": ["Coast","Offshore Platform"],
+		"Ocean+Modular island": ["Ocean", "Modular island"],
+		"Coast+Modular island": ["Coast", "Modular island"],
+		"Coast+Fishery": ["Coast", "Fishing Boats"],
+		"Ocean+Fishery": ["Coast", "Fishing Boats"],
+		"Coast+Artifical atoll": ["Coast", "Isolated island"],
+		"Ocean+Artifical atoll": ["Ocean", "Isolated island"],
+		"Coast+Desalinization pump": ["Coast", "Water pump"],
+		"Lake+Water pump": ["Lake", "Water pump"],
+		"Lake+Modular island": ["Lake", "Modular island"],
+		"Lake+Fishery": ["Lake", "Fishing Boats"]
 	}
 }
