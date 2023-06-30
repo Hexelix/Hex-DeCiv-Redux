@@ -2159,6 +2159,29 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Cannon Blimp",
+		"unitType": "Helicopter",
+		"range": 2,
+		"movement": 3,
+		"strength": 10,
+		"rangedStrength": 30,
+		"cost": 200,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gyroscopes",
+		"upgradesTo": "Helicopter",
+		"uniques": [
+			"[+100]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"Only available <if [Blast Furnace] is constructed>",
+			"Never appears as a Barbarian unit",
+			"May travel on Water tiles without embarking"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+
+	{
 		"name": "Sky Cruiser",
 		"uniqueTo": "Proklyatyye",
 		"replaces": "Blimp",

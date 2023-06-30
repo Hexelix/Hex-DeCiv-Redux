@@ -587,7 +587,7 @@
 		"name": "Mining Pit",
 		"type": "NaturalWonder",
 		"science": 2,
-		"production": 51,
+		"production": 3,
 		"occursOn": ["Badlands", "Wasteland", "Tundra", "Permafrost"],
 		"uniques": ["Must be adjacent to [1] to [6] [Mountain] tiles"],
 		"turnsInto": "Mountain",

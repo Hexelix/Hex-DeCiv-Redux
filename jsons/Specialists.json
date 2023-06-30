@@ -1,39 +1,39 @@
 [
 	{
 		"name": "Scientist",
-		"science": 5,
-		"greatPersonPoints": { "Great Scientist": 2 },
+		"science": 4,
+		"greatPersonPoints": { "Great Scientist": 3 },
 		"color": [0, 0, 255]
 	},
 	{
 		"name": "Merchant",
-		"gold": 5,
-		"greatPersonPoints": { "Great Merchant": 2 },
+		"gold": 6,
+		"greatPersonPoints": { "Great Merchant": 1 },
 		"color": [255, 215, 0]
 	},
 	{
 		"name": "Priest",
-		"faith": 5,
-		"color": [0, 200, 0],
-		"greatPersonPoints": { "Great Sage": 2 }
+		"faith": 2,
+		"happiness": 1,
+		"color": [0, 200, 0]
 	},
 	{
 		"name": "Administrator",
-		"culture": 5,
+		"culture": 2,
 		"happiness": 1,
 		"greatPersonPoints": { "Great Administrator": 2 },
 		"color": [160, 32, 240]
 	},
 	{
 		"name": "Engineer",
-		"production": 5,
-		"greatPersonPoints": { "Great Engineer": 2 },
+		"production": 4,
+		"greatPersonPoints": { "Great Engineer": 3 },
 		"color": [139, 69, 19]
 	},
 	{
 		"name": "Farmer",
 		"food": 5,
 		"color": [0, 215, 0],
-		"greatPersonPoints": { "Great Farmer": 2 }
+		"greatPersonPoints": { "Great Farmer": 3 }
 	}
 ]
