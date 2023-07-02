@@ -59,7 +59,7 @@
 			"Free [Militia] appears",
 			"Free [Worker] appears",
 			"Can only be built [in capital]",
-			"Gain a free [Food Store] [in this city]"
+			"Gain a free [Hospital] [in this city]"
 		],
 		"quote": "I look around and see that others have begun to build bases. Operation centers made of steel. But not us. Because the true home is not some building made of lead, but rather the people around you. Surround yourself with them. And you'l be home forever.",
 		"civilopediaText": [
@@ -128,7 +128,7 @@
 			"Provides [1] [Power]",
 			"[2] free [Surveyor] units appear",
 			"Can only be built [in capital]",
-			"Gain a free [Food Store] [in this city]"
+			"Gain a free [Library] [in this city]"
 		],
 		"quote": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back. Choose something different. Choose Atlas.",
 		"civilopediaText": [
@@ -138,11 +138,11 @@
 		]
 	},
 	{
-		"name": "Eagle Rock Complex",
+		"name": "NORAD Complex",
 		"isWonder": true,
 		"uniqueTo": "The Patriots",
 		"specialistSlots": { "Engineer": 1 },
-		"gold": 1,
+		"gold": 2,
 		"cityStrength": 20,
 		"cityHealth": 80,
 		"cost": 1,
@@ -153,7 +153,8 @@
 			"Free [Worker] appears",
 			"Free [Spec Ops] appears",
 			"Can only be built [in capital]",
-			"Gain a free [Food Store] [in this city]"
+			"Gain a free [Barracks] [in this city]",
+			"Gain a free [Walls] [in this city]"
 		],
 		"quote": "We are here to protect the people, and we will do it here. Here we make our stand against anarchy and tyranny. Here, we will once again establish freedom and order. This is the oath we have taken, and we will keep that oath.",
 		"civilopediaText": [

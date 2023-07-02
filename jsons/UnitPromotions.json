@@ -44,7 +44,7 @@
 		"name": "Entrench",
 		"uniques": [
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
-			"[+5]% Strength <when defending>"],
+			"[+10]% Strength <when defending>"],
 		"unitTypes": ["Scrapper", "Shooter"],
 		"column": 1,
         "row": 1
@@ -53,7 +53,7 @@
 		"name": "Forage",
 		"uniques": [
 			"Heals [25] damage if it kills a unit",
-			"[25]% XP gained from combat",
+			"[50]% XP gained from combat",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Science]"
 		],
 		"unitTypes": ["Scrapper"],
@@ -64,7 +64,7 @@
 		"name": "Skirmish",
 		"uniques": [
 			"May withdraw before melee ([75]%)",
-			"[25]% XP gained from combat"
+			"[50]% XP gained from combat"
 		],
 		"unitTypes": ["Shooter"],
 		"column": 1,
@@ -74,7 +74,7 @@
 	//// Armor, formerly mounted
 	{
 		"name": "Shock",
-		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
+		"uniques": ["[+25]% Strength"],
 		"unitTypes": ["Scrapper", "Armor", "Mounted"],
 		"column": 1,
         "row": 4
@@ -82,7 +82,7 @@
 	{
 		"name": "Loose Formation",
 		"uniques": [
-			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"[+50]% Strength <vs [Ranged] units> <when defending>",
 			"May withdraw before melee ([25]%)"
 		],
 		"unitTypes": ["Scrapper", "Mounted", "Armor"],
