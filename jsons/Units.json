@@ -1488,6 +1488,7 @@
 		"movement": 2,
 		"strength": 15,
 		"rangedStrength": 20,
+		"range":2,
 		"cost": 110,
 		"requiredTech": "Steel",
 		"upgradesTo": "Artillery",
@@ -1497,7 +1498,6 @@
 			"[+100]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
-			"[-1] Sight",
 			"Only available <if [Blast Furnace] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
@@ -1511,23 +1511,21 @@
 		"movement": 2,
 		"strength": 12,
 		"rangedStrength": 18,
-		"cost": 100,
+		"cost": 75,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Munitions",
 		"uniques": [
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[+100]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
-			"Must set up to ranged attack",
-			"[-1] Sight"
+			"No defensive terrain bonus"
 		],
 		"attackSound": "throw"
 	},
 	{
 		"name": "Anti-Tank Gun",
 		"unitType": "Siege",
-		"range": 1,
+		"range": 2,
 		"movement": 2,
 		"strength": 25,
 		"rangedStrength": 30,
@@ -1545,7 +1543,7 @@
 	{
 		"name": "Artillery",
 		"unitType": "Siege",
-		"range": 3,
+		"range": 4,
 		"movement": 2,
 		"strength": 25,
 		"rangedStrength": 30,
@@ -1575,7 +1573,6 @@
 		"cost": 150,
 		"requiredTech": "Replaceable Parts",
 		"uniques": [
-			"Must set up to ranged attack",
 			"[-33]% Strength <vs [Armor] units>",
 			"[-50]% Strength <vs cities> <when attacking>",
 			"Only available <if [Factory] is constructed>",
@@ -1590,7 +1587,7 @@
 		"movement": 2,
 		"strength": 30,
 		"rangedStrength": 50,
-		"range": 2,
+		"range": 3,
 		"interceptRange": 2,
 		"cost": 185,
 		"requiredTech": "Ballistics",
@@ -1968,7 +1965,7 @@
 	{
 		"name": "Technical",
 		"unitType": "Siege",
-		"range": 1,
+		"range": 2,
 		"movement": 5,
 		"strength": 30,
 		"rangedStrength": 50,
@@ -1992,7 +1989,7 @@
 		"unitType": "Siege",
 		"replaces": "Technical",
 		"uniqueTo": "New Star",
-		"range": 1,
+		"range": 2,
 		"movement": 5,
 		"strength": 25,
 		"rangedStrength": 45,
@@ -2018,7 +2015,7 @@
 		"movement": 3,
 		"strength": 25,
 		"rangedStrength": 40,
-		"range": 3,
+		"range": 4,
 		"cost": 350,
 		"requiredTech": "Rocketry",
 		"uniques": [
@@ -2044,7 +2041,7 @@
 		"movement": 1,
 		"strength": 40,
 		"rangedStrength": 60,
-		"range": 4,
+		"range": 5,
 		"cost": 350,
 		"requiredTech": "Rocketry",
 		"uniques": [
@@ -2064,7 +2061,7 @@
 	{
 		"name": "Missile Vehicle",
 		"unitType": "Siege",
-		"range": 2,
+		"range": 3,
 		"movement": 5,
 		"strength": 35,
 		"rangedStrength": 40,
@@ -2088,7 +2085,7 @@
 		"movement": 3,
 		"strength": 35,
 		"rangedStrength": 50,
-		"range": 2,
+		"range": 3,
 		"interceptRange": 3,
 		"cost": 375,
 		"requiredTech": "Lasers",
@@ -2113,7 +2110,7 @@
 		"movement": 3,
 		"strength": 40,
 		"rangedStrength": 55,
-		"range": 2,
+		"range": 3,
 		"interceptRange": 3,
 		"cost": 410,
 		"requiredTech": "Lasers",
@@ -2161,7 +2158,7 @@
 	{
 		"name": "Cannon Blimp",
 		"unitType": "Helicopter",
-		"range": 2,
+		"range": 3,
 		"movement": 3,
 		"strength": 10,
 		"rangedStrength": 30,
@@ -2423,6 +2420,7 @@
 		"requiredTech": "Flight",
 		"upgradesTo": "Heavy Bomber",
 		"uniques": [
+			"[+100]% Strength <vs cities> <when attacking>",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		],
@@ -2442,6 +2440,7 @@
 		"upgradesTo": "Stealth Bomber",
 		"hurryCostModifier": 20,
 		"uniques": [
+			"[+100]% Strength <vs cities> <when attacking>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Oil]"
@@ -2459,6 +2458,7 @@
 		"requiredTech": "Future Materials",
 		"hurryCostModifier": 20,
 		"uniques": [
+			"[+100]% Strength <vs cities> <when attacking>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
 			"Can only be Intercepted by [Stealth Fighter]",
@@ -2749,7 +2749,7 @@
 		"cost": 400,
 		"requiredTech": "Ballistics",
 		"uniques": [
-			"[+25]% Strength <vs cities>",
+			"[+50]% Strength <vs cities>",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
@@ -2901,7 +2901,7 @@
 		"name": "Philosopher",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can [Spread Religion] [2] times",
+			"Can [Spread Religion] [3] times",
 			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[-1] Sight",
@@ -2917,7 +2917,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Prevents spreading of religion to the city it is next to",
-			"Can [Remove Foreign religions from your own cities] [2] times",
+			"Can [Remove Foreign religions from your own cities] [3] times",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
 			"[+1] Sight",
 			"Hidden when religion is disabled",
