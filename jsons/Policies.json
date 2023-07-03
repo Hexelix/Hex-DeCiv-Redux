@@ -330,6 +330,7 @@
 			{
 				"name": "Skepticism",
 				"uniques": [
+					"[+1 Happiness, +1 Culture] from every [Library]",
 					"[+1 Happiness, +1 Culture] from every [University]",
 					"[+1 Happiness, +1 Culture] from every [Data Center]",
 					"[+1 Happiness, +1 Culture] from every [Public School]"
