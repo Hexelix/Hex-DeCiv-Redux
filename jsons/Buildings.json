@@ -3467,7 +3467,12 @@
 		"food": 2,
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[+2 Food, +1 Happiness] from [{Grassland} {Farm} {Nature Preserve} {Tree Plantation} {Terrace Farm}] tiles [in this city]"],
+		"uniques": ["[+2 Food, +1 Happiness] from [Grassland] tiles [in this city]",
+		"[+2 Food, +1 Happiness] from [Farm] tiles [in this city]",
+		"[+2 Food, +1 Happiness] from [Nature Preserve] tiles [in this city]",
+		"[+2 Food, +1 Happiness] from [Tree Plantatio] tiles [in this city]",
+		"[+2 Food, +1 Happiness] from [Terrace Farm] tiles [in this city]"
+	],
 		"requiredTech": "Atmosphere Remediation"
 	},
 	{
