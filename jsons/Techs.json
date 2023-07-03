@@ -138,7 +138,7 @@
 		"columnNumber": 4,
 		"era": "Rediscovering era",
 		"techCost": 500,
-		"buildingCost": 130,
+		"buildingCost": 150,
 		"wonderCost": 400,
 		"techs": [
 			{
@@ -167,7 +167,7 @@
 		"columnNumber": 5,
 		"era": "Neofeudal era",
 		"techCost": 1000,
-		"buildingCost": 180,
+		"buildingCost": 200,
 		"wonderCost": 560,
 		"techs": [
 			{
@@ -190,7 +190,7 @@
 				"name": "Biology",
 				"row": 5,
 				"prerequisites": ["Chemistry", "Education"],
-				"uniques": ["[+10]% growth [in all cities]"],
+				"uniques": ["[+5]% growth [in all cities]"],
 				"quote": "If the brain were so simple we could understand it, we would be so simple we couldn't."
 			},
 			{
@@ -212,13 +212,13 @@
 		"columnNumber": 6,
 		"era": "Neofeudal era",
 		"techCost": 2000,
-		"buildingCost": 240,
+		"buildingCost": 260,
 		"wonderCost": 760,
 		"techs": [
 			{
 				"name": "Decontamination",
 				"row": 3,
-				"prerequisites": ["Biology", "Ecology"],
+				"prerequisites": ["Ecology","Biology"],
 				"quote": "A society grows great when old men plant trees under whose shade they will never sit."
 			},
 			{
@@ -226,6 +226,12 @@
 				"row": 5,
 				"prerequisites": ["Biology", "Steam Power"],
 				"quote": "And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food."
+			},
+			{
+				"name": "Railroads",
+				"row": 6,
+				"prerequisites": ["Steam Power"],
+				"quote": "Iron and heat are, as we know, the supporters, the bases, of the mechanic arts."
 			},
 
 			{
@@ -252,7 +258,7 @@
 		"columnNumber": 7,
 		"era": "Rebuilding era",
 		"techCost": 3500,
-		"buildingCost": 310,
+		"buildingCost": 330,
 		"wonderCost": 1000,
 		"techs": [
 			{
@@ -277,7 +283,7 @@
 			{
 				"name": "Replaceable Parts",
 				"row": 7,
-				"prerequisites": ["Manufacturing", "Rifling"],
+				"prerequisites": ["Manufacturing"],
 				"quote": "Nothing is particularly hard if you divide it into small jobs."
 			},
 			{
@@ -285,12 +291,6 @@
 				"row": 8,
 				"prerequisites": ["Rifling"],
 				"quote": "As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy."
-			},
-			{
-				"name": "Railroads",
-				"row": 9,
-				"prerequisites": ["Manufacturing"],
-				"quote": "Iron and heat are, as we know, the supporters, the bases, of the mechanic arts."
 			}
 		]
 	},
@@ -298,7 +298,7 @@
 		"columnNumber": 8,
 		"era": "Rebuilding era",
 		"techCost": 5700,
-		"buildingCost": 390,
+		"buildingCost": 410,
 		"wonderCost": 1280,
 		"techs": [
 			{
@@ -325,6 +325,13 @@
 				"row": 8,
 				"prerequisites": ["Munitions", "Replaceable Parts"],
 				"quote": "Our goal is not the victory of might, but the vindication of right; not peace at the expense of freedom, but both peace and freedom, here in this hemisphere, and, we hope, around the world.\n\nGod willing, that goal will be achieved."
+			},
+			
+			{
+				"name": "Radar",
+				"row": 10,
+				"prerequisites": ["Radio"],
+				"quote": "'Talent hits a target no one else can hit; Genius hits a target no one else can see.'"
 			}
 		]
 	},
@@ -332,36 +339,35 @@
 		"columnNumber": 9,
 		"era": "Industrial era",
 		"techCost": 8500,
-		"buildingCost": 480,
+		"buildingCost": 500,
 		"wonderCost": 1600,
 		"techs": [
 			{
-				"name": "Ocean Remediation",
-				"row": 1,
-				"prerequisites": ["Plastics", "Desalination"],
-				"quote": "Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world."
-			},
-			{
 				"name": "Land Remediation",
-				"row": 2,
+				"row": 1,
 				"prerequisites": ["Hydroponics"],
+				"uniques": [
+					"[+5]% [Food] [in all cities]"
+				],
 				"quote": "The nation that destroys its soil destroys itself."
 			},
 			
 			{
 				"name": "Plastics Recycling",
-				"row": 3,
+				"row": 2,
 				"prerequisites": ["Plastics"],
+				"uniques": [
+					"[+5]% [Production] [in all cities]"
+				],
 				"quote": "... Could be the only reason the earth allowed us to be spawned from it in the first place. It wanted plastic for itself. Didn't know how to make it. Needed us."
 			},
 
 			{
 				"name": "Computers",
-				"row": 4,
+				"row": 5,
 				"prerequisites": ["Plastics"],
 				"uniques": [
-					"[+10]% [Science] [in all cities]",
-					"[+10]% [Production] [in all cities]"
+					"[+5]% [Science] [in all cities]"
 				],
 				"quote": "This has been a challenging quarter with falls in demand from states and agencies. Blackwarden Associates has recalibrated its operations across geographies, moving away from security and relief operations in Asia and divesting from the radiological remediation sector. By focusing on core domestic operations for private sector clients, we have successfully generated free cashflows despite adverse market conditions."
 			},
@@ -375,16 +381,9 @@
 
 			{
 				"name": "Combined Arms",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Ballistics", "Railroads"],
 				"quote": "The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest."
-			},
-
-			{
-				"name": "Radar",
-				"row": 10,
-				"prerequisites": ["Radio"],
-				"quote": "'Talent hits a target no one else can hit; Genius hits a target no one else can see.'"
 			}
 		]	
 	},
@@ -392,9 +391,15 @@
 		"columnNumber": 10,
 		"era": "Industrial era",
 		"techCost": 12500,
-		"buildingCost": 580,
+		"buildingCost": 600,
 		"wonderCost": 1960,
 		"techs": [
+			{
+				"name": "Ocean Remediation",
+				"row": 1,
+				"prerequisites": ["Land Remediation", "Desalination"],
+				"quote": "Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world."
+			},
 			{
 				"name": "Networking",
 				"row": 4,
@@ -413,7 +418,7 @@
 		"columnNumber": 11,
 		"era": "Postmodern era",
 		"techCost": 17000,
-		"buildingCost": 690,
+		"buildingCost": 710,
 		"wonderCost": 2360,
 		"techs": [
 			{
@@ -447,7 +452,7 @@
 		"columnNumber": 12,
 		"era": "Postmodern era",
 		"techCost": 23000,
-		"buildingCost": 940,
+		"buildingCost": 960,
 		"wonderCost": 2800,
 		"techs": [
 			{
@@ -488,12 +493,12 @@
 		"columnNumber": 13,
 		"era": "Information era",
 		"techCost": 29000,
-		"buildingCost": 940,
+		"buildingCost": 1100,
 		"wonderCost": 3800,
 		"techs": [
 			{
 				"name": "Geo Engineering",
-				"row": 2,
+				"row": 1,
 				"prerequisites": ["Atmosphere Remediation"],
 				"quote": "It always seems impossible until it's done."
 			},
@@ -522,7 +527,7 @@
 		"columnNumber": 14,
 		"era": "Information era",
 		"techCost": 38000,
-		"buildingCost": 1080,
+		"buildingCost": 1250,
 		"wonderCost": 3800,
 		"techs": [
 			
@@ -550,7 +555,7 @@
 		"columnNumber": 15,
 		"era": "New Future era",
 		"techCost": 47000,
-		"buildingCost": 1200,
+		"buildingCost": 1400,
 		"wonderCost": 4400,
 		"techs": [
 			
@@ -574,7 +579,7 @@
 		"columnNumber": 16,
 		"era": "New Future era",
 		"techCost": 58000,
-		"buildingCost": 1350,
+		"buildingCost": 1550,
 		"wonderCost": 5000,
 		"techs": [
 			{
@@ -595,7 +600,7 @@
 		"columnNumber": 17,
 		"era": "Singularity era",
 		"techCost": 75000,
-		"buildingCost": 1500,
+		"buildingCost": 1700,
 		"wonderCost": 6000,
 		"techs": [
 			{

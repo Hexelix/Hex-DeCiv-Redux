@@ -8,6 +8,8 @@
 			"Food source",
 			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles",
+			"[+1 Food] <after discovering [Ecology]>",
+			"[+1 Food] <after discovering [Biology]>",
 			"[+1 Food] <after discovering [Land Remediation]>",
 			"Cannot be built on [Fissure] tiles",
 			"Cannot be built on [Water] tiles",
@@ -19,7 +21,7 @@
 		"name": "Tree plantation",
 		"terrainsCanBeBuiltOn": ["Wasteland", "Tundra", "Badlands"],
 		"production": 2,
-		"food": 1,
+		"food": 2,
 		"turnsToBuild": 5,
 		"techRequired": "Ecology",
 		"uniques": [
@@ -27,7 +29,7 @@
 			"Natural tile",
 			"Gives a defensive bonus of [10]%",
 			"Cannot be built on [Badlands] tiles <before discovering [Hydroponics]>",
-			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"[+1 Food] from [Fresh water] tiles",
 			"[+1 Food, +1 Production] <after discovering [Land Remediation]>",
 			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -55,6 +57,7 @@
 		"techRequired": "Redomestication",
 		"uniques": [
 			"Food source",
+			"[+1 Food,+1 Production] <after discovering [Biology]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -76,6 +79,7 @@
 		"gold": 1,
 		"turnsToBuild": 3,
 		"uniques": [
+			"[+1 Gold] <after discovering [Engineering]>",
 			"[+1 Gold] <after discovering [Plastics]>",
 			"[+1 Gold] <after discovering [Chemistry]>",
 			"[+1 Gold] <after discovering [Decontamination]>",
@@ -114,6 +118,7 @@
 		"techRequired": "Steel",
 		"uniques": [
 			"Provides [2] [Power]",
+			"Provides [2] [Power] <after discovering [Atmosphere Remediation]>",
 			"Cannot be built on [Water] tiles <before discovering [Oceanography]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -128,16 +133,14 @@
 		"uniques": [
 			"Food source",
 			"Natural tile",
-			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
 			"[+1 Food] for each adjacent [Tree plantation]",
 			"[+1 Gold] for each adjacent [Artificial oasis]",
 			"[+1 Food] for each adjacent [Grassland]",
 			"[+1 Production] for each adjacent [Artificial glacier]",
 			"[+1 Food] for each adjacent [Terrace farm]",
 			"[+1 Happiness] for each adjacent [Borough]",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+30 Gold]"
 		],
 		"terrainsCanBeBuiltOn": ["Badlands","Wasteland"],
 		"shortcutKey": "N"
@@ -196,7 +199,7 @@
 		"name": "Grassland",
 		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Desert","Swamp"],
 		"turnsToBuild": 8,
-		"food": 2,
+		"food": 3,
 		"techRequired": "Land Remediation",
 		"uniques": [
 			"Food source",
@@ -219,8 +222,8 @@
 		"name": "Terrace farm",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"turnsToBuild": 5,
-		"food": 1,
-		"production": 1,
+		"food": 2,
+		"production": 2,
 		"techRequired": "Land Remediation",
 		"uniques": [
 			"Food source",
@@ -245,7 +248,7 @@
 		"techRequired": "Computers",
 		"production": 2,
 		"culture": 1,
-		"food": 2,
+		"food": 3,
 		"science": 2,
 		"uniques": [
 			"Food source",
@@ -259,7 +262,7 @@
 			"[+1 Culture] for each adjacent [Nature preserve]",
 			"[+1 Happiness] for each adjacent [Grassland]",
 			"[+1 Production] for each adjacent [Terrace farm]",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+30 Gold]"
 		],
 		"shortcutKey": "H"
 	},
@@ -268,12 +271,21 @@
 		"techRequired": "Computers",
 		"terrainsCanBeBuiltOn": ["Ocean", "Coast", "Lakes"],
 		"production": 3,
-		"food": 1,
+		"food": 2,
 		"uniques": [
 			"Food source",
 			"[+1 Science] <after discovering [Artificial Intelligence]>",
 			"Can only be built on [Water] tiles",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"[+1 Production] for each adjacent [Underwater Salvage]",
+			"[+1 Production] for each adjacent [Oil Well]",
+			"[+1 Production] for each adjacent [Deep Oil Well]",
+			"[+1 Production] for each adjacent [Wind Farm]",
+			"[+1 Food] for each adjacent [Fishery]",
+			"[+1 Food] for each adjacent [Fishing boats]",
+			"[+1 Gold] for each adjacent [Desalinization Pump]",
+			"[+1 Gold,+1 Production, +1 Food, +1 Happiness, +1 Culture] for each adjacent [Artificial Atoll]"
+
 		]
 	},
 	{
@@ -304,8 +316,8 @@
 		"techRequired": "Desalination",
 		"uniques": [
 			"[+1 Gold] <after discovering [Decontamination]>",
-			"Provides [2] [Salt]",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Provides [1] [Salt]",
+			"Pillaging this improvement yields approximately [+30 Gold]"
 		],
 		"shortcutKey": "W"
 	},
@@ -314,7 +326,7 @@
 	{
 		"name": "Research site",
 		"turnsToBuild": 4,
-		"science": 1,
+		"science": 2,
 		"techRequired": "Secrets of the Past",
 		"uniques": [
 			"Does not need removal of [Forest]",
@@ -366,7 +378,15 @@
 			"Food source",
 			"Cannot be built on [Land] tiles",
 			"[+1 Science] <after discovering [Artificial Intelligence]>",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"[+1 Production] for each adjacent [Underwater Salvage]",
+			"[+1 Production] for each adjacent [Oil Well]",
+			"[+1 Production] for each adjacent [Deep Oil Well]",
+			"[+1 Production] for each adjacent [Wind Farm]",
+			"[+1 Food] for each adjacent [Fishery]",
+			"[+1 Food] for each adjacent [Fishing boats]",
+			"[+1 Gold] for each adjacent [Desalinization Pump]",
+			"[+2 Science] for each adjacent [Modular Island]",
+			"Pillaging this improvement yields approximately [+50 Gold]"
 		],
 		"shortcutKey": "H"
 	},
@@ -428,6 +448,7 @@
 		"techRequired": "Biology",
 		"uniques": [
 			"Provides [2] [Oil]",
+			"Provides [2] [Oil] <after discovering [Geo Engineering]>",
 			"Pillaging this improvement yields approximately [+25 Gold]"
 		],
 		"shortcutKey": "Y"
