@@ -277,14 +277,14 @@
 			"[+1 Science] <after discovering [Artificial Intelligence]>",
 			"Can only be built on [Water] tiles",
 			"Pillaging this improvement yields approximately [+30 Gold]",
-			"[+1 Production] for each adjacent [Underwater Salvage]",
-			"[+1 Production] for each adjacent [Oil Well]",
-			"[+1 Production] for each adjacent [Deep Oil Well]",
-			"[+1 Production] for each adjacent [Wind Farm]",
+			"[+1 Production] for each adjacent [Underwater salvage]",
+			"[+1 Production] for each adjacent [Oil well]",
+			"[+1 Production] for each adjacent [Deep oil well]",
+			"[+1 Production] for each adjacent [Wind farm]",
 			"[+1 Food] for each adjacent [Fishery]",
 			"[+1 Food] for each adjacent [Fishing boats]",
-			"[+1 Gold] for each adjacent [Desalinization Pump]",
-			"[+1 Gold,+1 Production, +1 Food, +1 Happiness, +1 Culture] for each adjacent [Artificial Atoll]"
+			"[+1 Gold] for each adjacent [Desalinization pump]",
+			"[+1 Gold,+1 Production, +1 Food, +1 Happiness, +1 Culture] for each adjacent [Artificial atoll]"
 
 		]
 	},
@@ -378,14 +378,14 @@
 			"Food source",
 			"Cannot be built on [Land] tiles",
 			"[+1 Science] <after discovering [Artificial Intelligence]>",
-			"[+1 Production] for each adjacent [Underwater Salvage]",
-			"[+1 Production] for each adjacent [Oil Well]",
-			"[+1 Production] for each adjacent [Deep Oil Well]",
-			"[+1 Production] for each adjacent [Wind Farm]",
+			"[+1 Production] for each adjacent [Underwater salvage]",
+			"[+1 Production] for each adjacent [Oil well]",
+			"[+1 Production] for each adjacent [Deep oil well]",
+			"[+1 Production] for each adjacent [Wind farm]",
 			"[+1 Food] for each adjacent [Fishery]",
 			"[+1 Food] for each adjacent [Fishing boats]",
-			"[+1 Gold] for each adjacent [Desalinization Pump]",
-			"[+2 Science] for each adjacent [Modular Island]",
+			"[+1 Gold] for each adjacent [Desalinization pump]",
+			"[+2 Science] for each adjacent [Modular island]",
 			"Pillaging this improvement yields approximately [+50 Gold]"
 		],
 		"shortcutKey": "H"
