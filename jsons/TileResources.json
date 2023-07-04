@@ -19,7 +19,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 0,
-		"improvedBy": ["Fishing Boats", "Fishery", "Artificial atoll", "Bioculture"],
+		"improvedBy": ["Fishing boats", "Fishery", "Artificial atoll", "Bioculture"],
 		"improvementStats": { "food": 2 },
 		"uniques": [
 			"Generated on every [8] tiles <in [Featureless] [Coast] tiles>",
@@ -621,7 +621,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 2,
-		"improvedBy": ["Fishing Boats","Fishery", "Artificial atoll","Bioculture"],
+		"improvedBy": ["Fishing boats","Fishery", "Artificial atoll","Bioculture"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated on every [20] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
@@ -634,7 +634,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 0,
-		"improvedBy": ["Fishing Boats", "Fishery", "Artificial atoll","Bioculture"],
+		"improvedBy": ["Fishing boats", "Fishery", "Artificial atoll","Bioculture"],
 		"improvementStats": { "food": 3 },
 		"uniques": [
 			"Generated on every [20] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",

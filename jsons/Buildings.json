@@ -2154,7 +2154,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+4 Science, -2 Food] from [Tree plantation] tiles [in this city]",
-			"[-2 Gold, -2 Production]from [Tree plantation] tiles [in this city]",
+			"[-2 Gold, -2 Production] from [Tree plantation] tiles [in this city]",
 			"[+1 Science, +1 Production] [in this city] <with [Exotic Seeds]>"
 		],
 		"requiredTech": "Hydroponics"
