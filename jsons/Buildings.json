@@ -1019,7 +1019,7 @@
 		"greatPersonPoints": { "Great Engineer": 2 },
 		"isWonder": true,
 		"uniques": [
-			"[+2 Science] from every [Scientist]",
+			"[+2 Science] from every [Scientist] [in this city]",
 			"[+25]% [Gold] from Trade Routes",
 			"[+1] Movement <for [Water] units>",
 			"[+1] Sight <for [All] units>",
@@ -1100,7 +1100,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Consumes [1] [Encrypted Data]",
-			"[+1 Science] from every [Scientist]",
+			"[+1 Science] from every [Scientist] [in this city]",
 			"Only available <in cities with a [Data Center]>",
 			"Free Technology"
 		],
@@ -1120,7 +1120,7 @@
 		"isWonder": true,
 		"uniques": [
 			"[2] free [Great Scientist] units appear",
-			"[+1 Science] from every [Scientist]",
+			"[+1 Science] from every [Scientist] [in this city]",
 			"Consumes [3] [Power]"
 		],
 		"percentStatBonus": { "science": 25 },
@@ -1135,7 +1135,7 @@
 		"isWonder": true,
 		"uniques": [
 			"[+50]% Strength <for [Automated] units>",
-			"[+3 Science] from every [Scientist]",
+			"[+3 Science] from every [Scientist] [in this city]",
 			"Free [Great Scientist] appears",
 			"Empire enters golden age",
 			"[+15]% Production when constructing [Terraformer Part] units [in this city]",
@@ -1485,7 +1485,7 @@
 			"Provides [3] [Encrypted Data]",
 			"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
 			"[+4 Science, +4 Production] from [Mainframe AI Ruins] tiles [in all cities]",
-			"[+2 Science] from every [Scientist]",
+			"[+2 Science] from every [Scientist] [in this city]",
 			"Must have an owned [Mainframe AI Ruins] within [3] tiles"
 		],
 		"quote": "LOADING... MACHINE DEFENSE SYSTEM OPERATIONAL. OPERATING AT APPROXIMATELY 16.38% CAPACITY. WHAT ARE YOUR ORDERS?",
@@ -2363,7 +2363,7 @@
 		"uniques": [
 			"Requires a [Library] in at least [5] cities",
 			"Cost increases by [20] per owned city",
-			"[+1 Science] from every [Scientist]"
+			"[+1 Science] from every [Scientist] [in this city]"
 		],
 		"requiredTech": "Education"
 	},
@@ -2379,7 +2379,7 @@
 			"[+1 Science] from [Forest] tiles [in this city]",
 			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
 			"[+1 Science] [in this city] <with [Power]>",
-			"[+1 Science] from every [Scientist]",
+			"[+1 Science] from every [Scientist] [in this city]",
 			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Education"
@@ -2454,7 +2454,7 @@
 		"uniques": [
 			"[+1 Science, +1 Culture] per [5] population [in this city]",
 			"Only available <in cities with a [Library]>",
-			"[+1 Science] from every [Scientist]",
+			"[+1 Science] from every [Scientist] [in this city]",
 			"[+1 Culture] [in this city] <with [Power]>"
 		],
 		"requiredTech": "Civil Service"
@@ -2513,7 +2513,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Only available <in cities with a [University]>",
-			"[+2 Science] from every [Scientist]",
+			"[+2 Science] from every [Scientist] [in this city]",
 			"Consumes [3] [Power]"
 		],
 		"requiredTech": "Laboratory"
@@ -3238,7 +3238,7 @@
 			"[+3 Production] [in this city] <with [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
-			"[+1 Production] from every [Engineer]",
+			"[+1 Production] from every [Engineer] [in this city]",
 			"Consumes [3] [Power]"
 		],
 		"requiredTech": "Manufacturing"
@@ -3257,7 +3257,7 @@
 			"[+3 Production] [in this city] <with [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
-			"[+1 Production] from every [Engineer]",
+			"[+1 Production] from every [Engineer] [in this city]",
 			"Provides [1] [Encrypted Data]",
 			"Consumes [3] [Power]"
 		],
@@ -3362,7 +3362,7 @@
 		"specialistSlots": {"Engineer": 3},
 		"uniques": [
 			"Enables construction of [advanced energy] units",
-			"[+2 Production] from every [Engineer]",
+			"[+2 Production] from every [Engineer] [in this city]",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [5] [Power]",
 			"Consumes [1] [Aluminum]"
@@ -3726,7 +3726,7 @@
 		"specialistSlots": { "Scientist": 1, "Priest": 1 },
 		"uniques": [
 			"Unbuildable",
-			"[+1 Science] from every [Scientist]",
+			"[+1 Science] from every [Scientist] [in this city]",
 			"Hidden when religion is disabled"
 		]
 	},
