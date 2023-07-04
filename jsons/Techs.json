@@ -276,7 +276,7 @@
 			},
 			{
 				"name": "Electronics",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Manufacturing"],
 				"quote": "LIST COG SITES\nContacting nodes:\nARCHANGEL... OFFLINE;\nMAYFLOWER... OFFLINE;\nELYSIUM... OFFLINE;\nOLYMPUS... ONLINE;\n\n\nCONNECTING...\n\nUNAUTHORISED ACCESS LOGGED\n\nCONNECTION TERMINATED"
 			},
@@ -354,7 +354,7 @@
 			
 			{
 				"name": "Plastics Recycling",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Plastics"],
 				"uniques": [
 					"[+5]% [Production] [in all cities]"
@@ -365,7 +365,7 @@
 			{
 				"name": "Computers",
 				"row": 5,
-				"prerequisites": ["Plastics"],
+				"prerequisites": ["Plastics","Radar"],
 				"uniques": [
 					"[+5]% [Science] [in all cities]"
 				],
@@ -397,7 +397,7 @@
 			{
 				"name": "Ocean Remediation",
 				"row": 1,
-				"prerequisites": ["Land Remediation", "Desalination"],
+				"prerequisites": ["Land Remediation"],
 				"quote": "Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world."
 			},
 			{
@@ -409,7 +409,7 @@
 			{
 				"name": "Avionics",
 				"row": 6,
-				"prerequisites": ["Radar", "Gyroscopes", "Computers"],
+				"prerequisites": ["Gyroscopes", "Computers"],
 				"quote": "In the end, that's what this election is about. Do we participate in a politics of cynicism, or do we participate in a politics of hope?"
 			}
 		]

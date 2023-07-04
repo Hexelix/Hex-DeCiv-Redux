@@ -83,6 +83,7 @@
 			"[+1 Gold] <after discovering [Plastics]>",
 			"[+1 Gold] <after discovering [Chemistry]>",
 			"[+1 Gold] <after discovering [Decontamination]>",
+			"[+1 Gold] <after discovering [Currency]>",
 			"Cannot be built on [Fissure] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -316,6 +317,7 @@
 		"techRequired": "Desalination",
 		"uniques": [
 			"[+1 Gold] <after discovering [Decontamination]>",
+			"[+1 Gold] <after discovering [Currency]>",
 			"Provides [1] [Salt]",
 			"Pillaging this improvement yields approximately [+30 Gold]"
 		],
@@ -398,6 +400,7 @@
 		"techRequired": "Iron Working",
 		"uniques": [
 			"[+3 Gold] <after discovering [Decontamination]>",
+			"[+1 Gold] <after discovering [Currency]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "W"
@@ -410,6 +413,7 @@
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"[+1 Food] <after discovering [Ecology]>",
+			"[+1 Gold] <after discovering [Currency]>",
 			"Obsolete with [Genetics]",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -462,6 +466,7 @@
 			"Food source",
 			"Obsolete with [Genetics]",
 			"[+1 Food] <after discovering [Oceanography]>",
+			"[+1 Gold] <after discovering [Currency]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
@@ -475,6 +480,7 @@
 		"uniques": [
 			"Food source",
 			"Obsolete with [Genetics]",
+			"[+1 Gold] <after discovering [Currency]>",
 			"[+1 Food] <after discovering [Oceanography]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
@@ -487,6 +493,7 @@
 		"uniques": [
 			"Food source",
 			"Can only be built to improve a resource",
+			"[+1 Gold] <after discovering [Currency]>",
 			"Cannot be built on [Water] tiles <before discovering [Ocean Remediation]>",
 			"[+1 Food] <after discovering [Atmosphere Remediation]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -559,6 +566,7 @@
 		"techRequired": "Construction",
 		"uniques": [
 			"Can be built outside your borders",
+			"[+1 Gold] <after discovering [Currency]>",
 			"Costs [1] [Gold] per turn when in your territory"
 		],
 		"shortcutKey": "R"
@@ -570,6 +578,7 @@
 		"techRequired": "Railroads",
 		"uniques": [
 			"Can be built outside your borders",
+			"[+1 Gold] <after discovering [Currency]>",
 			"Costs [2] [Gold] per turn when in your territory"
 		],
 		"shortcutKey": "R"
@@ -641,6 +650,7 @@
 			"Gives a defensive bonus of [10]%",
 			"[+2 Science] <after discovering [Electronics]>",
 			"[+2 Science] <after discovering [Decryption]>",
+			"[+2 Gold] <after discovering [Currency]>",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
@@ -656,7 +666,7 @@
 			"[+1 Science] for each adjacent [Forest]",
 			"[+1 Science] for each adjacent [Jungle]",
 			"[+1 Food] for each adjacent [Food source]",
-			"[+1 Gold] <after discovering [Currency]>",
+			"[+3 Gold] <after discovering [Currency]>",
 			"[+1 Culture] <after discovering [Civil Service]>",
 			"Removes removable features when built",
 			"Can be built just outside your borders",
@@ -673,6 +683,7 @@
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Provides [1] [Slaves]",
+			"[+2 Gold] <after discovering [Currency]>",
 			"Removes removable features when built",
 			"Can be built just outside your borders",
 			"Constructing it will take over the tiles around it and assign them to your closest city",
@@ -688,6 +699,7 @@
 			"Gives a defensive bonus of [10]%",
 			"[+1 Food, -1 Gold] from [Fresh water] tiles",
 			"[+1 Culture, +1 Food] <after discovering [Hydroponics]>",
+			"[+2 Gold] <after discovering [Currency]>",
 			"Provides [1] [Narcotics]",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"
@@ -702,6 +714,7 @@
 			"Gives a defensive bonus of [10]%",
 			"Provides [1] [Slaves]",
 			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"[+1 Gold] <after discovering [Currency]>",
 			"[+1 Food] <after discovering [Land Remediation]>",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+50 Gold]"
@@ -718,6 +731,7 @@
 			"Gives a defensive bonus of [10]%",
 			"Provides [1] [Oil]",
 			"Provides [1] [Oil] <after discovering [Biology]>",
+			"[+1 Gold] <after discovering [Currency]>",
 			"Removes removable features when built",
 			"[+1 Culture, +1 Faith] <after discovering [Chemistry]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
@@ -747,6 +761,7 @@
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Great Improvement",
+			"[+2 Gold] <after discovering [Currency]>",
 			"Constructing it will take over the tiles around it and assign them to your closest city",
 			"Can be built just outside your borders",
 			"Removes removable features when built"
@@ -760,6 +775,7 @@
 			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"[+1 Culture, +1 Faith] <after discovering [Education]>",
+			"[+1 Gold] <after discovering [Currency]>",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
@@ -772,6 +788,7 @@
 		"uniques": [
 			"Refinery",
 			"[+2 Science, +1 Gold] for each adjacent [Refinery]",
+			"[+2 Gold] <after discovering [Currency]>",
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Great Improvement",
@@ -789,6 +806,7 @@
 			"Great Improvement",
 			"Food source",
 			"Gives a defensive bonus of [10]%",
+			"[+2 Gold] <after discovering [Currency]>",
 			"[+1 Food] <after discovering [Botany]>",
 			"[+1 Food] <after discovering [Ecology]>",
 			"[+1 Food] <after discovering [Hydroponics]>",
@@ -873,7 +891,8 @@
 			"Unpillagable",
 			"Irremovable",
 			"Unbuildable",
-			"Ensures a minimum tile yield of [+3 Food]"
+			"Ensures a minimum tile yield of [+3 Food]",
+			"[+2 Gold] <after discovering [Currency]>"
 		],
 		"civilopediaText": [
 			{
