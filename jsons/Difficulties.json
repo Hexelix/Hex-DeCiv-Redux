@@ -30,12 +30,12 @@
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": false,
 		"turnBarbariansCanEnterPlayerTiles": 10000,
-		"clearBarbarianCampReward": 75
+		"clearBarbarianCampReward": 100
 	},
 	{
 		"name": "Wanderer",
 		"baseHappiness": 10,
-		"extraHappinessPerLuxury": 1,
+		"extraHappinessPerLuxury": 0.5,
 		"researchCostModifier": 0.75,
 		"unitCostModifier": 1.0,
 		"unitSupplyBase": 7,
@@ -62,12 +62,12 @@
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 10000,
-		"clearBarbarianCampReward": 75
+		"clearBarbarianCampReward": 100
 	},
 	{
 		"name": "Settler",
 		"baseHappiness": 9,
-		"extraHappinessPerLuxury": 1,
+		"extraHappinessPerLuxury": 0.5,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
 		"unitSupplyBase": 7,
@@ -94,7 +94,7 @@
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 100,
-		"clearBarbarianCampReward": 75
+		"clearBarbarianCampReward": 100
 	},
 	{
 		"name": "Chieftain",
@@ -125,7 +125,7 @@
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 40,
-		"clearBarbarianCampReward": 50
+		"clearBarbarianCampReward": 75
 	},
 	{
 		"name": "Warlord",
@@ -156,7 +156,7 @@
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 50
 	},
 	{
 		"name": "Prince",
@@ -187,7 +187,7 @@
 		"aiUnhappinessModifier": 0.75,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 50
 	},
 	{
 		"name": "King",
@@ -218,7 +218,7 @@
 		"aiUnhappinessModifier": 0.7,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 50
 	},
 	{
 		"name": "Emperor",
@@ -254,7 +254,7 @@
 		"aiUnhappinessModifier": 0.6,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 50
 	},
 	{
 		"name": "Immortal",
@@ -296,7 +296,7 @@
 		"aiUnhappinessModifier": 0.55,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 50
 	},
 	{
 		"name": "Deity",
@@ -339,13 +339,13 @@
 		"aiUnhappinessModifier": 0.5,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 50
 	},
 	{
 		"name": "Sandbox",
 		"baseHappiness": 100,
 		"extraHappinessPerLuxury": 0,
-		"researchCostModifier": 0,
+		"researchCostModifier": 0.000001,
 		"unitCostModifier": 0,
 		"unitSupplyBase": 10,
 		"unitSupplyPerCity": 3,
@@ -370,6 +370,6 @@
 		"aiUnhappinessModifier": 0.75,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 50
 	}
 ]

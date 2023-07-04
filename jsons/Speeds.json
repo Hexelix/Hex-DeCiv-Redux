@@ -1,5 +1,28 @@
 [
     {
+        "name": "Breakneck",
+        "modifier": 0.5,
+        "productionCostModifier": 0.5,
+        "goldCostModifier": 0.5,
+        "scienceCostModifier": 0.75,
+        "cultureCostModifier": 0.5,
+        "faithCostModifier": 0.5,
+        "improvementBuildLengthModifier": 0.5,
+        "barbarianModifier": 1.0,
+        "goldGiftModifier": 1.0,
+        "cityStateTributeScalingInterval": 4.0,
+        "goldenAgeLengthModifier": 0.60,
+        "religiousPressureAdjacentCity": 20,
+        "peaceDealDuration": 8,
+        "dealDuration": 20,
+        "startYear": 2050,
+        "turns": [
+            {"yearsPerTurn": 1, "untilTurn": 100},
+            {"yearsPerTurn": 0.5, "untilTurn": 200},
+            {"yearsPerTurn": 0.25, "untilTurn": 360}
+        ]
+    },
+    {
         "name": "Quick",
         "modifier": 0.75,
         "productionCostModifier": 0.75,
@@ -45,7 +68,7 @@
         ]
     },
     {
-        "name": "Epic",
+        "name": "Long",
         "modifier": 1.5,
         "productionCostModifier": 1.5,
         "goldCostModifier": 1.5,
@@ -64,6 +87,29 @@
         "turns": [
             {"yearsPerTurn": 0.25, "untilTurn": 300},
             {"yearsPerTurn": 0.125, "untilTurn": 540},
+            {"yearsPerTurn": 0.083333, "untilTurn": 750}
+        ]
+    },
+    {
+        "name": "Epic",
+        "modifier": 2.0,
+        "productionCostModifier": 2.0,
+        "goldCostModifier": 2.0,
+        "scienceCostModifier": 2.666,
+        "cultureCostModifier": 2.0,
+        "faithCostModifier": 2.0,
+        "improvementBuildLengthModifier": 1.5,
+        "barbarianModifier": 2.0,
+        "goldGiftModifier": 0.5,
+        "cityStateTributeScalingInterval": 18.0,
+        "goldenAgeLengthModifier": 1.5,
+        "religiousPressureAdjacentCity": 5,
+        "peaceDealDuration": 20,
+        "dealDuration": 60,
+        "startYear": 2050,
+        "turns": [
+            {"yearsPerTurn": 0.25, "untilTurn": 200},
+            {"yearsPerTurn": 0.125, "untilTurn": 360},
             {"yearsPerTurn": 0.083333, "untilTurn": 750}
         ]
     },
@@ -87,6 +133,27 @@
         "turns": [
             {"yearsPerTurn": 0.25,     "untilTurn":  200},
             {"yearsPerTurn": 0.125,     "untilTurn":  500},
+            {"yearsPerTurn": 0.083333,     "untilTurn":  1500}
+        ]
+    },
+    {
+        "name": "Eternal",
+        "modifier": 3.5,
+        "productionCostModifier": 3.5,
+        "goldCostModifier": 3.5,
+        "scienceCostModifier": 4.166667,
+        "cultureCostModifier": 3.5,
+        "faithCostModifier": 3.5,
+        "improvementBuildLengthModifier": 2.5,
+        "barbarianModifier": 5.0,
+        "goldGiftModifier": 0.5,
+        "cityStateTributeScalingInterval": 45.0,
+        "goldenAgeLengthModifier": 3.5,
+        "religiousPressureAdjacentCity": 3,
+        "peaceDealDuration": 50,
+        "dealDuration": 150,
+        "startYear": 2050,
+        "turns": [
             {"yearsPerTurn": 0.083333,     "untilTurn":  1500}
         ]
     }

@@ -565,6 +565,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Construction",
 		"uniques": [
+			"Unpillagable",
 			"Can be built outside your borders",
 			"[+1 Gold] <after discovering [Currency]>",
 			"Costs [1] [Gold] per turn when in your territory"
