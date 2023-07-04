@@ -429,7 +429,7 @@
 		"shortcutKey": "W"
 	},
 	{
-		"name": "Deep Oil well",
+		"name": "Deep oil well",
 		"terrainsCanBeBuiltOn": ["Ocean"],
 		"turnsToBuild": 25,
 		"techRequired": "Oceanography",
@@ -454,7 +454,7 @@
 		"shortcutKey": "Y"
 	},
 	{
-		"name": "Fishing Boats",
+		"name": "Fishing boats",
 		"techRequired": "Sailing",
 		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
 		"food": 2,

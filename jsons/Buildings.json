@@ -3567,8 +3567,8 @@
 		// "requiredNearbyImprovedResources": ["Fish"],
 		"requiredTech": "Ecology",
 		"uniques": [
-			"[+1 Food] from [Coast] tiles [in this city]",
-			"Must have an owned [{Coast}{Lake}{Ocean}] within [3] tiles"
+			"[+1 Food] from [Water] tiles [in this city]",
+			"Must have an owned [Water] within [3] tiles"
 		]
 	},
 	{
