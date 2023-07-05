@@ -425,8 +425,7 @@
 		"turnsToBuild": 5,
 		"techRequired": "Machinery",
 		"uniques": [
-			"Provides [1] [Oil]",
-			"Cannot be built on [Water] tiles <before discovering [Oceanography]>",
+			"Cannot be built on [Ocean] tiles <before discovering [Oceanography]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -434,11 +433,13 @@
 	},
 	{
 		"name": "Deep oil well",
-		"terrainsCanBeBuiltOn": ["Ocean"],
+		"terrainsCanBeBuiltOn": ["Ocean","desert"],
 		"turnsToBuild": 25,
-		"techRequired": "Oceanography",
+		"techRequired": "Machinery",
 		"uniques": [
 			"Provides [3] [Oil]",
+			"Cannot be built on [Desert] tiles <before discovering [Mining]>",
+			"Cannot be built on [Ocean] tiles <before discovering [Oceanography]>",
 			"Pillaging this improvement yields approximately [+30 Gold]"
 		],
 		"shortcutKey": "W"
@@ -451,8 +452,9 @@
 		"turnsToBuild": 8,
 		"techRequired": "Biology",
 		"uniques": [
-			"Provides [2] [Oil]",
-			"Provides [2] [Oil] <after discovering [Geo Engineering]>",
+			"Provides [1] [Oil]",
+			"Provides [1] [Oil] <after discovering [Decontamination]>",
+			"Provides [1] [Oil] <after discovering [Laboratory]>",
 			"Pillaging this improvement yields approximately [+25 Gold]"
 		],
 		"shortcutKey": "Y"
