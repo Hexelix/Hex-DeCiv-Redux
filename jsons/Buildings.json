@@ -2204,7 +2204,7 @@
 		"uniques":
 		[
 			"Requires a [Broadcast Tower] in at least [10] cities",
-			"[+1 Culture] from every Specialist",
+			"[+1 Culture] from every Specialist [in all cities]",
 			"[-50]% City-State Influence degradation",
 			//"[-10]% Culture cost of adopting new Policies",
 			"Resting point for Influence with City-States is increased by [15]",
@@ -2530,7 +2530,7 @@
 		"uniques": [
 			"Requires a [Library] in at least [5] cities",
 			"Cost increases by [20] per owned city",
-			"[+1 Culture] from every Specialist"
+			"[+1 Culture] from every Specialist [in all cities]"
 		],
 		"requiredTech": "Education"
 	},
