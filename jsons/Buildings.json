@@ -244,8 +244,8 @@
 			"Can only be built [in capital]",
 			"Free [Worker] appears",
 			"Gain a free [Salvage Yard] [in this city]",
-			"[+1 production] from [Salvage site] tiles [in this city]",
-			"[+1 production] from [Underwater salvage] tiles [in this city]"
+			"[+1 Production] from [Salvage site] tiles [in this city]",
+			"[+1 Production] from [Underwater salvage] tiles [in this city]"
 		],
 		"quote": "Now there are no doors left in the houses for they have all been kicked off. So, also, there are no fires in the village and have not been for many days. Now the men full of strong drink have trodden in the fireplaces. They alone track there and there are no fires and their footprints are in all the fireplaces.",
 		"civilopediaText": [
@@ -1051,7 +1051,7 @@
 		"percentStatBonus": { "culture": 10 },
 		"requiredTech": "Human Genome",
 		"uniques": [
-			"Empire enters [500]-turn golden age",
+			"Empire enters a [500]-turn golden age",
 			"Free Social Policy",
 			"Free Technology",
 			"[-1] population [in all cities]"
@@ -2204,7 +2204,7 @@
 		"uniques":
 		[
 			"Requires a [Broadcast Tower] in at least [10] cities",
-			"[+1 Culture] from every [Specialist]",
+			"[+1 Culture] from every [Specialists]",
 			"[-50]% City-State Influence degradation",
 			//"[-10]% Culture cost of adopting new Policies",
 			"Resting point for Influence with City-States is increased by [15]",
@@ -2271,7 +2271,7 @@
 			"[+1 Production] from every [Engineer]",
 			"[+1 Culture] from every [Administrator]",
 			"[+1 Food] from every [Farmer]",
-			"[+1 gold] from every [Merchant]",
+			"[+1 Gold] from every [Merchant]",
 			"[+1 Faith] from every [Priest]",
 			"[+10]% [All stats]"
 		]
@@ -2367,7 +2367,7 @@
 		"uniques": [
 			"Requires a [Market] in at least [5] cities",
 			"Cost increases by [20] per owned city",
-			"[+1 gold] from every [Merchant]"
+			"[+1 Gold] from every [Merchant]"
 		]
 	},
 	{
@@ -2516,7 +2516,7 @@
 		"uniques": [
 			"Requires a [Library] in at least [5] cities",
 			"Cost increases by [20] per owned city",
-			"[+1 Culture] from every [Specialist]"
+			"[+1 Culture] from every [Specialists]"
 		],
 		"requiredTech": "Education"
 	},
@@ -2635,7 +2635,7 @@
 			"[+1 Production] from every [Engineer]",
 			"[+1 Culture] from every [Administrator]",
 			"[+1 Food] from every [Farmer]",
-			"[+1 gold] from every [Merchant]",
+			"[+1 Gold] from every [Merchant]",
 			"[+1 Faith] from every [Priest]"
 		],
 		"requiredTech": "Laboratory"
@@ -2993,7 +2993,7 @@
 			"Can only be built [in annexed cities]",
 			"Provides [4] [Slaves]",
 			"Only available <in cities without a [Arena]>",
-			"[-1] Population [in this city]",
+			"[-1] population [in this city]",
 			"Requires at least [2] population",
 			"Destroyed when the city is captured"
 		],
@@ -3012,7 +3012,7 @@
 			"Can only be built [in annexed cities]",
 			"Provides [3] [Slaves]",
 			"Free [Auxiliary] appears",
-			"[-1] Population [in this city]",
+			"[-1] population [in this city]",
 			"Requires at least [2] population",
 			"Only available <in cities without a [Colosseum]>",
 			"Destroyed when the city is captured"

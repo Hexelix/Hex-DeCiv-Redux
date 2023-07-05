@@ -443,7 +443,7 @@
 			{
 				"name": "Social Engineering",
 				"row": 10,
-				"prerequisites": ["Radar", "Networking"],
+				"prerequisites": ["Networking"],
 				"quote": "Anyone who believes exponential growth can go on forever in a finite world is either a madman or an economist."
 			}
 		]
