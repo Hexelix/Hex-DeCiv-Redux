@@ -1026,6 +1026,7 @@
 		"name": "Satnav Network",
 		"science": 1,
 		"greatPersonPoints": { "Great Engineer": 2 },
+		"requiredTech": "Satellites",
 		"isWonder": true,
 		"uniques": [
 			"[+1 Science] from every [Scientist]",
@@ -1036,7 +1037,6 @@
 			"Reveals the entire map",
 			"Only available <in cities with a [Aerospace Facility]>"
 		],
-		"requiredTech": "Satellites",
 		"quote": "I must down to the seas again, to the lonely sea and the sky,\nAnd all I ask is a tall ship and a star to steer her by.",
 		"civilopediaText": [
 			{
@@ -2235,10 +2235,11 @@
 			"Provides a [Television Studio] in your first [100] cities for free",
 			"[-20]% Culture cost of adopting new Policies",
 			"Only available <in cities with a [Television Studio]>",
-			"Consumes [3] [Power]"
+			"Consumes [3] [Power]",
+			"Only available <after discovering [Electronics]>"
 		],
 		"isNationalWonder": true,
-		"requiredTech": ["Satellites", "Electronics"]
+		"requiredTech":"Satellites"
 	},
 	{
 		"name": "Broadcast Network",
