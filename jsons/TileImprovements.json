@@ -433,7 +433,7 @@
 	},
 	{
 		"name": "Deep oil well",
-		"terrainsCanBeBuiltOn": ["Ocean","desert"],
+		"terrainsCanBeBuiltOn": ["Ocean","Desert"],
 		"turnsToBuild": 25,
 		"techRequired": "Machinery",
 		"uniques": [
