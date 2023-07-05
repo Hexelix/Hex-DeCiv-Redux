@@ -1051,7 +1051,7 @@
 		"percentStatBonus": { "culture": 10 },
 		"requiredTech": "Human Genome",
 		"uniques": [
-			"Empire enters a [500]-turn golden age",
+			"Empire enters a [500]-turn Golden Age",
 			"Free Social Policy",
 			"Free Technology",
 			"[-1] population [in all cities]"
@@ -2204,7 +2204,7 @@
 		"uniques":
 		[
 			"Requires a [Broadcast Tower] in at least [10] cities",
-			"[+1 Culture] from every [Specialists]",
+			"[+1 Culture] from every Specialist",
 			"[-50]% City-State Influence degradation",
 			//"[-10]% Culture cost of adopting new Policies",
 			"Resting point for Influence with City-States is increased by [15]",
@@ -2273,7 +2273,21 @@
 			"[+1 Food] from every [Farmer]",
 			"[+1 Gold] from every [Merchant]",
 			"[+1 Faith] from every [Priest]",
-			"[+10]% [All stats]"
+			
+			"[+10]% [Food] [in all cities]",
+			"[+10]% [Production] [in all cities]",
+			"[+10]% [Science] [in all cities]",
+			"[+10]% [Culture] [in all cities]",
+			"[+10]% [Faith] [in all cities]",
+			"[+10]% [Gold] [in all cities]",
+
+			"[+10]% [Food] [in foreign cities]",
+			"[+10]% [Production] [in foreign cities]",
+			"[+10]% [Science] [in foreign cities]",
+			"[+10]% [Culture] [in foreign cities]",
+			"[+10]% [Faith] [in foreign cities]",
+			"[+10]% [Gold] [in foreign cities]"
+
 		]
 	},
 	{
@@ -2516,7 +2530,7 @@
 		"uniques": [
 			"Requires a [Library] in at least [5] cities",
 			"Cost increases by [20] per owned city",
-			"[+1 Culture] from every [Specialists]"
+			"[+1 Culture] from every Specialist"
 		],
 		"requiredTech": "Education"
 	},
