@@ -240,8 +240,8 @@
 		"name": "Mutant",
 		"uniqueTo": "Proklyatyye",
 		"unitType": "Scrapper",
-		"movement": 2,
-		"strength": 36,
+		"movement": 3,
+		"strength": 45,
 		"cost": 55,
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
@@ -250,7 +250,7 @@
 			"Low Tech",
 			"Consumes [1] [Uranium]"
 		],
-		"promotions": ["Forage"],
+		"promotions": ["Forage","March"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -258,9 +258,9 @@
 		"uniqueTo": "Proklyatyye",
 		"unitType": "Shooter",
 		"movement": 2,
-		"strength": 40,
-		"rangedStrength": 35,
-		"range": 1,
+		"strength": 45,
+		"rangedStrength": 40,
+		"range": 2,
 		"cost": 125,
 		"hurryCostModifier": 20,
 		"requiredTech": "Laboratory",
@@ -271,7 +271,7 @@
 			"Consumes [1] [Uranium]",
 			"Destroys tile improvements when attacking"
 		],
-		"promotions": ["Gas Mask"],
+		"promotions": ["Gas Mask","Forage","March"],
 		"attackSound": "shot"
 	},
 	{
@@ -289,11 +289,11 @@
 			"Personnel",
 			"Consumes [1] [Uranium]",
 			"Consumes [1] [Weapons]",
-			"[+5] HP when healing <in [Fallout] tiles>",
-			"[+5] HP when healing <in [Toxic Waste] tiles>",
+			"[+50] HP when healing <in [Fallout] tiles>",
+			"[+50] HP when healing <in [Toxic Waste] tiles>",
 			"Destroys tile improvements when attacking"
 		],
-		"promotions": ["Gas Mask", "Entrench"],
+		"promotions": ["Gas Mask", "Entrench","Forage","March"],
 		"attackSound": "shot"
 	},
 
@@ -434,7 +434,6 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 50,
-		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
 		"hurryCostModifier": -25,
 		"uniques": [

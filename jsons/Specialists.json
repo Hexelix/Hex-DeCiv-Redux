@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "Merchant",
-		"gold": 6,
+		"gold": 4,
 		"greatPersonPoints": { "Great Merchant": 1 },
 		"color": [255, 215, 0]
 	},
@@ -26,13 +26,13 @@
 	},
 	{
 		"name": "Engineer",
-		"production": 4,
+		"production": 3,
 		"greatPersonPoints": { "Great Engineer": 3 },
 		"color": [139, 69, 19]
 	},
 	{
 		"name": "Farmer",
-		"food": 5,
+		"food": 4,
 		"color": [0, 215, 0],
 		"greatPersonPoints": { "Great Farmer": 3 }
 	}

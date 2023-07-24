@@ -153,7 +153,7 @@
 			"Free [Worker] appears",
 			"New [Military] units start with [15] Experience [in this city]",
 			"Can only be built [in capital]",
-			"Gain a free [Training Range] [in this city]",
+			"Gain a free [Firing Range] [in this city]",
 			"Gain a free [Walls] [in this city]"
 		],
 		"quote": "We are here to protect the people, and we will do it here. Here we make our stand against anarchy and tyranny. Here, we will once again establish freedom and order. This is the oath we have taken, and we will keep that oath.",
@@ -1668,7 +1668,7 @@
 			"Only available <after adopting [Monopoly]>",
 			"Only available <in cities with a [Broadcast Tower]>",
 			"[+10]% growth [in this city]",
-			"Provides [1] [Slaves]"
+			"Provides [3] [Slaves]"
 		],
 		"requiredTech": "Computers"
 	},
@@ -1710,13 +1710,13 @@
 		"name": "Grand Monastery",
 		"isNationalWonder": true,
 		"culture": 1,
-		"faith": 8,
+		"faith": 5,
 		"specialistSlots": { "Priest": 3 },
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Requires a [Monastery] in at least [5] cities",
+			"Requires a [Monastery] in at least [3] cities",
 			"[+1 Faith] from every [Priest]",
-			"Cost increases by [30] per owned city",
+			"Cost increases by [50] per owned city",
 			"Can only be built [in holy cities]",
 			"Hidden when religion is disabled",
 			"[Philosopher] units built [in this city] can [Spread Religion] [1] extra times",
@@ -1751,11 +1751,12 @@
 		"name": "Medical Network",
 		"isNationalWonder": true,
 		"science": 1,
-		"requiredTech": "Networking",
+		"cost":2000,
+		"requiredTech": "Computers",
 		"uniques": [
-			"Requires a [Hospital] in at least [5] cities",
-			"[25]% Food is carried over after population increases [in all cities]",
-			"[+5]% growth [in all cities]",
+			"Requires a [Hospital] in at least [3] cities",
+			"[20]% Food is carried over after population increases [in all cities]",
+			"[+10]% growth [in all cities]",
 			"Provides a [Hospital] in your first [100] cities for free",
 			"[All] Units adjacent to this city heal [30] HP per turn when healing",
 			"This effect applies to all cities"
@@ -1846,15 +1847,15 @@
 			"[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]"
 		],
-		"maintenance": 1,
+		"maintenance": 3,
 		"hurryCostModifier": 25,
 		"requiredTech": "Botany"
 	},
 	{
 		"name": "Hydroponic Farming",
-		"food": 3,
-		"specialistSlots": { "Farmer": 2 },
-		"maintenance": 1,
+		"food": 4,
+		"specialistSlots": { "Farmer": 1 },
+		"maintenance": 5,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Consumes [1] [Power]"
@@ -1862,14 +1863,27 @@
 		"requiredTech": "Hydroponics"
 	},
 	{
+		"name": "Underground Farming Complex",
+		"food": 3,
+		"specialistSlots": { "Farmer": 5 },
+		"maintenance": 10,
+		"hurryCostModifier": 100,
+		"uniques": [
+			"Consumes [3] [Power]",
+			"Only available <in cities with a [Hydroponic Farming]>"
+		],
+		"requiredTech": "Hydroponics"
+	},
+	{
 		"name": "Rising Gardens",
+		"isWonder":true,
 		"food": 10,
 		"cost":2500,
 		"specialistSlots": { "Farmer": 5 },
 		"maintenance": 5,
-		"hurryCostModifier": 25,
 		"uniques": [
-			"Consumes [5] [Power]"
+			"Consumes [5] [Power]",
+			"[+1 Food] from every [Farmer]"
 		],
 		"requiredTech": "Hydroponics"
 	},
@@ -1887,10 +1901,10 @@
 	},
 	{
 		"name": "Reclamation Vats",
-		"percentStatBonus": { "food": 25 },
+		"percentStatBonus": { "food": 35 },
 		"culture":-3,
 		"happiness":-3,
-		"maintenance": 3,
+		"maintenance": 5,
 		"hurryCostModifier": 25,
 		"requiredTech": "Human Genome",
 		"uniques":

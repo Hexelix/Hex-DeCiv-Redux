@@ -351,7 +351,9 @@
 			{
 				"name": "Sample Analysis",
 				"uniques": [
-					"[+2 Science, +1 Gold] from every [Moisture trap]",
+					"[+2 Science] from every [Moisture trap]",
+					"[+2 Science] from every [Water pump]",
+					"[+2 Science] from every [Desalinization pump]",
 					"[+5]% [Science] from every [Science] building"
 				],
 				"requires": ["Educated Elite"],
@@ -362,7 +364,7 @@
 				"name": "Technocracy",
 				"uniques": [
 					"[+25]% [Science] from every [Council]",
-					"[+25]% [Science] from every [Congress]",
+					"[+10]% [Science] from every [Congress]",
 					"[+1 Gold] from all [Science] buildings"
 				],
 				"requires": ["Skepticism"],
@@ -391,6 +393,8 @@
 		},
 		"uniques": [
 			"[+33]% Great Person generation [in all cities]",
+			"[+10]% [Culture] from every [Council]",
+			"[+25]% [Culture] from every [Congress]",
 			"Only available <before adopting [Supremacy]>"
 		],
 		"policies": [
@@ -549,7 +553,8 @@
 		},
 		"uniques": [
 			"[Great Merchant] is earned [25]% faster",
-			"[+50]% [Gold] from every [Council]",
+			"[+25]% [Gold] from every [Council]",
+			"[+10]% [Gold] from every [Congress]",
 			"Only available <before adopting [Collectivism]>"
 		],
 		"policies": [
@@ -631,7 +636,7 @@
 		},
 		"uniques": [
 			"[Great Engineer] is earned [25]% faster",
-			"[+5]% [Production] [in all cities]",
+			"[+10]% [Production] [in all cities]",
 			"Only available <before adopting [Monopoly]>"
 		],
 		"policies": [
@@ -649,8 +654,9 @@
 			{
 				"name": "Nationalization",
 				"uniques": [
-					"[+25]% [Science] from every [Factory]",
-					"[+100]% Production when constructing [Factory] buildings [in all cities]"
+					"[+15]% [Science] from every [Factory]",
+					"[+100]% Production when constructing [Factory] buildings [in all cities]",
+					"[+100]% Production when constructing [Automated Factory] buildings [in all cities]"
 				],
 				"row": 1,
 				"column": 3

@@ -30,10 +30,12 @@
 		"style": "",
 		"uniqueName": "Determination",
 		"uniques": [
-			"[+50]% Great Person generation [in all cities]",
+			"[All] units gain the [March] promotion",
+			"[+20]% Great Person generation [in all cities]",
 			"[+15]% Strength <for [{Wounded} {Ranged}] units> <when attacking>",
 			"[+15]% Strength <for [{Wounded} {Melee}] units>  <when defending>",
-			"[+1] Sight <for [{Wounded} {Scout}] units> ",
+			"[+1] Sight <for [{Scout}] units> ",
+			"Starts with [Constitution] adopted",
 			"Cannot build [Enslaved] units"
 		],
 		"cities": [
@@ -85,7 +87,9 @@
 			"Starts with [Machinery]",
 			"Starts with [Engineering]",
 			"Starts with [Electronics]",
-			"[-2 Happiness] [in all cities]"
+			"[-2 Happiness] [in all cities]",
+			"Starts with [Bionics] adopted",
+			"Starts with [Mechanization] adopted"
 		],
 		"cities": [
 			"Halimax",
@@ -320,7 +324,7 @@
 			"[+50]% [Production] from City-States",
 			"Military Units gifted from City-States start with [+50] XP",
 			"City-State territory always counts as friendly territory",
-			"[Great General] is earned [33]% faster",
+			"[Great Administrator] is earned [33]% faster",
 			"Starts with [Redomestication]",
 			"Cannot build [Enslaved] units",
 			"Starts with [Constitution] adopted"
@@ -381,37 +385,40 @@
 		"style": "Military",
 		"uniqueName": "Military Secrets",
 		"uniques": [
-			"[All] units gain the [March] promotion",
-			"New [Military] units start with [50] Experience [in all cities]",
+			"New [Military] units start with [70] Experience [in all cities]",
 			"Cannot build [Low Tech] units",
 			"Starts with [Writing]",
 			"Starts with [Electronics]",
-			"[-2 Science] [in all cities] <before discovering [Education]>"
+			"[-4 Science] [in all cities] <before discovering [Education]>",
+			"Starts with [Sovereignty] adopted"
 		],
 		"cities": [
 			"Cheyenne Mountain",
 			"Eagle Rock",
-			"Fort Patriot",
-			"Valiant Base",
-			"Camp Fidelis",
-			"Fort Endurance",
+			"Fort Ord",
+			"Twentynine Palms",
+			"Sierra Army Depot",
+			"New Annapolis",
+			"Fort Liberty",
+			"West Point",
 			"Camp Freedom",
-			"Sentinel Field",
-			"Camp Hammer",
-			"Camp Justice",
-			"Fort Victory",
-			"Fort Crockett",
-			"Sparta Base",
-			"Arclight Station",
-			"Overwatch Base",
-			"Fort Challenger",
-			"Fort Cameron",
-			"Thunder Outpost",
-			"Cobalt Base",
+			"Henderson Field",
+			"Camp Lejune",
+			"New Fort Bragg",
+			"Crockett",
+			"Sparta",
+			"Arclight",
+			"Fort Campbell",
+			"Challenger Station",
+			"Fort Hood",
+			"Lewis-Mcchord Outpost",
+			"New Benning",
 			"Camp Shield",
-			"Fort Granite",
-			"Liberator Station",
-			"Camp Dawn"
+			"Fort White Sands",
+			"New Hueneme",
+			"Langley Station",
+			"Camp Dix",
+			"Espiritu Santo"
 		]
 	},
 	{
@@ -456,7 +463,8 @@
 			"Units ending their turn on [Mountain] tiles take [50] damage",
 			"[{Land} {Low Tech}] units gain the [Guerilla Warfare I] promotion",
 			"[Personnel] units gain the [Guerilla Warfare I] promotion",
-			"Starts with [Redomestication]"
+			"Starts with [Redomestication]",
+			"Starts with [Adaptation] adopted"
 		],
 		"cities": [
 			"The Enclave",
@@ -513,7 +521,8 @@
 			"[+1] Sight <for [{Military} {Land}] units>",
 			"City-State Influence recovers at twice the normal rate",
 			"[Personnel] units gain the [Clansman] promotion",
-			"[Scout] units gain the [Clansman] promotion"
+			"[Scout] units gain the [Clansman] promotion",
+			"Starts with [Supremacy] adopted"
 		],
 		"cities": [
 			"Xanadu",
@@ -702,7 +711,8 @@
 			"[+1] Movement <for [Water] units>",
 			"[{Land} {Low Tech}] units gain the [Amphibious] promotion",
 			"[{Land} {Personnel}] units gain the [Amphibious] promotion",
-			"Starts with [Sailing]"
+			"Starts with [Sailing]",
+			"Starts with [Expansionism] adopted"
 		],
 		"cities": [
 			"Dryplace",
@@ -733,9 +743,9 @@
 
 		// "startIntroPart1": "",
 		// "startIntroPart2": "",
-		"declaringWar": "We've had enough of you messing with us.",
-		"attacked": "You think you can defeat us? Fool!",
-		"defeated": "This is the end. Freedom will never be more than a dream.",
+		"declaringWar": "We've had enough of you trifling with us.",
+		"attacked": "You think you can defeat us? You are a Fool!",
+		"defeated": "This is the end. Unity will never be more than a dream.",
 		"introduction": "I am Mutulu, and we are New Afrika. We are here to rebuild this broken world.",
 		"neutralHello": "Greetings.",
 		"hateHello": "What the hell do you want?",
@@ -750,7 +760,9 @@
 			"Enemy [Land] units must spend [1] extra movement points when inside your territory",
 			"Starts with [Secrets of the Past]",
 			"Starts with [Redomestication]",
-			"[+20]% Strength <when fighting units from a Civilization with more Cities than you> <after adopting [Sovereignty Complete]>"
+			"[+20]% Strength <when fighting units from a Civilization with more Cities than you> <after adopting [Sovereignty Complete]>",
+			"Starts with [Collectivism] adopted"
+			
 		],
 		"cities": [
 			"Gao",
@@ -819,14 +831,15 @@
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Mining]",
-			"[-1 Science] [in all cities] <before discovering [Education]>",
+			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"[-10]% growth [in all cities]",
-			"[-1 Food] [in all cities]",
+			"[-2 Food] [in all cities]",
 			"[{non-air} {Military}] units gain the [Radioactive] promotion",
-			"[+10]% Strength <for [All] units> <when fighting in [Fallout] tiles>",
-			"[+10]% Strength <for [All] units> <when fighting in [Toxic Waste] tiles>",
+			"[+25]% Strength <for [All] units> <when fighting in [Fallout] tiles>",
+			"[+25]% Strength <for [All] units> <when fighting in [Toxic Waste] tiles>",
 			"No defensive terrain penalty",
-			"No movement cost to pillage"
+			"No movement cost to pillage",
+			"Starts with [Adaptation] adopted"
 		],
 		"cities": ["Shchyolkovo-14","Kartaly-6","Arzamas-75","Stupino-7","Krasnoyarsk-45","Krasnoyarsk-66","Sverdlovsk-44","Murmansk-150","Bologoe-4","Krasnoyarsk-26",
 		"Beloretsk-15","Zlatoust-20","Chita-46","Zlatoust-36","Perm'-76","Yur'ya-2","Petropavlovsk-Kamchatskiy-35","Semipalatinsk-121","Shkotovo-17","Zagorsk-7",

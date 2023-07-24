@@ -22,7 +22,7 @@
 		"terrainsCanBeBuiltOn": ["Wasteland", "Tundra", "Badlands"],
 		"production": 2,
 		"food": 2,
-		"turnsToBuild": 5,
+		"turnsToBuild": 8,
 		"techRequired": "Ecology",
 		"uniques": [
 			"Food source",
@@ -79,7 +79,6 @@
 		"gold": 1,
 		"turnsToBuild": 3,
 		"uniques": [
-			"[+1 Gold] <after discovering [Engineering]>",
 			"[+1 Gold] <after discovering [Plastics]>",
 			"[+1 Gold] <after discovering [Chemistry]>",
 			"[+1 Gold] <after discovering [Decontamination]>",
@@ -102,6 +101,7 @@
 		"uniques": [
 			"Provides [1] [Power]",
 			"Provides [1] [Power] <after discovering [Manufacturing]>",
+			"Provides [1] [Power] <after discovering [Replacable Parts]>",
 			"Provides [1] [Power] <after discovering [Computers]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -143,7 +143,7 @@
 			"[+1 Happiness] for each adjacent [Borough]",
 			"Pillaging this improvement yields approximately [+30 Gold]"
 		],
-		"terrainsCanBeBuiltOn": ["Badlands","Wasteland"],
+		"terrainsCanBeBuiltOn": ["Badlands","Wasteland","Tundra","Permafrost","Swamp"],
 		"shortcutKey": "N"
 	},
 	{
@@ -173,7 +173,7 @@
 	},
 	{
 		"name": "Artificial glacier",
-		"terrainsCanBeBuiltOn": ["Permafrost"],
+		"terrainsCanBeBuiltOn": ["Permafrost","Tundra"],
 		"gold": 1,
 		"culture": 2,
 		"happiness": 2,
@@ -198,7 +198,7 @@
 	},
 	{
 		"name": "Grassland",
-		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Desert","Swamp"],
+		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Desert","Swamp","Permafrost","Tundra"],
 		"turnsToBuild": 8,
 		"food": 3,
 		"techRequired": "Land Remediation",
@@ -207,6 +207,7 @@
 			"Natural tile",
 			"Can also be built on tiles adjacent to fresh water",
 			"[+3 Food] from [Fresh water] tiles",
+			"Cannot be built on [Water] tiles",
 			"Cannot be built on [Permafrost] tiles <before discovering [Geo Engineering]>",
 			"Cannot be built on [Desert] tiles <before discovering [Geo Engineering]>",
 			"[+1 Food] for each adjacent [Tree plantation]",
@@ -244,7 +245,7 @@
 	},
 	{
 		"name": "Borough",
-		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"terrainsCanBeBuiltOn": ["Forest","Jungle","Wasteland","Badlands"],
 		"turnsToBuild": 12,
 		"techRequired": "Computers",
 		"production": 2,
@@ -395,11 +396,11 @@
 	{
 		"name": "Water pump",
 		"terrainsCanBeBuiltOn": ["Spring", "Lakes"],
-		"gold": 2,
+		"gold": 3,
 		"turnsToBuild": 5,
 		"techRequired": "Iron Working",
 		"uniques": [
-			"[+3 Gold] <after discovering [Decontamination]>",
+			"[+1 Gold] <after discovering [Decontamination]>",
 			"[+1 Gold] <after discovering [Currency]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -488,9 +489,24 @@
 		]
 	},
 	{
+		"name": "Aquaculture",
+		"techRequired": "Genetics",
+		"terrainsCanBeBuiltOn": ["Coast", "Ocean","Lakes"],
+		"food": 3,
+		"culture":1,
+		"turnsToBuild": 10,
+		"uniques": [
+			"Food source",
+			"[+1 Gold] <after discovering [Currency]>",
+			"[+1 Food] <after discovering [Atmosphere Remediation]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "C"
+	},
+	{
 		"name": "Bioculture",
 		"techRequired": "Genetics",
-		"food": 3,
+		"food": 5,
 		"turnsToBuild": 10,
 		"uniques": [
 			"Food source",
