@@ -101,7 +101,7 @@
 		"uniques": [
 			"Provides [1] [Power]",
 			"Provides [1] [Power] <after discovering [Manufacturing]>",
-			"Provides [1] [Power] <after discovering [Replacable Parts]>",
+			"Provides [1] [Power] <after discovering [Replaceable Parts]>",
 			"Provides [1] [Power] <after discovering [Computers]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
