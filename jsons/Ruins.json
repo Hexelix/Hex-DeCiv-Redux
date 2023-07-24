@@ -2,15 +2,15 @@
 	{
 		"name": "discover cultural artifacts",
 		"notification": "We have discovered cultural artifacts in the camp! (+[cultureAmount] culture)",
-		"uniques": ["Gain [20]-[30] [Culture]"]
+		"weight": 5,
+		"uniques": ["Gain [20]-[50] [Culture]"]
 	},
 	{
 		"name": "squatters willing to work for you",
 		"notification": "A [Worker] has joined us!",
+		"weight": 3,
 		"uniques": ["Free [Worker] found in the ruins"],
 		"excludedDifficulties": [
-			"Prince",
-			"King",
 			"Emperor",
 			"Immortal",
 			"Deity"
@@ -19,6 +19,7 @@
 	{
 		"name": "squatters wishing to settle under your rule",
 		"notification": "A [Civilian Convoy] has joined us!",
+		"weight": 1,
 		"uniques": ["Free [Civilian Convoy] found in the ruins"],
 		"excludedDifficulties": [
 			"Warlord",
@@ -32,32 +33,78 @@
 	{
 		"name": "your exploring unit receives training",
 		"notification": "The survivors trained us in their ways of combat!",
+		"weight": 5,
 		"uniques": ["This Unit gains [25] XP"]
+	},
+	{
+		"name": "your exploring unit receives a lot of training",
+		"notification": "The survivors trained us in their ways of combat!",
+		"weight": 5,
+		"uniques": ["This Unit gains [50] XP"]
 	},
 	{
 		"name": "survivors (adds population to a city)",
 		"notification": "We have found survivors in the camp! Population added to [cityName].",
+		"weight": 10,
 		"uniques": ["[+1] population in a random city"] // This can't be easily added to cityFilter, as it is non-deterministic
 	},
 	{
+		"name": "Multiple survivors (adds population to a city)",
+		"notification": "We have found survivors in the camp! Population added to [cityName].",
+		"weight": 5,
+		"uniques": ["[+2] population in a random city"] // This can't be easily added to cityFilter, as it is non-deterministic
+	},
+	{
+		"name": "Lots of survivors (adds population to a city)",
+		"notification": "We have found survivors in the camp! Population added to [cityName].",
+		"weight": 1,
+		"uniques": ["[+3] population in a random city"] // This can't be easily added to cityFilter, as it is non-deterministic
+	},
+	{
 		"name": "a stash of water",
+		"weight": 5,
 		"notification": "We have found a stash of [goldAmount] water in the camp!",
 		"uniques": ["Gain [50]-[100] [Gold]"]
 	},
 	{
+		"name": "a bigger stash of water",
+		"weight": 1,
+		"notification": "We have found a stash of [goldAmount] water in the camp!",
+		"uniques": ["Gain [250]-[500] [Gold]"]
+	},
+	{
 		"name": "discover a lost technology",
+		"weight": 5,
 		"notification": "We have discovered the lost technology of [techName] in the camp!",
 		"uniques": [
 			"[1] free random researchable Tech(s) from the [Decivilized era]"
 		]
 	},
 	{
+		"name": "discover more lost technology",
+		"weight": 1,
+		"notification": "We have discovered the lost technology of [techName] in the camp!",
+		"uniques": [
+			"[2] free random researchable Tech(s) from the [Decivilized era]"
+		]
+	},
+	{
+		"name": "discover advanced lost technology",
+		"weight": 1,
+		"notification": "We have discovered the lost technology of [techName] in the camp!",
+		"uniques": [
+			"Free Technology"
+		]
+	},
+	{
 		"name": "advanced weaponry for your explorer",
+		"weight": 3,
 		"notification": "Our unit finds advanced weaponry hidden in the camp!",
 		"uniques": ["This Unit upgrades for free including special upgrades"]
 	},
 	{
 		"name": "reveal nearby Barbarian camps",
+		"weight": 3,
 		"notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
 		"uniques": [
 			"Reveal up to [All] [Barbarian encampment] within a [20] tile radius"
@@ -65,6 +112,7 @@
 	},
 	{
 		"name": "find a crudely-drawn map",
+		"weight": 5,
 		"notification": "The camp contains maps of the nearby area!",
 		"uniques": [
 			"From a randomly chosen tile [5] tiles away, reveal tiles up to [10] tiles away with [80]% chance"
@@ -72,6 +120,7 @@
 	},
 	{
 		"name": "discover religious texts",
+		"weight": 5,
 		"notification": "We have found religious texts in the camp, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
 		"uniques": [
 			"Hidden when religion is disabled",
@@ -82,10 +131,11 @@
 	{
 		"name": "an ancient prophecy",
 		"notification": "We have found an ancient prophecy in the camp, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
+		"weight": 5,
 		"uniques": [
 			"Hidden when religion is disabled",
 			"Only available <after founding a Pantheon>",
-			"Gain enough Faith for [33]% of a Great Prophet",
+			"Gain enough Faith for [33]% of a Great Prophet"
 		]
 	}
 ]
