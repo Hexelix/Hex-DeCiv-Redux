@@ -630,7 +630,7 @@
 			"Formation",
 			"Ambush",
 			"Sentry",
-			"Reconnaissance III",
+			"Reconnaissance I",
 			"Medic II"
 		],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
