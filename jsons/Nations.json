@@ -30,7 +30,7 @@
 		"style": "",
 		"uniqueName": "Determination",
 		"uniques": [
-			//"[All] units gain the [March] promotion",
+			"[All] units gain the [March] promotion",
 			"[+20]% Great Person generation [in all cities]",
 			"[+15]% Strength <for [{Wounded} {Ranged}] units> <when attacking>",
 			"[+15]% Strength <for [{Wounded} {Melee}] units>  <when defending>",
