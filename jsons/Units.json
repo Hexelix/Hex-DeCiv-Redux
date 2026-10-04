@@ -2376,7 +2376,7 @@
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Can only be intercepted by [Stealth Fighter]",
+			"Stealth",
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Aluminum]"
 		],
@@ -2460,7 +2460,7 @@
 			"[+100]% Strength <vs cities> <when attacking>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Can only be Intercepted by [Stealth Fighter]",
+			"Stealth",
 			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Oil]",
 			"Cannot be carried by [Carrier] units"
