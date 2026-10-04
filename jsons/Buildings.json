@@ -370,7 +370,7 @@
 		"cost": 65,
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
-			"Enables reception of Victory Transmissions",
+			
 			"Only available <when [Transmission] Victory is enabled>"
 		]
 	},
@@ -649,7 +649,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+3 Gold] from every [Town Hall]",
-			"Cost of purchasing items in cities reduced by [20]%",
+			"[Gold] cost of purchasing items in cities [-20]%",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Shareholders' Fund]>",
@@ -708,7 +708,7 @@
 		"cost": 200,
 		"requiredTech": "Currency",
 		"uniques": [
-			"Enables construction of [Black Hand] units",
+			
 			"[Great General] is earned [50]% faster",
 			"New [Personnel] units start with [30] XP [in all cities]",
 			"Can only be built <in [in capital] cities>",
@@ -903,7 +903,7 @@
 		"cost": 1500,
 		"isNationalWonder": true,
 		"uniques": [
-			"Enables construction of [Terraformer Part] units",
+			
 			"Triggers a global alert upon completion",
 			"Only available <when [Scientific] Victory is enabled>"
 		],
@@ -1759,7 +1759,7 @@
 			"[+10]% growth [in all cities]",
 			"Provides a [Hospital] in your first [100] cities for free",
 			"[All] Units adjacent to this city heal [30] HP per turn when healing",
-			"This effect applies to all cities"
+			
 		]
 	},
 
@@ -2473,7 +2473,7 @@
 			"[+1 Science] [in this city] <with [Power]>",
 			"[+1 Science] per [4] population [in this city]",
 			"[+1 Science, +1 Culture] from [Books] tiles [in this city]",
-			"Enables construction of [Power] buildings"
+			
 		],
 		"requiredTech": "Writing"
 	},
@@ -2487,7 +2487,7 @@
 			"[+1 Science] [in this city] <with [Power]>",
 			"[+1 Science] per [4] population [in this city]",
 			"Free [Field Scientist] appears",
-			"Enables construction of [Power] buildings"
+			
 		],
 		"requiredTech": "Writing"
 	},
@@ -2501,7 +2501,7 @@
 		"uniques": [
 			"[+1 Science] [in this city] <with [Power]>",
 			"[+1 Science] per [5] population [in this city]",
-			"Enables construction of [Power] buildings"
+			
 		],
 		"requiredTech": "Writing"
 	},
@@ -2514,7 +2514,7 @@
 		"uniques": [
 			"[+1 Science] [in this city] <with [Power]>",
 			"[+1 Science] per [8] population [in this city]",
-			"Enables construction of [Power] buildings"
+			
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
@@ -2529,7 +2529,7 @@
 			"[+1 Science] [in this city] <with [Power]>",
 			"[+1 Science, +1 Culture] from [Books] tiles [in this city]",
 			"[+1 Science] per [5] population [in this city]",
-			"Enables construction of [Power] buildings"
+			
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
@@ -2675,7 +2675,7 @@
 		"science": 1,
 		// "greatPersonPoints": { "Great General": 1 },
 		"uniques": [
-			"Enables construction of [Clansman] units",
+			
 			"[+1 Culture] per [3] population [in this city]",
 			"[+1 Gold] per [5] population [in this city] <with [Slaves]>",
 			"[+20]% Production when constructing [Military] units [in this city]"
@@ -3142,7 +3142,7 @@
 		"cost": 50,
 		"hurryCostModifier": -25,
 		"uniques": [
-			"Enables construction of [Mounted] units",
+			
 			"[+2 Production, -1 Food] from [Horses] tiles [in this city]"
 		],
 		"requiredTech": "Redomestication"
@@ -3508,7 +3508,7 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"Only available <in cities with a [Library]>",
-			"Enables construction of [advanced] units",
+			
 			"[+3 Production] [in this city] <with [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
@@ -3542,7 +3542,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"Enables construction of [advanced] units",
+			
 			"[+3 Production] [in this city] <with [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
@@ -3647,7 +3647,7 @@
 		"cityStrength": 10,
 		"production": -3,
 		"uniques": [
-			"Enables construction of [advanced aircraft] units",
+			
 			"[Aircraft] units gain the [Advanced Weapons] promotion",
 			"[+15]% Production when constructing [Air] units [in this city]",
 			"Only available <in cities with a [Factory]>",
@@ -3662,7 +3662,7 @@
 		"maintenance": 3,
 		"specialistSlots": {"Engineer": 3},
 		"uniques": [
-			"Enables construction of [advanced energy] units",
+			
 			"Only available <in cities with a [Factory]>",
 			"Consumes [5] [Power]",
 			"Consumes [1] [Aluminum]"
@@ -3816,7 +3816,7 @@
 		"name": "Arcology Project",
 		"isNationalWonder": true,
 		"uniques": [
-			"Enables construction of [Arcology Dome] buildings",
+			
 			"Empire enters golden age",
 			"Gain a free [Arcology Dome] [in this city]",
 			"[+10]% Production when constructing [Utopia Project] wonders [in all cities]"
@@ -4069,7 +4069,7 @@
 		"hurryCostModifier": 25,
 		"happiness": 2,
 		"uniques": [
-			"Enables construction of [Compound Mix] buildings"
+			
 		]
 	},
 	{
