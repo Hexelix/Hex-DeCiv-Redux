@@ -2260,7 +2260,7 @@
 		"happiness": 2,
 		"culture": 2,
 		"uniques": [
-			"Provides [+1 Happiness] per [1] social policies adopted",
+			"[+1 Happiness] per [1] social policies adopted",
 			"Only available <in cities with a [Television Studio]>"
 		],
 		"isNationalWonder": true,
