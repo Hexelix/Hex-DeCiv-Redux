@@ -50,7 +50,7 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Production] per [2] population [in all cities]",
-			"[+1 Faith, +1 Production, +1 Happiness] from every [Production] building"
+			"[+1 Faith, +1 Production, +1 Happiness] from all [Production] buildings"
 		]
 	},
 	{
@@ -207,7 +207,7 @@
 		"name": "Obey the Elders",
 		"type": "Follower",
 		"uniques": [
-			"[+5]% [Production] from every [Faith] building [in cities following this religion]"
+			"[+5]% [Production] from every [Faith]"
 		]
 	},
 	{
@@ -224,7 +224,7 @@
 		"name": "Art of War",
 		"type": "Follower",
 		"uniques": [
-			"May buy [Military] units with [Faith] for [1.5] times their normal Production cost"
+			"May buy [Military] units with [Faith] for [2] times their normal Production cost", "[Faith] cost of purchasing [Military] units [-25]%"
 		]
 	},
 	{
@@ -297,7 +297,7 @@
 		"name": "Initiation Rites",
 		"type": "Founder",
 		"uniques": [
-			"[200 Gold] when a city adopts this religion for the first time <(modified by game speed)>"
+			"[+200 Gold] when a city adopts this religion for the first time <(modified by game speed)>"
 		]
 	},
 	{
@@ -375,7 +375,7 @@
 		"uniques": [
 			"[+25]% Spread Religion Strength <for [Great Sage] units>",
 			"[-50]% Faith cost of generating Great Prophet equivalents",
-			"[Faith] cost for [Great Sage] units [-50]%"
+			"[Faith] cost of purchasing [Great Sage] units [-50]%"
 		]
 	},
 	{
@@ -404,6 +404,6 @@
 	{
 		"name": "Thought Control",
 		"type": "Enhancer",
-		"uniques": ["All newly-trained [Censor] units [in all cities] receive the [Devout] promotion"]
+		"uniques": ["[Censor] units gain the [Control] promotion"]
 	}
 ]
