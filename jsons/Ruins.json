@@ -115,7 +115,7 @@
 		"weight": 5,
 		"notification": "The camp contains maps of the nearby area!",
 		"uniques": [
-			"From a randomly chosen tile [5] tiles away, reveal tiles up to [10] tiles away with [80]% chance"
+			"From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [10] tiles away with [80]% chance"
 		]
 	},
 	{
