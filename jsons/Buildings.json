@@ -43,7 +43,7 @@
 			"Provides [2] [Weapons]",
 			"Free [Worker] appears",
 			"Free [Guerilla] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Gain a free [Deep Larder] [in this city]"
 		],
 		"quote": "An armed society is a polite society.",
@@ -58,7 +58,7 @@
 		"uniques": [
 			"Free [Militia] appears",
 			"Free [Worker] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Gain a free [Hospital] [in this city]"
 		],
 		"quote": "I look around and see that others have begun to build bases. Operation centers made of steel. But not us. Because the true home is not some building made of lead, but rather the people around you. Surround yourself with them. And you'l be home forever.",
@@ -81,7 +81,7 @@
 			"Provides [2] [Encrypted Data]",
 			"Free [Worker] appears",
 			"[1] free [Purge Robot Proto] units appear",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Gain a free [Compound Mixer] [in this city]"
 		],
 		"quote": "'I will tell you a secret. Truth is, I'm not human. Not fully, at least. For some reason, Hexlock decided that it would be best having a computer lead them, instead of a person. And so their president decided to alter the head of his own daugther. Maybe the fact that I killed him as soon as I came out meant that I was now different. But to be honest? I feel the same. Just get bored of things much faster.'",
@@ -106,7 +106,7 @@
 			"Provides [1] [Weapons]",
 			"Free [Worker] appears",
 			"Free [Security] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "While your deposit clears, you may want to read through this guide for potential residents. The Ark One shelter comprises a unique set of secure luxury accomodation based within a former military facility. In addition to their private living space, residents will have access to a complete set of facilities including two restaurants, a cinema, a bowling alley, and a fitness area with gym, spa, sauna and pool. The Ark One shelter is protected by a world-class professional security company, and is hardened to resist a nuclear strike and any armed attack.",
@@ -127,7 +127,7 @@
 		"uniques": [
 			"Provides [1] [Power]",
 			"[2] free [Surveyor] units appear",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Gain a free [Library] [in this city]",
 			"[+1 Science] from every [Scientist]"
 		],
@@ -151,8 +151,8 @@
 			"Provides [1] [Power]",
 			"Provides [2] [Weapons]",
 			"Free [Worker] appears",
-			"New [Military] units start with [15] Experience [in this city]",
-			"Can only be built [in capital]",
+			"New [Military] units start with [15] XP [in this city]",
+			"Can only be built <in [in capital] cities>",
 			"Gain a free [Firing Range] [in this city]",
 			"Gain a free [Walls] [in this city]"
 		],
@@ -174,7 +174,7 @@
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Free [Swordsman] appears",
 			"Free [Worker] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour.",
@@ -198,7 +198,7 @@
 			"Free [Worker] appears",
 			"Free [Great Prophet] appears",
 			"Free [War Buggy] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Gain a free [Fuel Depot] [in this city]"
 		],
 		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed.",
@@ -219,7 +219,7 @@
 			"[+1 Faith, +1 Happiness] [in this city] <when not at war>",
 			"Free [Ranger] appears",
 			"Free [Worker] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Gain a free [Monument] [in this city]",
 			"[+1 Happiness] from every [Administrator]"
 		],
@@ -241,7 +241,7 @@
 		"cityHealth": 10,
 		"uniques": [
 			"[2] free [Scavenger] units appear",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Free [Worker] appears",
 			"Gain a free [Salvage Yard] [in this city]",
 			"[+1 Production] from [Salvage site] tiles [in this city]",
@@ -261,7 +261,7 @@
 		"culture": 1,
 		"cost": 1,
 		"uniques": [
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"[+1] Movement <for [Water] units>",
 			"[+1] Sight <for [Water] units>", 
 			"[+1 Faith] from [Water] tiles [in this city]",
@@ -286,7 +286,7 @@
 		"cityStrength": 1,
 		"cityHealth": 10,
 		"uniques": [
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Provides [1] [Weapons]",
 			"Free [Panther] appears",
 			"Free [Worker] appears",
@@ -309,7 +309,7 @@
 		"gold": 1,
 		"cityHealth": 10,
 		"uniques": [
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Provides [1] [Weapons]",
 			"[2] free [Clansman] units appear",
 			"Free [Worker] appears",
@@ -337,7 +337,7 @@
 			"[+2 Production] from [Uranium] tiles [in all cities]",
 			"Free [Mutant] appears",
 			"Free [Worker] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "There is a sickness in the earth. You can feel it in the air we breathe and the water we drink. We have poisoned our mother. All we can do now is try to make things right.",
@@ -354,10 +354,10 @@
 		"cost": 5000,
 		"isNationalWonder": true,
 		"uniques": [
-			"Hidden until [6] social policy branches have been completed",
+			"Unavailable <when number of [Completed Policy branches] is less than [6]>",
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion",
-			"Hidden when [Cultural] Victory is disabled"
+			"Only available <when [Cultural] Victory is enabled>"
 		]
 	},
 
@@ -371,7 +371,7 @@
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
 			"Enables reception of Victory Transmissions",
-			"Hidden when [Transmission] Victory is disabled"
+			"Only available <when [Transmission] Victory is enabled>"
 		]
 	},
 	{
@@ -386,7 +386,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "By 2040, the world was tense but still bright. There were lows, but we all had hope. That's why we never imagined it... That first strike."
@@ -403,7 +403,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "We never knew who it was that launched the first bombs... Or perhaps we did. It didn't matter. The gates to hell were open... And we all walked through the front door."
@@ -420,7 +420,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "After the bombs came the robots, bathed in metal. They did more damage to the great nations of old than the bombs ever did. They were ruthless. Killed anything that lived, it didn't matter who, or where. Not even the bunkers were safe."
@@ -437,7 +437,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "In a time when perhaps we all had lost hope, a sliver of hope appeared. We never knew where the robots came from. But there were rumors of a guy that went around fearlessly destroying them. And just as they came, one day they were all gone. Some of us didn't believe it. But we knew. The Hero was real. We've seen him."
@@ -454,7 +454,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "Just as if he existed solely for his mission, the Hero vanished. But some of us will remember him forever. Down 2/3 of our people. Supplies had run out. The atmosphere was toxic, but survivable. It was time to head out."
@@ -470,7 +470,7 @@
 			"Victory Transmission",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "When we came out, we saw many trying to remake their own societies, making the same mistakes of old. This might be my last entry. But we found it. The last wonder of the old world, Blueprints of the Arc. Meant to turn back the clock, bring us together once more. My life might be too short, but don't let this go to waste. Do better."
@@ -485,7 +485,7 @@
 		"uniques": [
 			"Only available <if [Transmissions Center] is constructed>",
 			"Triggers a global alert upon build start",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Cannot be hurried"
 		],
 		"quote": "This is it. Our second chance.",
@@ -505,7 +505,7 @@
 			"[+1 Culture] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Council]>",
 			"Destroyed when the city is captured"
 		]
@@ -518,7 +518,7 @@
 			"[+15]% growth [in all cities]",
 			"[+10]% Production when constructing [All] buildings [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Congress]>",
 			"Destroyed when the city is captured"
 		]
@@ -535,7 +535,7 @@
 		    "[+1 Culture] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Rally Station]>",
 			"Destroyed when the city is captured"
 		   
@@ -553,7 +553,7 @@
 			"[+15]% growth [in all cities]",
 			"[+10]% Production when constructing [All] buildings [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Gideon Scanner]>",
 			"Destroyed when the city is captured"
 			
@@ -571,7 +571,7 @@
 			"[+1 Culture] per [5] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Overcouncil]>",
 			"Destroyed when the city is captured"
 		]
@@ -592,7 +592,7 @@
 			"[+15]% growth [in all cities]",
 			"[+10]% Production when constructing [All] buildings [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Stormfront Center]>",
 			"Destroyed when the city is captured"
 		]
@@ -607,7 +607,7 @@
 			"[+1 Science, +1 Culture] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Defense Committee]>",
 			"Destroyed when the city is captured"
 		]
@@ -622,7 +622,7 @@
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 			"[+20]% Production when constructing [Military] units [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Citizens' Assembly]>",
 			"Destroyed when the city is captured"
 		]
@@ -636,7 +636,7 @@
 		"uniques": [
 			"[+1 Culture, +2 Gold] per [5] population [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Board of Directors]>",
 			"Destroyed when the city is captured"
 		]
@@ -651,7 +651,7 @@
 			"[+3 Gold] from every [Town Hall]",
 			"Cost of purchasing items in cities reduced by [20]%",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Shareholders' Fund]>",
 			"Destroyed when the city is captured"
 		]
@@ -666,7 +666,7 @@
 			"[+1 Science, +1 Gold] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Think Tank]>",
 			"Destroyed when the city is captured"
 		]
@@ -682,7 +682,7 @@
 			"[+15]% growth [in all cities]",
 			"[+10]% Production when constructing [All] buildings [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Freedom Foundation]>",
 			"Destroyed when the city is captured"
 		]
@@ -694,9 +694,9 @@
 		"cost": 100,
 		"requiredTech": "Currency",
 		"uniques": [
-			"Provides a sum of gold each time you spend a Great Person",
+			"Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[Great Merchant] is earned [25]% faster",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Grand Clan Manor]>",
 			"Destroyed when the city is captured"
 		]
@@ -710,8 +710,8 @@
 		"uniques": [
 			"Enables construction of [Black Hand] units",
 			"[Great General] is earned [50]% faster",
-			"New [Personnel] units start with [30] Experience [in all cities]",
-			"Can only be built [in capital]",
+			"New [Personnel] units start with [30] XP [in all cities]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Smugglers' Guild]>",
 			"Destroyed when the city is captured"
 		]
@@ -725,7 +725,7 @@
 		"uniques": [
 			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Consulate]>",
 			"Destroyed when the city is captured"
 		]
@@ -740,7 +740,7 @@
 			"Great General provides double combat bonus",
 			"[+25]% Production when constructing [Military] units [in all cities]",
 			"[+10]% growth [in all cities]",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Senate]>",
 			"Destroyed when the city is captured"
 		]
@@ -754,7 +754,7 @@
 		"uniques": [
 			"[+1 Production] per [4] population [in all cities]",
 			"[+20]% Production when constructing [Military] units [in all cities]",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Seer Council]>",
 			"Destroyed when the city is captured"
 		]
@@ -768,7 +768,7 @@
 		"uniques": [
 			"[+25]% [Science] from every [College of Mystics]",
 			"[+20]% Production when constructing [All] buildings [in all cities]",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [War Council]>",
 			"Destroyed when the city is captured"
 		]
@@ -783,7 +783,7 @@
 			"When declaring friendship, both parties gain a [10]% boost to great person generation",
 			"[+15]% growth [in all cities]",
 			"Gain [30] Influence with a [Military] gift to a City-State",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Parliament]>",
 			"Destroyed when the city is captured"
 		]
@@ -797,7 +797,7 @@
 		"uniques": [
 			"[+1 Culture, +1 Science] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Embassy]>",
 			"Destroyed when the city is captured"
 		]
@@ -812,7 +812,7 @@
 			"Resting point for Influence with City-States is increased by [20]",
 			"Gifts of Gold to City-States generate [25]% more Influence",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Raider's Council]>",
 			"Destroyed when the city is captured"
 		]
@@ -824,11 +824,11 @@
 		"cost": 50,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"+30% Strength when fighting City-State units and cities",
-			"Receive triple Gold from Barbarian encampments and pillaging Cities",
+			"[+30]% Strength <vs [City-States]>",
+			"Receive [+200]% Gold from Barbarian encampments and pillaging Cities",
 			"[+10]% Production when constructing [All] buildings [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Trader's Congress]>",
 			"Destroyed when the city is captured"
 		]
@@ -843,7 +843,7 @@
 			"[+10]% growth [in all cities]",
 			"[+2 Food, +2 Culture] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Revolutionary Council]>",
 			"Destroyed when the city is captured"
 		]
@@ -858,7 +858,7 @@
 			"[+1] Unit Supply per [2] population [in all cities]",
 			"[-25]% maintenance costs <for [Military] units>",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Survival Program]>",
 			"Destroyed when the city is captured"
 		]
@@ -875,7 +875,7 @@
 			"[25]% Great Person generation [in all cities connected to capital]",
 			"[-10]% Unhappiness from [Population] [in all cities connected to capital]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Gulag]>",
 			"Destroyed when the city is captured"
 		]
@@ -887,12 +887,12 @@
 		"uniqueTo": "Proklyatyye",
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Double quantity of [Slaves] produced",
+			"[+100]% [Slaves] resource production",
 			"[+1 Food, +1 Production] from every [Prison Camp]",
 			"[+1 Production] from every [Listening Post]",
 			"[+1 Happiness, +1 Culture] from every [Work Camp]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Five-Year Plan]>",
 			"Destroyed when the city is captured"
 		]
@@ -905,7 +905,7 @@
 		"uniques": [
 			"Enables construction of [Terraformer Part] units",
 			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		],
 		"requiredTech": "Plastics Recycling"
 	},
@@ -920,7 +920,7 @@
 		"requiredTech": "Globalization",
 		"uniques": [
 			"Triggers voting for the Diplomatic Victory",
-			"Hidden when [Diplomatic] Victory is disabled",
+			"Only available <when [Diplomatic] Victory is enabled>",
 			"Triggers a global alert upon build start"
 		],
 		"quote": "We must all hang together, or surely we will all hang separately."
@@ -1009,7 +1009,7 @@
 		"requiredTech": "Engineering",
 		"requiredNearbyImprovedResources": ["Oil", "Coal", "Aluminum"],
 		"uniques": [
-			"[-25]% tile improvement construction time",
+			"[-25]% construction time for [All] improvements",
 			"Free [Worker] appears"
 		]
 	},
@@ -1088,7 +1088,7 @@
 		"requiredTech": "Ecology",
 		"happiness": 2,
 		"uniques": [
-			"Requires a [Greenhouse] in at least [5] cities",
+			"Only available <if [Greenhouse] is constructed in at least [5] of [All] cities>",
 			"[+1 Food] from every [Farmer]",
 			"[+2 Food] [in all cities]"
 		],
@@ -1609,7 +1609,7 @@
 		"greatPersonPoints": { "Great Administrator": 2 },
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Requires a [Town Hall] in at least [5] cities",
+			"Only available <if [Town Hall] is constructed in at least [5] of [All] cities>",
 			"[+5]% [Production] [in all cities connected to capital]",
 			"[+50]% Golden Age length"
 		]
@@ -1714,13 +1714,13 @@
 		"specialistSlots": { "Priest": 3 },
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Requires a [Monastery] in at least [3] cities",
+			"Only available <if [Monastery] is constructed in at least [3] of [All] cities>",
 			"[+1 Faith] from every [Priest]",
 			"Cost increases by [50] per owned city",
-			"Can only be built [in holy cities]",
-			"Hidden when religion is disabled",
-			"[Philosopher] units built [in this city] can [Spread Religion] [1] extra times",
-			"[Great Sage] units built [in this city] can [Spread Religion] [1] extra times"
+			"Can only be built <in [in holy cities] cities>",
+			"Only available <when religion is enabled>",
+			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion"
 		]
 	},
 	{
@@ -1734,14 +1734,14 @@
 		"replaces": "Grand Monastery",
 		"specialistSlots": { "Priest": 1 },
 		"uniques": [
-			"Requires a [Altar of Ignis] in at least [5] cities",
+			"Only available <if [Altar of Ignis] is constructed in at least [5] of [All] cities>",
 			"Cost increases by [30] per owned city",
 			"[+1 Faith, +1 Production] from every [Priest]",
-			"Can only be built [in holy cities]",
+			"Can only be built <in [in holy cities] cities>",
 			"Only available <after adopting [Religiosity]>",
-			"Hidden when religion is disabled",
-			"[Philosopher] units built [in this city] can [Spread Religion] [1] extra times",
-			"[Great Sage] units built [in this city] can [Spread Religion] [1] extra times",
+			"Only available <when religion is enabled>",
+			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
 			"Free Social Policy",
 			"[-1] population [in this city]"
 		]
@@ -1754,7 +1754,7 @@
 		"cost":2000,
 		"requiredTech": "Computers",
 		"uniques": [
-			"Requires a [Hospital] in at least [3] cities",
+			"Only available <if [Hospital] is constructed in at least [3] of [All] cities>",
 			"[20]% Food is carried over after population increases [in all cities]",
 			"[+10]% growth [in all cities]",
 			"Provides a [Hospital] in your first [100] cities for free",
@@ -2027,7 +2027,7 @@
 		"requiredTech":"Secrets of the Past",
 		"uniques":
 		[
-			"Requires a [Monument] in at least [5] cities",
+			"Only available <if [Monument] is constructed in at least [5] of [All] cities>",
 			"[+1 Culture] from every [Administrator]",
 			"[-10]% Culture cost of natural border growth [in all cities]"
 		]
@@ -2066,7 +2066,7 @@
 			"[+2 Happiness] [in this city] <with [Electronics]>",
 			"[+2 Happiness] [in this city] <with [Machine Parts]>",
 			"Cost increases by [30] per owned city",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Consumes [1] [Power]"
 		],
 		"hurryCostModifier": 25,
@@ -2091,7 +2091,7 @@
 		"requiredTech":"Civil Service",
 		"uniques":
 		[
-			"Requires a [Town Hall] in at least [10] cities",
+			"Only available <if [Town Hall] is constructed in at least [10] of [All] cities>",
 			"[+2 Culture] from every [Administrator]",
 			"[-25]% Culture cost of natural border growth [in all cities]"
 		]
@@ -2202,7 +2202,7 @@
 		"requiredTech":"Radio",
 		"uniques":
 		[
-			"Requires a [Broadcast Tower] in at least [4] cities",
+			"Only available <if [Broadcast Tower] is constructed in at least [4] of [All] cities>",
 			"[-10]% Culture cost of adopting new Policies",
 			"[-10]% Culture cost of natural border growth [in all cities]",
 			"Consumes [1] [Power]"
@@ -2217,7 +2217,7 @@
 		"requiredTech":"Radio",
 		"uniques":
 		[
-			"Requires a [Broadcast Tower] in at least [10] cities",
+			"Only available <if [Broadcast Tower] is constructed in at least [10] of [All] cities>",
 			"[+1 Culture] from every specialist [in all cities]",
 			"[-50]% City-State Influence degradation",
 			//"[-10]% Culture cost of adopting new Policies",
@@ -2245,7 +2245,7 @@
 		"maintenance": 5,
 		"cost":3500,
 		"uniques": [
-			"Requires a [Television Studio] in at least [3] cities",
+			"Only available <if [Television Studio] is constructed in at least [3] of [All] cities>",
 			"Provides a [Television Studio] in your first [100] cities for free",
 			"[-20]% Culture cost of adopting new Policies",
 			"Only available <in cities with a [Television Studio]>",
@@ -2393,7 +2393,7 @@
 		"specialistSlots": { "Merchant": 2 },
 		"requiredTech": "Trade",
 		"uniques": [
-			"Requires a [Market] in at least [5] cities",
+			"Only available <if [Market] is constructed in at least [5] of [All] cities>",
 			"Cost increases by [20] per owned city",
 			"[+1 Gold] from every [Merchant]"
 		]
@@ -2440,7 +2440,7 @@
 		"percentStatBonus": { "gold": 10 },
 		"requiredTech": "Currency",
 		"uniques": [
-			"Doubles Gold given to enemy if city is captured",
+			"[+100]% Gold given to enemy if city is captured <in this city>",
 			"[+1 Gold] per [5] population [in this city]"
 		]
 	},
@@ -2542,7 +2542,7 @@
 		"percentStatBonus": { "science": 5, "culture": 5 },
 		"specialistSlots": { "Scientist": 2 },
 		"uniques": [
-			"Requires a [Library] in at least [5] cities",
+			"Only available <if [Library] is constructed in at least [5] of [All] cities>",
 			"Cost increases by [20] per owned city",
 			"[+1 Culture] from every specialist [in all cities]"
 		],
@@ -2572,7 +2572,7 @@
 		"percentStatBonus": { "science": 20 },
 		"specialistSlots": { "Scientist": 2 },
 		"uniques": [
-			"Requires a [University] in at least [5] cities",
+			"Only available <if [University] is constructed in at least [5] of [All] cities>",
 			"Cost increases by [20] per owned city",
 			"[+1 Science] from every [Scientist]"
 		],
@@ -2657,7 +2657,7 @@
 		"isNationalWonder": true,
 		"specialistSlots": { "Scientist": 2, "Engineer": 2, "Farmer": 2, "Administrator":2, "Merchant":2 },
 		"uniques": [
-			"Requires a [Public School] in at least [10] cities",
+			"Only available <if [Public School] is constructed in at least [10] of [All] cities>",
 			"Cost increases by [20] per owned city",
 			"[+1 Science] from every [Scientist]",
 			"[+1 Production] from every [Engineer]",
@@ -2691,7 +2691,7 @@
 		"science": 1,
 		"uniques": [
 			"[+15]% Production when constructing [Military] units [in this city]",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Only available <in cities with a [Barracks]>"
 		],
 		// "greatPersonPoints": { "Great General": 1 },
@@ -2707,7 +2707,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"[+1 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Forest] tiles [in this city]",
 			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
@@ -2732,7 +2732,7 @@
 		"isNationalWonder": true,
 		"specialistSlots": { "Scientist": 5 },
 		"uniques": [
-			"Requires a [Research Lab] in at least [5] cities",
+			"Only available <if [Research Lab] is constructed in at least [5] of [All] cities>",
 			"Cost increases by [100] per owned city",
 			"[+2 Science] from every [Scientist]",
 			"Consumes [3] [Power]"
@@ -2945,7 +2945,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Consumes [1] [Power]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"[-25]% Unhappiness from [Population] [in this city]",
 			"[+25]% Great Person generation [in this city] <after adopting [Constitution]>",
 			"Only available <in cities without a [Prison Camp]>",
@@ -2961,8 +2961,8 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
-			"Remove extra unhappiness from annexed cities",
+			"New [Military] units start with [15] XP [in this city]",
+			"Removes extra unhappiness from annexed cities",
 			"[-35]% Unhappiness from [Population] [in this city]",
 			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>",
 			"Destroyed when the city is captured"
@@ -2977,8 +2977,8 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
-			"Remove extra unhappiness from annexed cities",
+			"New [Military] units start with [15] XP [in this city]",
+			"Removes extra unhappiness from annexed cities",
 			"[-50]% Unhappiness from [Population] [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -2989,8 +2989,8 @@
 		"hurryCostModifier": -50,
 		"cost": 20,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]",
+			"Removes extra unhappiness from annexed cities",
+			"Can only be built <in [in annexed cities] cities>",
 			"Provides [3] [Slaves]",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"
@@ -3005,8 +3005,8 @@
 		"maintenance": 1,
 		"cost": 50,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]",
+			"Removes extra unhappiness from annexed cities",
+			"Can only be built <in [in annexed cities] cities>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Construction",
@@ -3018,8 +3018,8 @@
 		"uniqueTo": "Cult of Ignis",
 		"cost": 15,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]",
+			"Removes extra unhappiness from annexed cities",
+			"Can only be built <in [in annexed cities] cities>",
 			"Provides [4] [Slaves]",
 			"Only available <in cities without a [Arena]>",
 			"[-1] population [in this city]",
@@ -3037,8 +3037,8 @@
 		"cityHealth": 50,
 		"uniques": [
 			"[+15]% Production when constructing [Melee] units [in this city]",
-			"Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]",
+			"Removes extra unhappiness from annexed cities",
+			"Can only be built <in [in annexed cities] cities>",
 			"Provides [3] [Slaves]",
 			"Free [Auxiliary] appears",
 			"[-1] population [in this city]",
@@ -3066,7 +3066,7 @@
 		"cost": 50,
 		"maintenance": 1,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -3078,7 +3078,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"All newly-trained [Military] units [in this city] receive the [Sentry] promotion",
 			"Destroyed when the city is captured"
 		]
@@ -3091,7 +3091,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"All newly-trained [Military] units [in this city] receive the [Precision] promotion",
 			"Destroyed when the city is captured"
 		]
@@ -3104,7 +3104,7 @@
 		"requiredTech": "Construction",
 		"requiredNearbyImprovedResources": ["Weapons"],
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"[+1 Production] from [Weapons] tiles [in this city]",
 			"Destroyed when the city is captured"
 		]
@@ -3115,7 +3115,7 @@
 		"isNationalWonder": true,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"New [Military] units start with [30] Experience [in this city]",
+			"New [Military] units start with [30] XP [in this city]",
 			"Only available <in cities with a [Barracks]>",
 			"Free [Great General] appears"
 		],
@@ -3127,7 +3127,7 @@
 		"uniqueTo": "Enclavers",
 		"cityStrength": 10,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"All newly-trained [relevant] units [in this city] receive the [Guerilla Warfare II] promotion",
 			"Destroyed when the city is captured"
 		],
@@ -3170,7 +3170,7 @@
 		"uniques": 
 		[
 			"[+1 Production] from every [Engineer]",
-			"Requires a [Forge] in at least [3] cities"
+			"Only available <if [Forge] is constructed in at least [3] of [All] cities>"
 		]
 	},
 	{
@@ -3330,7 +3330,7 @@
 		"food":-5,
 		"isNationalWonder": true,
 		"uniques": [
-			"Requires a [Oil Plant] in at least [5] cities",
+			"Only available <if [Oil Plant] is constructed in at least [5] of [All] cities>",
 			"Provides [20] [Power]",
 			"[-1 Food, +2 Production] from [Oil] tiles [in this city]",
 			"Consumes [5] [Oil]",
@@ -3454,7 +3454,7 @@
 		"production": 1,
 		"requiredTech": "Computers",
 		"uniques": [
-			"Can only be built [in all cities connected to capital]",
+			"Can only be built <in [in all cities connected to capital] cities>",
 			"Only available <if [Domestic Electrification] is constructed>",
 			"Provides [2] [Power]"
 		],
@@ -3524,7 +3524,7 @@
 		"maintenance": 5,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"Requires a [Factory] in at least [5] cities",
+			"Only available <if [Factory] is constructed in at least [5] of [All] cities>",
 			"Only available <in cities with a [Factory]>",
 			"[+5 Production] [in this city] <with [Power]>",
 			"[+3 Production] [in this city] <with [Machine Parts]>",
@@ -3558,7 +3558,7 @@
 		"maintenance": 5,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"Requires a [Factory] in at least [3] cities",
+			"Only available <if [Factory] is constructed in at least [3] of [All] cities>",
 			"Only available <in cities with a [Library]>",
 			"[+1 Production] from every [Engineer]"
 		],
@@ -3676,7 +3676,7 @@
 		"specialistSlots": {"Engineer": 5},
 		"uniques": [
 			"[+2 Production] from every [Engineer]",
-			"Requires a [Automated Factory] in at least [5] cities",
+			"Only available <if [Automated Factory] is constructed in at least [5] of [All] cities>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [5] [Power]",
 			"Consumes [3] [Aluminum]"
@@ -3904,7 +3904,7 @@
 		"gold": 1,
 		"uniques": [
 			"[+10]% Production when constructing [Water] units [in this city]",
-			"New [Water] units start with [15] Experience [in this city]",
+			"New [Water] units start with [15] XP [in this city]",
 			"Connects trade routes over water",
 			"Must have an owned [Coast] within [3] tiles"
 		],
@@ -3943,7 +3943,7 @@
 		"specialistSlots": { "Priest": 1 },
 		"percentStatBonus": {"faith": 5},
 		"requiredTech": "Secrets of the Past",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Altar of Ignis",
@@ -3953,7 +3953,7 @@
 		"specialistSlots": { "Priest": 2 },
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"[+1 Faith] from [Oil] tiles [in this city]"
 		]
 	},
@@ -3966,7 +3966,7 @@
 		"specialistSlots": { "Priest": 1 },
 		"uniques": [
 			"Only available <in cities with a [Shrine]>",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		]
 	},
 	{
@@ -3979,7 +3979,7 @@
 		"specialistSlots": { "Priest": 3 },
 		"uniques": [
 			"Only available <in cities with a [Monastery]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"[+50]% Natural religion spread [in this city]",
 			"Consumes [1] [Power]"
 		]
@@ -3996,7 +3996,7 @@
 		"uniques": [
 			"Only available <in cities with a [Cathedral]>",
 			"[+1 Faith] from every [Priest]",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"[+50]% Natural religion spread [in this city]",
 			"Consumes [1] [Power]"
 		]
@@ -4009,7 +4009,7 @@
 		"happiness": 2,
 		"percentStatBonus": {"faith": 5},
 		"specialistSlots": { "Priest": 1 },
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Garden",
@@ -4020,7 +4020,7 @@
 		"food": 3,
 		"percentStatBonus": {"food": 5},
 		"specialistSlots": { "Priest": 1, "Farmer":1 },
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Holy Fortress",
@@ -4031,7 +4031,7 @@
 		"cityStrength": 6,
 		"cityHealth": 25,
 		"specialistSlots": { "Priest": 1 },
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Dojo",
@@ -4042,8 +4042,8 @@
 		"specialistSlots": { "Priest": 1 },
 		"uniques": [
 			"Unbuildable",
-			"Hidden when religion is disabled",
-			"New [Military] units start with [30] Experience [in this city]"
+			"Only available <when religion is enabled>",
+			"New [Military] units start with [30] XP [in this city]"
 		]
 	},
 	{
@@ -4057,7 +4057,7 @@
 		"specialistSlots": { "Scientist": 1, "Priest": 1 },
 		"uniques": [
 			"Unbuildable",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		]
 	},
     // Civilization Unique
@@ -4114,7 +4114,7 @@
 			"Consumes [1] [C2N14]",
 			"Unsellable",
 			"Never destroyed when the city is captured",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Limited to [5] per Civilization"
 		]
 	},
