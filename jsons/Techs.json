@@ -196,7 +196,7 @@
 			{
 				"name": "Steam Power",
 				"row": 7,
-				"prerequisites": ["Steel"],
+				"prerequisites": ["Steel", "Navigation"],
 				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?"
 			},
@@ -243,7 +243,7 @@
 			{
 				"name": "Rifling",
 				"row": 8,
-				"prerequisites": ["Steel"],
+				"prerequisites": ["Steel", "Redomestication"],
 				"quote": "There is no struggle for life but, rather, life is lived for struggle. Thus, pacifism is trafficking with the enemy."
 			},
 			{
@@ -283,7 +283,7 @@
 			{
 				"name": "Replaceable Parts",
 				"row": 7,
-				"prerequisites": ["Manufacturing"],
+				"prerequisites": ["Manufacturing", "Currency"],
 				"quote": "Nothing is particularly hard if you divide it into small jobs."
 			},
 			{
@@ -382,7 +382,7 @@
 			{
 				"name": "Combined Arms",
 				"row": 9,
-				"prerequisites": ["Ballistics", "Railroads"],
+				"prerequisites": ["Ballistics", "Railroads", "Plastics"],
 				"quote": "The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest."
 			}
 		]	
