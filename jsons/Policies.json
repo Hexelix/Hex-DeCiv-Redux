@@ -354,7 +354,7 @@
 					"[+2 Science] from every [Moisture trap]",
 					"[+2 Science] from every [Water pump]",
 					"[+2 Science] from every [Desalinization pump]",
-					"[+5]% [Science] from every [Science] building"
+					"[+5]% [Science] from every [Science]"
 				],
 				"requires": ["Educated Elite"],
 				"row": 2,
