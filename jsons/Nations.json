@@ -201,7 +201,7 @@
 			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"Starts with [Monopoly] adopted",
-			"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns. <after adopting [Monopoly Complete]>"
+			"Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns"
 		],
 		"cities": [
 			"Ark One",
@@ -254,7 +254,7 @@
 		"style": "Corporate",
 		"uniqueName": "Creative Leadership",
 		"uniques": [
-			"Receive free [Great Scientist] when you discover [Secrets of the Past]",
+			"Free [Great Scientist] appears <upon discovering [Secrets of the Past]>",
 			"[+33]% Great Person generation [in all cities]",
 			"Starts with [Writing]",
 			"Starts with [Construction]",
@@ -385,7 +385,7 @@
 		"style": "Military",
 		"uniqueName": "Military Secrets",
 		"uniques": [
-			"New [Military] units start with [70] Experience [in all cities]",
+			"New [Military] units start with [70] XP [in all cities]",
 			"Cannot build [Low Tech] units",
 			"Starts with [Writing]",
 			"Starts with [Electronics]",
@@ -706,7 +706,7 @@
 			"Enables embarkation for land units",
 			"Enables [All] units to enter ocean tiles",
 			"[1] Movement point cost to disembark <for [All] units>",
-			"Defense bonus when embarked <for [All] units>",
+			"[+100]% Strength <when defending> <when [Embarked]>",
 			"[+1] Sight <for [Embarked] units>",
 			"[+1] Movement <for [Water] units>",
 			"[{Land} {Low Tech}] units gain the [Amphibious] promotion",
@@ -908,7 +908,7 @@
 		"startBias": ["Hill"],
 		"style": "Tribal",
 		"uniques": [
-			"Damage is ignored when determining unit Strength <for [All] units>",
+			"No damage penalty for wounded units",
 			"Cannot build [Armor] units",
 			"Cannot build [Siege] units",
 			"Cannot build [Helicopter] units"
@@ -927,7 +927,7 @@
 		"startBias": ["Hill"],
 		"style": "Ghost",
 		"uniques": [
-			"Damage is ignored when determining unit Strength <for [All] units>",
+			"No damage penalty for wounded units",
 			"Cannot build [Armor] units",
 			"Cannot build [Siege] units",
 			"Cannot build [Helicopter] units",
@@ -950,7 +950,7 @@
 		"cityStateType": "Weapons",
 		"startBias": ["Hills"],
 		"style": "Military",
-		"uniques": ["Double quantity of [Weapons] produced"],
+		"uniques": ["[+100]% [Weapons] resource production"],
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "How could we fall to the likes of you?!",
@@ -1024,7 +1024,7 @@
 		"cityStateType": "Prayer",
 		"style": "",
 		"uniques": [
-			"Damage is ignored when determining unit Strength <for [All] units>",
+			"No damage penalty for wounded units",
 			"Cannot build [Armor] units",
 			"Cannot build [Siege] units",
 			"Cannot build [Helicopter] units"
@@ -1060,7 +1060,7 @@
 		"cityStateType": "Labor",
 		"style": "",
 		"uniques": [
-			"Double quantity of [Slaves] produced"
+			"[+100]% [Slaves] resource production"
 		],
 		"declaringWar": "It's about time you came to work for us.",
 		"attacked": "Hands off the merchandise!",
