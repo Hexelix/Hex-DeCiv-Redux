@@ -34,7 +34,7 @@
 			"[+20]% Great Person generation [in all cities]",
 			"[+15]% Strength <for [{Wounded} {Ranged}] units> <when attacking>",
 			"[+15]% Strength <for [{Wounded} {Melee}] units>  <when defending>",
-			"[+1] Sight <for [{Scout}] units> ",
+			"[+1] Sight <for [Scout] units>",
 			"Starts with [Constitution] adopted",
 			"Cannot build [Enslaved] units"
 		],
@@ -824,7 +824,7 @@
 		"tradeRequest": "How would you like it if I propose this kind of exchange?",
 	
 		"outerColor": [34,52,52],
-		"innerColor": [266,225,157],
+		"innerColor": [255,225,157],
 		"uniqueName": "Radioactivity",
 		"uniques": [
 			"Starts with [Secrets of the Past]",
