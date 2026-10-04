@@ -1054,7 +1054,7 @@
 	{
 		"name": "Headhunter",
 		"uniques": [
-			"Earn [-10]% of [military] opponent's [Cost] as [Gold] for kills",
+			"Earn [-10]% of killed [Military] unit's [Cost] as [Gold]",
 			"[+25]% Strength <vs [Wounded] units>"
 		],
 		"column": 4,
@@ -1073,7 +1073,7 @@
 		"name": "Clansman",
 		"uniques": [
 			"Clansman",
-			"Earn [10]% of [military] opponent's [Cost] as [Gold] for kills",
+			"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
 			"[-50]% XP gained from combat",
 			"[Great General] is earned [250]% faster"
 		],
@@ -1083,7 +1083,7 @@
 	{
 		"name": "Hazard Pay",
 		"uniques": [
-			"Earn [-10]% of [military] opponent's [Strength] as [Gold] for kills",
+			"Earn [-10]% of killed [Military] unit's [Strength] as [Gold]",
 			"Can move immediately once bought"
 		],
 		"column": 5,
@@ -1111,7 +1111,7 @@
 		"name": "Promotion Nullifier",
 		"uniques": [
 			"Promotion Nullifier",
-			"Negates the combat bonus effect of Enemy Promotions",
+			
 			"[-100]% XP gained from combat"
 		],
 		"column": 6,
@@ -1146,6 +1146,14 @@
 		],
 		"column": 6,
 		"row": 13
+	},
+	{
+		"name": "Devout",
+		"uniques": ["Can Spread Religion <[1] additional time(s)>"]
+	},
+	{
+		"name": "Control",
+		"uniques": ["Can remove other religions from cities <in [Friendly] tiles> <[1] additional time(s)>"]
 	},
 	// 'ability' promotions
 
