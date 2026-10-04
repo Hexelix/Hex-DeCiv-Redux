@@ -1300,7 +1300,7 @@
 		"interceptRange": 1,
 		"cost": 75,
 		"requiredTech": "Redomestication",
-		"obsoleteTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Cavalry",
 		"uniques": [
 			"Personnel",
@@ -1367,7 +1367,7 @@
 		"interceptRange": 1,
 		"cost": 80,
 		"requiredTech": "Redomestication",
-		"obsoleteTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Light Cavalry",
 		"uniques": [
 			"Personnel",
@@ -2376,7 +2376,7 @@
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Stealth",
+			"Damage taken from interception reduced by [100]%",
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Aluminum]"
 		],
@@ -2460,7 +2460,7 @@
 			"[+100]% Strength <vs cities> <when attacking>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Stealth",
+			"Damage taken from interception reduced by [100]%",
 			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Oil]",
 			"Cannot be carried by [Carrier] units"
