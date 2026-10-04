@@ -297,7 +297,7 @@
 		"name": "Initiation Rites",
 		"type": "Founder",
 		"uniques": [
-			"[+200 Gold] when a city adopts this religion for the first time (modified by game speed)"
+			"[200 Gold] when a city adopts this religion for the first time <(modified by game speed)>"
 		]
 	},
 	{
@@ -404,6 +404,6 @@
 	{
 		"name": "Thought Control",
 		"type": "Enhancer",
-		"uniques": ["[Censor] units built [in all cities] can [Remove Foreign religions from your own cities] [1] extra times"]
+		"uniques": ["All newly-trained [Censor] units [in all cities] receive the [Devout] promotion"]
 	}
 ]
