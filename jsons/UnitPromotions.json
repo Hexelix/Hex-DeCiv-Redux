@@ -11,7 +11,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": [
-			"Heal this unit by [50] HP",
+			"[This Unit] heals [50] HP",
 			"Doing so will consume this opportunity to choose a Promotion"
 		],
 		"unitTypes": [
@@ -652,7 +652,7 @@
 		"uniques": [
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
-			"Defense bonus when embarked"
+			"[+100]% Strength <when defending> <when [Embarked]>"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 8,
