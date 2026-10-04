@@ -689,7 +689,7 @@
 			"[+1 Culture] <after discovering [Civil Service]>",
 			"Removes removable features when built",
 			"Can be built just outside your borders",
-			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Gain control over [all] tiles in a [1]-tile radius",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
 	},
@@ -705,7 +705,7 @@
 			"[+2 Gold] <after discovering [Currency]>",
 			"Removes removable features when built",
 			"Can be built just outside your borders",
-			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Gain control over [all] tiles in a [1]-tile radius",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
 	},
@@ -781,7 +781,7 @@
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Great Improvement",
 			"[+2 Gold] <after discovering [Currency]>",
-			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Gain control over [all] tiles in a [1]-tile radius",
 			"Can be built just outside your borders",
 			"Removes removable features when built"
 		]
@@ -812,7 +812,7 @@
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Great Improvement",
 			"Can be built just outside your borders",
-			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Gain control over [all] tiles in a [1]-tile radius",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
